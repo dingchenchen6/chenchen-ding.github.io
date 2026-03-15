@@ -21,6 +21,7 @@ body {
 
 body {
   font-family: "Source Sans 3", "PingFang SC", "Noto Sans SC", sans-serif;
+  font-size: 17px;
   color: var(--ink);
   line-height: 1.75;
   background: radial-gradient(circle at 12% 6%, #fdf8e9 0%, var(--bg) 32%), var(--bg);
@@ -130,7 +131,8 @@ img {
 
 .lead {
   margin: 14px 0 0;
-  font-size: 1.05rem;
+  font-size: 1.18rem;
+  font-weight: 600;
   color: #33413b;
   max-width: 820px;
 }
@@ -148,7 +150,7 @@ img {
   color: #1c5d42;
   padding: 6px 12px;
   border-radius: 999px;
-  font-size: 0.86rem;
+  font-size: 0.95rem;
   font-weight: 600;
 }
 
@@ -184,7 +186,7 @@ img {
   color: #45524c;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.98rem;
   padding: 7px 11px;
   border-radius: 999px;
 }
@@ -219,6 +221,7 @@ img {
 .section p {
   margin: 0 0 12px;
   color: #35423d;
+  font-size: 1.03rem;
 }
 
 .card {
@@ -246,13 +249,13 @@ img {
   font-weight: 700;
   color: #1b5d43;
   margin-right: 8px;
-  font-size: 0.92rem;
+  font-size: 0.98rem;
 }
 
 .experience-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 12px;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
 }
 
 .exp-card {
@@ -274,13 +277,13 @@ img {
 
 .exp-card h3 {
   margin: 0 0 6px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #1c5b42;
 }
 
 .exp-card p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #495851;
 }
 
@@ -297,20 +300,31 @@ img {
 .gallery-intro {
   color: #5b6761;
   margin-bottom: 12px;
+  font-size: 1rem;
 }
 
-.atlas-masonry {
-  column-count: 4;
-  column-gap: 12px;
+.atlas-group {
+  margin-bottom: 24px;
+}
+
+.atlas-group h3 {
+  margin: 0 0 10px;
+  font-size: 1.18rem;
+  color: #1c5b42;
+}
+
+.atlas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
 }
 
 .atlas-item {
-  margin: 0 0 12px;
-  break-inside: avoid;
   background: #fff;
   border: 1px solid #dce6e0;
   border-radius: 14px;
   overflow: hidden;
+  height: 100%;
 }
 
 .atlas-item img {
@@ -321,7 +335,7 @@ img {
 
 .atlas-item figcaption {
   padding: 8px 10px 10px;
-  font-size: 0.86rem;
+  font-size: 0.97rem;
   color: #53605a;
 }
 
@@ -347,7 +361,7 @@ img {
   border: 1px solid #bfd7cc;
   padding: 2px 8px;
   border-radius: 999px;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   text-decoration: none;
   font-weight: 700;
 }
@@ -388,7 +402,7 @@ img {
   padding: 7px 12px;
   border-radius: 999px;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.98rem;
 }
 
 .footer {
@@ -412,8 +426,11 @@ img {
 
 @media (max-width: 980px) {
   .hero-grid,
-  .experience-grid,
   .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-grid {
     grid-template-columns: 1fr;
   }
 
@@ -422,8 +439,8 @@ img {
     margin: 0 auto;
   }
 
-  .atlas-masonry {
-    column-count: 3;
+  .atlas-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -435,8 +452,8 @@ img {
     white-space: nowrap;
   }
 
-  .atlas-masonry {
-    column-count: 2;
+  .atlas-grid {
+    grid-template-columns: 1fr;
   }
 
   .exp-card img {
@@ -445,7 +462,7 @@ img {
 }
 
 @media (max-width: 480px) {
-  .atlas-masonry {
-    column-count: 1;
+  body {
+    font-size: 16px;
   }
 }
