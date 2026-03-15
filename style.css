@@ -22,8 +22,24 @@ body {
 body {
   font-family: "Source Sans 3", "PingFang SC", "Noto Sans SC", sans-serif;
   color: var(--ink);
-  background: radial-gradient(circle at 12% 6%, #fdf8e9 0%, var(--bg) 32%), var(--bg);
   line-height: 1.75;
+  background: radial-gradient(circle at 12% 6%, #fdf8e9 0%, var(--bg) 32%), var(--bg);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-image:
+    url("assets/images/bg/biodiversity-mosaic.png"),
+    url("assets/images/bg/ipbes-cover.jpg");
+  background-size: 980px auto, 340px auto;
+  background-repeat: repeat, repeat;
+  background-position: center top, right bottom;
+  opacity: 0.08;
+  filter: saturate(0.9) contrast(1.02);
 }
 
 img {
@@ -56,18 +72,18 @@ img {
 }
 
 .container {
-  width: min(1120px, calc(100% - 40px));
+  width: min(1160px, calc(100% - 40px));
   margin: 0 auto;
 }
 
 .hero {
-  padding: 56px 0 34px;
+  padding: 58px 0 34px;
   border-bottom: 1px solid var(--line);
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 240px 1fr;
   gap: 28px;
   align-items: center;
 }
@@ -90,7 +106,7 @@ img {
 .eyebrow {
   margin: 0 0 10px;
   letter-spacing: 0.08em;
-  font-size: 0.84rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   color: var(--brand);
   font-weight: 700;
@@ -100,12 +116,12 @@ img {
   font-family: "Fraunces", "Source Serif 4", serif;
   margin: 0;
   line-height: 1.12;
-  font-size: clamp(2rem, 4.1vw, 3.2rem);
+  font-size: clamp(2rem, 4.2vw, 3.2rem);
 }
 
 .hero h1 span {
   display: block;
-  font-size: clamp(1.05rem, 1.8vw, 1.32rem);
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
   font-family: "Source Sans 3", sans-serif;
   color: var(--sub);
   margin-top: 8px;
@@ -114,9 +130,9 @@ img {
 
 .lead {
   margin: 14px 0 0;
-  font-size: 1.03rem;
+  font-size: 1.05rem;
   color: #33413b;
-  max-width: 780px;
+  max-width: 820px;
 }
 
 .chips {
@@ -140,7 +156,7 @@ img {
   margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 20px;
+  gap: 14px 20px;
 }
 
 .contacts a,
@@ -168,8 +184,8 @@ img {
   color: #45524c;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.92rem;
-  padding: 7px 12px;
+  font-size: 0.9rem;
+  padding: 7px 11px;
   border-radius: 999px;
 }
 
@@ -179,7 +195,7 @@ img {
 }
 
 .section {
-  padding: 54px 0 14px;
+  padding: 52px 0 20px;
 }
 
 .section h2 {
@@ -205,46 +221,12 @@ img {
   color: #35423d;
 }
 
-.section-note {
-  color: #5b6761;
-  margin-bottom: 12px;
-}
-
 .card {
   border: 1px solid #dce6e0;
   background: var(--card);
   border-radius: 16px;
-  padding: 16px;
+  padding: 14px 16px;
   box-shadow: 0 6px 18px rgba(31, 39, 36, 0.06);
-}
-
-.card h3 {
-  margin: 0 0 8px;
-  color: #1d563e;
-  font-size: 1rem;
-}
-
-.profile-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.3fr;
-  gap: 14px;
-}
-
-.facts {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 6px;
-}
-
-.facts li {
-  color: #3f4f49;
-  font-size: 0.95rem;
-}
-
-.facts strong {
-  color: #1e5d43;
 }
 
 .timeline {
@@ -257,7 +239,6 @@ img {
 .timeline li {
   margin: 0 0 10px;
   padding-left: 10px;
-  color: #37453f;
 }
 
 .timeline span {
@@ -268,66 +249,94 @@ img {
   font-size: 0.92rem;
 }
 
-.research-points {
-  margin: 0;
-  padding-left: 18px;
-  color: #3b4a44;
-}
-
-.research-points li {
-  margin-bottom: 8px;
-}
-
-.atlas-grid {
+.experience-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 12px;
 }
 
-.atlas-item {
+.exp-card {
+  border: 1px solid #dce6e0;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.exp-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.exp-card div {
+  padding: 10px 12px 12px;
+}
+
+.exp-card h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: #1c5b42;
+}
+
+.exp-card p {
   margin: 0;
+  font-size: 0.9rem;
+  color: #495851;
+}
+
+.research-points {
+  margin: 0;
+  padding-left: 18px;
+  color: #384740;
+}
+
+.research-points li {
+  margin: 0 0 7px;
+}
+
+.gallery-intro {
+  color: #5b6761;
+  margin-bottom: 12px;
+}
+
+.atlas-masonry {
+  column-count: 4;
+  column-gap: 12px;
+}
+
+.atlas-item {
+  margin: 0 0 12px;
+  break-inside: avoid;
   background: #fff;
   border: 1px solid #dce6e0;
   border-radius: 14px;
   overflow: hidden;
 }
 
-.atlas-item.wide {
-  grid-column: span 2;
-}
-
-.atlas-item.tall {
-  grid-row: span 2;
-}
-
 .atlas-item img {
   width: 100%;
-  height: 210px;
+  height: auto;
   object-fit: cover;
 }
 
-.atlas-item.tall img {
-  height: 434px;
-}
-
 .atlas-item figcaption {
-  padding: 8px 10px;
-  font-size: 0.87rem;
-  color: #52605a;
+  padding: 8px 10px 10px;
+  font-size: 0.86rem;
+  color: #53605a;
 }
 
 .pub-list {
   margin: 0;
   padding-left: 20px;
   display: grid;
-  gap: 12px;
+  gap: 10px;
 }
 
 .pub-list li {
   border: 1px solid #dce6e0;
   background: #fff;
   border-radius: 12px;
-  padding: 12px;
+  padding: 10px 12px;
   color: #36433e;
 }
 
@@ -357,8 +366,8 @@ img {
 }
 
 .panel h3 {
-  margin: 0 0 8px;
-  color: #1d563e;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .panel ul {
@@ -402,7 +411,9 @@ img {
 }
 
 @media (max-width: 980px) {
-  .hero-grid {
+  .hero-grid,
+  .experience-grid,
+  .two-col {
     grid-template-columns: 1fr;
   }
 
@@ -411,50 +422,30 @@ img {
     margin: 0 auto;
   }
 
-  .profile-grid,
-  .two-col {
-    grid-template-columns: 1fr;
+  .atlas-masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 720px) {
+  .nav {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
-  .atlas-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .atlas-masonry {
+    column-count: 2;
   }
 
-  .atlas-item.wide {
-    grid-column: span 2;
-  }
-
-  .atlas-item.tall {
-    grid-row: auto;
-  }
-
-  .atlas-item.tall img {
+  .exp-card img {
     height: 220px;
   }
 }
 
-@media (max-width: 700px) {
-  .nav {
-    justify-content: flex-start;
-    overflow-x: auto;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .atlas-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .atlas-item.wide {
-    grid-column: auto;
-  }
-
-  .atlas-item img {
-    height: 220px;
-  }
-
-  .pub-list {
-    padding-left: 0;
-    list-style: none;
+@media (max-width: 480px) {
+  .atlas-masonry {
+    column-count: 1;
   }
 }
