@@ -270,25 +270,40 @@ img {
 .experience-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 14px;
+  gap: 18px;
 }
 
 .exp-card {
   border: 1px solid #dce6e0;
   background: #fff;
-  border-radius: 14px;
+  border-radius: 18px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 24px rgba(31, 39, 36, 0.07);
+}
+
+.exp-card-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  padding: 16px;
+  background: linear-gradient(180deg, #f9fcfa 0%, #eef5f0 100%);
+  border-bottom: 1px solid #e1ece5;
 }
 
 .exp-card img {
   width: 100%;
   height: auto;
+  max-height: 260px;
   object-fit: contain;
-  background: #f7faf7;
+  background: #ffffff;
+  border-radius: 14px;
 }
 
-.exp-card div {
-  padding: 10px 12px 12px;
+.exp-card-copy {
+  padding: 14px 16px 18px;
 }
 
 .exp-card h3 {
@@ -301,6 +316,38 @@ img {
   margin: 0;
   font-size: 1rem;
   color: #495851;
+}
+
+.exp-species-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.exp-species-tile {
+  margin: 0;
+  border: 1px solid #d9e7de;
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  align-content: center;
+  min-height: 150px;
+}
+
+.exp-species-tile img {
+  max-height: 94px;
+  width: auto;
+}
+
+.exp-species-tile figcaption {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #365344;
+  line-height: 1.2;
 }
 
 .research-points {
@@ -508,6 +555,20 @@ img {
 
   .exp-card img {
     height: auto;
+    max-height: none;
+  }
+
+  .exp-card-media {
+    min-height: 0;
+    padding: 12px;
+  }
+
+  .exp-species-grid {
+    gap: 10px;
+  }
+
+  .exp-species-tile {
+    min-height: 132px;
   }
 }
 
