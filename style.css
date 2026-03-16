@@ -355,6 +355,17 @@ img {
   color: #53605a;
 }
 
+.atlas-item figcaption a {
+  margin-left: 8px;
+  color: #1c5b42;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.atlas-item figcaption a:hover {
+  text-decoration: underline;
+}
+
 .pub-list {
   margin: 0;
   padding-left: 20px;
