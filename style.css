@@ -270,7 +270,7 @@ img {
 .experience-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 18px;
+  gap: 22px;
 }
 
 .exp-card {
@@ -287,8 +287,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 280px;
-  padding: 16px;
+  min-height: 360px;
+  padding: 20px;
   background: linear-gradient(180deg, #f9fcfa 0%, #eef5f0 100%);
   border-bottom: 1px solid #e1ece5;
 }
@@ -296,10 +296,15 @@ img {
 .exp-card img {
   width: 100%;
   height: auto;
-  max-height: 260px;
+  max-height: 330px;
   object-fit: contain;
   background: #ffffff;
   border-radius: 14px;
+}
+
+.exp-card-species .exp-card-media {
+  min-height: 410px;
+  padding: 22px;
 }
 
 .exp-card-copy {
@@ -321,7 +326,7 @@ img {
 .exp-species-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  gap: 14px;
   width: 100%;
 }
 
@@ -330,16 +335,16 @@ img {
   border: 1px solid #d9e7de;
   border-radius: 16px;
   background: #ffffff;
-  padding: 10px;
+  padding: 12px;
   display: grid;
   gap: 8px;
   justify-items: center;
   align-content: center;
-  min-height: 150px;
+  min-height: 180px;
 }
 
 .exp-species-tile img {
-  max-height: 94px;
+  max-height: 122px;
   width: auto;
 }
 
@@ -559,6 +564,11 @@ img {
   }
 
   .exp-card-media {
+    min-height: 0;
+    padding: 12px;
+  }
+
+  .exp-card-species .exp-card-media {
     min-height: 0;
     padding: 12px;
   }
