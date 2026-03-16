@@ -280,34 +280,29 @@ img {
   border-radius: 18px;
   padding: 18px;
   box-shadow: 0 10px 24px rgba(31, 39, 36, 0.06);
-}
-
-.education-brand-label {
-  margin: 0 0 6px;
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #688077;
-  font-weight: 700;
-}
-
-.education-brand-text {
-  margin: 0 0 16px;
-  font-size: 1.04rem;
-  color: #29483a;
-  font-weight: 700;
-  line-height: 1.4;
+  display: flex;
+  align-items: center;
 }
 
 .education-brand-logos {
   display: grid;
-  gap: 18px;
+  gap: 20px;
   justify-items: center;
+  width: 100%;
 }
 
 .education-brand-logos img {
-  width: min(100%, 240px);
   height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.education-logo-pku {
+  width: min(100%, 188px);
+}
+
+.education-logo-iiasa {
+  width: min(100%, 228px);
 }
 
 .experience-grid {
