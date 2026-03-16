@@ -80,6 +80,70 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.fixed-brand-stack {
+  position: fixed;
+  top: 16px;
+  right: clamp(16px, 3vw, 40px);
+  z-index: 80;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  width: min(280px, calc(100vw - 24px));
+}
+
+.brand-chip {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+  padding: 10px 12px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(133, 155, 144, 0.26);
+  box-shadow: 0 10px 26px rgba(21, 38, 31, 0.14);
+  backdrop-filter: blur(10px);
+  text-decoration: none;
+}
+
+.brand-chip img {
+  width: 100%;
+  height: auto;
+}
+
+.pku-chip {
+  width: min(220px, 100%);
+}
+
+.brand-note {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  color: #8b2f24;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.iiasa-chip {
+  width: min(250px, 100%);
+}
+
+.fixed-panda-cloud {
+  position: fixed;
+  top: 108px;
+  right: clamp(20px, 4vw, 44px);
+  z-index: 35;
+  width: clamp(180px, 21vw, 290px);
+  pointer-events: none;
+}
+
+.fixed-panda-cloud img {
+  width: 100%;
+  border-radius: 26px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(133, 155, 144, 0.24);
+  box-shadow: 0 14px 36px rgba(19, 33, 28, 0.14);
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -100,6 +164,11 @@ img {
   aspect-ratio: 2 / 3;
   object-fit: cover;
   border-radius: 16px;
+}
+
+.hero-main {
+  position: relative;
+  padding-right: clamp(180px, 18vw, 320px);
 }
 
 .eyebrow {
@@ -457,6 +526,10 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .hero-main {
+    padding-right: 0;
+  }
+
   .experience-grid {
     grid-template-columns: 1fr;
   }
@@ -470,6 +543,43 @@ img {
   .atlas-grid-results,
   .atlas-grid-collab {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .fixed-brand-stack {
+    top: 10px;
+    right: 10px;
+    gap: 8px;
+    width: min(190px, calc(100vw - 20px));
+  }
+
+  .brand-chip {
+    padding: 8px 10px;
+    border-radius: 14px;
+  }
+
+  .pku-chip {
+    width: min(156px, 100%);
+  }
+
+  .iiasa-chip {
+    width: min(180px, 100%);
+  }
+
+  .brand-note {
+    font-size: 0.64rem;
+    letter-spacing: 0.1em;
+  }
+
+  .fixed-panda-cloud {
+    top: auto;
+    bottom: 14px;
+    right: 12px;
+    width: 132px;
+  }
+
+  .fixed-panda-cloud img {
+    border-radius: 20px;
+    padding: 8px;
   }
 }
 
@@ -489,6 +599,25 @@ img {
 
   .exp-card img {
     height: 220px;
+  }
+
+  .fixed-brand-stack {
+    width: min(152px, calc(100vw - 16px));
+  }
+
+  .brand-chip {
+    padding: 7px 9px;
+  }
+
+  .brand-note {
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+  }
+
+  .fixed-panda-cloud {
+    width: 96px;
+    bottom: 10px;
+    right: 10px;
   }
 }
 
