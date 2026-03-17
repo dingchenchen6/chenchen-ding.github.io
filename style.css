@@ -403,6 +403,11 @@ img {
   padding: 22px;
 }
 
+.exp-card-feature .exp-card-media {
+  min-height: 410px;
+  padding: 22px;
+}
+
 .exp-card-copy {
   padding: 14px 16px 18px;
 }
