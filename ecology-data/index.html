@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>生态学数据网站 | Macroecology, Biogeography &amp; Conservation Data Hub</title>
+  <meta
+    name="description"
+    content="面向宏观生态学、生物地理学和保护生物学研究的生态学数据网站，汇集地理空间、气候、生物多样性、保护地、物种编目与性状、人类活动与社会经济以及生态学数据论文。"
+  />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="生态学数据网站 | Ecological Data Hub" />
+  <meta
+    property="og:description"
+    content="精选全面、专业、开源、热门、权威的生态学数据源与数据论文，按专题展示并支持按热度和时间浏览。"
+  />
+  <meta property="og:url" content="https://dingchenchen6.github.io/ecology-data/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-glow glow-a"></div>
+  <div class="page-glow glow-b"></div>
+
+  <header class="hero-shell">
+    <div class="container site-bar">
+      <a class="home-link" id="homeLink" href="../">返回主页</a>
+      <div class="page-tools">
+        <p class="site-note" id="siteNote">Ecological Data Hub for macroecology, biogeography and conservation science</p>
+        <div class="lang-switcher" aria-label="Language switch">
+          <button type="button" class="lang-btn is-active" data-lang="zh">中文</button>
+          <button type="button" class="lang-btn" data-lang="en">English</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hero-grid">
+      <section class="hero-copy">
+        <p class="eyebrow" id="heroEyebrow">Open Data Navigator</p>
+        <h1 id="heroTitle">生态学数据网站</h1>
+        <p class="hero-lead" id="heroLead">
+          为宏观生态学、生物地理学和保护生物学研究整理的权威数据入口，覆盖地理空间、气候、生物多样性、
+          保护地、物种编目与生态性状、人类活动与社会经济，以及高价值生态学数据论文。
+        </p>
+        <div class="hero-tags" id="heroTags"></div>
+      </section>
+
+      <aside class="hero-panel">
+        <div class="stat-grid" id="summaryStats"></div>
+        <div class="legend-card">
+          <h2 id="legendTitle">排序说明</h2>
+          <p id="legendDescription">默认在每个专题内按照“热度优先，其次时间”排序，也可切换为“时间优先”。</p>
+          <ul id="legendList"></ul>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main class="container main-shell">
+    <section class="intro-strip" id="introStrip"></section>
+
+    <section class="control-panel" aria-labelledby="controlsTitle">
+      <div class="control-head">
+        <div>
+          <p class="eyebrow" id="controlsEyebrow">Browse</p>
+          <h2 id="controlsTitle">按专题、热度和时间筛选</h2>
+        </div>
+        <p class="control-caption" id="resultSummary">正在载入资源清单…</p>
+      </div>
+
+      <div class="control-grid">
+        <label class="search-box">
+          <span id="searchLabel">搜索关键词</span>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="输入数据源、机构、变量、方法或专题关键词"
+            autocomplete="off"
+          />
+        </label>
+
+        <label class="sort-box">
+          <span id="sortLabel">排序方式</span>
+          <select id="sortSelect">
+            <option value="heat" id="sortOptionHeat">热度优先</option>
+            <option value="recent" id="sortOptionRecent">时间优先</option>
+            <option value="name" id="sortOptionName">名称 A-Z</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="filter-row" id="categoryFilters" aria-label="专题筛选"></div>
+    </section>
+
+    <section class="resource-shell" id="resourceSections" aria-live="polite"></section>
+
+    <section class="methodology">
+      <div>
+        <p class="eyebrow" id="methodologyEyebrow">Curation Notes</p>
+        <h2 id="methodologyTitle">收录标准</h2>
+      </div>
+      <div class="method-grid" id="methodologyGrid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p id="footerNote">本页面向生态学科研使用整理，建议在正式分析前再次核对许可条款、版本号、坐标系、空间分辨率和时间范围。</p>
+      <a href="../" id="footerLink">回到个人主页</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

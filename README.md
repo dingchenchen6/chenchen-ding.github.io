@@ -4,12 +4,14 @@ Personal academic homepage for **Chenchen Ding, PhD**, deployed with GitHub Page
 
 - Live site: [https://dingchenchen6.github.io/](https://dingchenchen6.github.io/)
 - Main page: `index.html`
+- Ecology data hub: `ecology-data/index.html`
 - Styles: `style.css`
 - Images: `assets/images/`
 
 ## Features
 
 - Professional one-page academic profile with responsive layout
+- Independent ecological data hub for macroecology, biogeography, and conservation research
 - Portrait photo and biodiversity research gallery
 - Selected publications with DOI links and short research summaries
 - Education, projects, awards, and skill highlights
