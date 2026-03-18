@@ -5,7 +5,11 @@ const categoryMeta = [
   },
   {
     id: "地理空间专题数据",
-    description: "土地覆盖、土壤、水系、湖泊和地表水等基础空间底图。"
+    description: "行政区划、标准地图、土壤、水系、道路和其他基础空间底图。"
+  },
+  {
+    id: "土地利用专题",
+    description: "土地利用/覆被产品、长期序列、分类底图与未来情景预测数据。"
   },
   {
     id: "气候专题",
@@ -25,7 +29,7 @@ const categoryMeta = [
   },
   {
     id: "人类活动与社会经济专题",
-    description: "人口、土地利用、夜间灯光、人类压力等人地耦合数据。"
+    description: "人口、夜间灯光、人类压力等人地耦合数据。"
   },
   {
     id: "生态学 R 包专题",
@@ -47,7 +51,7 @@ const heatLabel = {
 const resources = [
   {
     id: "esa-worldcover",
-    category: "地理空间专题数据",
+    category: "土地利用专题",
     title: "ESA WorldCover 10 m",
     org: "European Space Agency",
     description: "全球 10 m 土地覆盖产品，适合栖息地制图、土地利用变化评估和保护地覆盖分析。",
@@ -57,11 +61,119 @@ const resources = [
     updated: "2022",
     year: 2022,
     heat: 4,
-    tags: ["land cover", "10 m", "遥感", "全球"],
+    tags: ["global", "10 m", "2020/2021", "11 classes", "open"],
     primaryLabel: "官网 / 数据入口",
     primaryUrl: "https://esa-worldcover.org/en/data-access",
     secondaryLabel: "数据 DOI",
     secondaryUrl: "https://doi.org/10.5281/zenodo.7254221"
+  },
+  {
+    id: "globeland30",
+    category: "土地利用专题",
+    title: "GlobeLand30 / WorldLand30",
+    org: "National Geomatics Center of China",
+    description: "全球 30 m 土地覆盖经典产品，提供 2000 和 2010 两个基准年，是全球变化、生态恢复和土地利用变化研究中的高频基线数据。",
+    access: "开放下载",
+    license: "开放使用",
+    version: "2000 / 2010",
+    updated: "2010 epoch",
+    year: 2010,
+    heat: 4,
+    tags: ["global", "30 m", "2000/2010", "10 classes", "open"],
+    primaryLabel: "官网 / 数据入口",
+    primaryUrl: "https://www.globallandcover.com/GLC30Download/index.aspx",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://www.ngcc.cn/zdchgc/qqdbfg/"
+  },
+  {
+    id: "from-glc",
+    category: "土地利用专题",
+    title: "FROM-GLC 30 m",
+    org: "Tsinghua University",
+    description: "清华大学发布的首套 30 m 全球地表覆盖产品，是高分辨率全球土地覆盖制图的重要里程碑，适合全球土地利用与生态格局研究。",
+    access: "开放访问 / 数据下载",
+    license: "开放使用",
+    version: "30 m global baseline",
+    updated: "数据迁移后持续可访问",
+    year: 2024,
+    heat: 4,
+    tags: ["global", "30 m", "2010 era", "10 classes", "Tsinghua"],
+    primaryLabel: "官网 / 数据入口",
+    primaryUrl: "https://data.ess.tsinghua.edu.cn/",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://www.dess.tsinghua.edu.cn/info/1120/1418.htm"
+  },
+  {
+    id: "from-glc10",
+    category: "土地利用专题",
+    title: "FROM-GLC10",
+    org: "Tsinghua University",
+    description: "清华大学团队制作的 10 m 全球地表覆盖图，基于 Sentinel-2 建成，是高分辨率全球土地覆盖和生态格局分析的热门数据源。",
+    access: "开放访问 / 数据下载",
+    license: "开放使用",
+    version: "2017 global map",
+    updated: "数据迁移后持续可访问",
+    year: 2024,
+    heat: 4,
+    tags: ["global", "10 m", "2017", "10 classes", "Tsinghua"],
+    primaryLabel: "官网 / 数据入口",
+    primaryUrl: "https://data.ess.tsinghua.edu.cn/",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://www.dess.tsinghua.edu.cn/info/1080/1063.htm"
+  },
+  {
+    id: "glass-glc",
+    category: "土地利用专题",
+    title: "GLASS-GLC Annual Land Cover",
+    org: "Tsinghua University / ESSD / PANGAEA",
+    description: "全球 5 km 逐年动态土地覆盖产品，覆盖 1982-2015，是长时间序列土地覆盖变化、生态趋势和全球变化研究的重要数据。",
+    access: "开放 DOI",
+    license: "开放论文；数据见仓储说明",
+    version: "1982-2015 annual",
+    updated: "2020",
+    year: 2020,
+    heat: 3,
+    tags: ["global", "5 km", "1982-2015", "annual", "open"],
+    primaryLabel: "数据 DOI",
+    primaryUrl: "https://doi.org/10.1594/PANGAEA.913496",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://www.dess.tsinghua.edu.cn/info/1080/1003.htm"
+  },
+  {
+    id: "copernicus-lc100",
+    category: "土地利用专题",
+    title: "Copernicus Global Land Cover 100 m",
+    org: "Copernicus Land Monitoring Service",
+    description: "欧盟 Copernicus 全球 100 m 年度土地覆盖产品，适合大尺度土地利用变化监测、生态系统评估和跨区域比较研究。",
+    access: "开放下载",
+    license: "Copernicus 开放条款",
+    version: "Collection 3",
+    updated: "2025",
+    year: 2025,
+    heat: 4,
+    tags: ["global", "100 m", "2015-2019", "annual", "open"],
+    primaryLabel: "官网 / 数据入口",
+    primaryUrl: "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2015-2019-globe",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://land.copernicus.eu/en/products/global-dynamic-land-cover"
+  },
+  {
+    id: "esa-cci-land-cover",
+    category: "土地利用专题",
+    title: "ESA CCI / C3S Land Cover 300 m",
+    org: "Copernicus Climate Data Store / ESA CCI",
+    description: "全球 300 m 年度土地覆盖长时间序列产品，覆盖 1992 至今，是长期变化分析、气候模式和土地覆盖一致性比较的经典数据。",
+    access: "开放下载",
+    license: "开放使用",
+    version: "v2.0.7cds / v2.1.1",
+    updated: "2026",
+    year: 2026,
+    heat: 4,
+    tags: ["global", "300 m", "1992-present", "annual", "22 classes"],
+    primaryLabel: "官网 / 数据入口",
+    primaryUrl: "https://cds.climate.copernicus.eu/datasets/satellite-land-cover",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://cds.climate.copernicus.eu/"
   },
   {
     id: "soilgrids",
@@ -299,7 +411,7 @@ const resources = [
   },
   {
     id: "landcover-special-cn",
-    category: "地理空间专题数据",
+    category: "土地利用专题",
     title: "China Land Cover Thematic Products",
     org: "地理资源分中心",
     description: "提供中国区域多时期、多尺度土地覆被产品，并整合全球土地覆被数据，适合 LUCC、栖息地和生态恢复研究。",
@@ -309,7 +421,7 @@ const resources = [
     updated: "平台持续更新",
     year: 2024,
     heat: 4,
-    tags: ["land cover", "China", "LUCC", "habitat", "change"],
+    tags: ["China", "multi-year", "30 m+", "LUCC", "open"],
     primaryLabel: "官网 / 数据入口",
     primaryUrl: "https://gre.geodata.cn/",
     secondaryLabel: "官网主页",
@@ -387,7 +499,7 @@ const resources = [
   },
   {
     id: "mcd12q1",
-    category: "地理空间专题数据",
+    category: "土地利用专题",
     title: "MCD12Q1 V6.1 Land Cover Type",
     org: "NASA LP DAAC",
     description: "官方全球土地覆被类型产品，提供 IGBP、PFT 等多种分类体系，适合作为全球土地覆被基线。",
@@ -397,7 +509,7 @@ const resources = [
     updated: "2025",
     year: 2025,
     heat: 4,
-    tags: ["land cover", "MODIS", "PFT", "IGBP", "global"],
+    tags: ["global", "500 m", "annual", "IGBP/PFT", "MODIS"],
     primaryLabel: "官网 / 数据入口",
     primaryUrl: "https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12q1-061"
   },
@@ -995,7 +1107,7 @@ const resources = [
   },
   {
     id: "luh2",
-    category: "人类活动与社会经济专题",
+    category: "土地利用专题",
     title: "LUH2",
     org: "Land-Use Harmonization Project",
     description: "连接历史重建与未来情景的土地利用变化数据库，是 CMIP6 和生物多样性情景研究的重要输入。",
@@ -1005,11 +1117,29 @@ const resources = [
     updated: "2020",
     year: 2020,
     heat: 3,
-    tags: ["land-use change", "scenarios", "CMIP6", "global change"],
+    tags: ["global", "0.25°", "850-2100", "annual", "scenarios"],
     primaryLabel: "官网 / 数据入口",
     primaryUrl: "https://luh.umd.edu/",
     secondaryLabel: "代表论文",
     secondaryUrl: "https://doi.org/10.5194/gmd-13-5425-2020"
+  },
+  {
+    id: "china-lulc-ssp-rcp",
+    category: "土地利用专题",
+    title: "China 1 km Future LULC under SSP-RCP",
+    org: "Scientific Data / Figshare",
+    description: "中国 1 km 土地利用/覆被未来情景数据，覆盖 2020-2100 年 24 组 SSP-RCP 组合，适合生态系统服务、碳中和和区域情景评估。",
+    access: "开放 DOI",
+    license: "开放论文；数据见仓储说明",
+    version: "2020-2100 by decade",
+    updated: "2022",
+    year: 2022,
+    heat: 4,
+    tags: ["China", "1 km", "2020-2100", "24 scenarios", "GeoTIFF"],
+    primaryLabel: "数据 DOI",
+    primaryUrl: "https://doi.org/10.6084/m9.figshare.14776128.v4",
+    secondaryLabel: "代表论文",
+    secondaryUrl: "https://www.nature.com/articles/s41597-022-01204-w"
   },
   {
     id: "viirs-nightlights",
@@ -1532,8 +1662,12 @@ const categoryMetaLookup = {
     en: { label: "All", description: "Show every topic in the hub." }
   },
   地理空间专题数据: {
-    zh: { label: "地理空间专题数据", description: "土地覆盖、土壤、水系、湖泊和地表水等基础空间底图。" },
-    en: { label: "Geospatial Data", description: "Base layers for land cover, soils, rivers, lakes, and surface water." }
+    zh: { label: "地理空间专题数据", description: "行政区划、标准地图、土壤、水系、道路和其他基础空间底图。" },
+    en: { label: "Geospatial Data", description: "Administrative boundaries, standard maps, soils, rivers, roads, and other spatial base layers." }
+  },
+  土地利用专题: {
+    zh: { label: "土地利用专题", description: "土地利用/覆被产品、长期序列、分类底图与未来情景预测数据。" },
+    en: { label: "Land Use and Cover", description: "Land use or land cover products, long time series, thematic maps, and future scenarios." }
   },
   气候专题: {
     zh: { label: "气候专题", description: "气候基准面、再分析、时序气候和未来情景数据。" },
@@ -1552,8 +1686,8 @@ const categoryMetaLookup = {
     en: { label: "Catalogues and Traits", description: "Species checklists, Red List products, and plant or animal trait databases." }
   },
   人类活动与社会经济专题: {
-    zh: { label: "人类活动与社会经济专题", description: "人口、土地利用、夜间灯光、人类压力等人地耦合数据。" },
-    en: { label: "Human Activity and Socioeconomics", description: "Population, land use, night lights, and human-pressure layers." }
+    zh: { label: "人类活动与社会经济专题", description: "人口、夜间灯光、人类压力等人地耦合数据。" },
+    en: { label: "Human Activity and Socioeconomics", description: "Population, night lights, and human-pressure layers." }
   },
   "生态学 R 包专题": {
     zh: { label: "生态学 R 包专题", description: "生物多样性指标、群落生态、SDM、占域模型、GLMM、贝叶斯和 SEM 等常用生态学 R 工具。" },
@@ -1572,8 +1706,8 @@ const uiCopy = {
     heroEyebrow: "Open Data Navigator",
     heroTitle: "生态学数据网站",
     heroLead:
-      "为宏观生态学、生物地理学和保护生物学研究整理的权威数据入口，覆盖标准地图与地理空间、气候、生物多样性、保护地、物种编目与生态性状、人类活动与社会经济、生态学 R 包，以及高价值生态学数据论文。",
-    heroTags: ["专业", "开源优先", "权威官网直达", "标准地图与 R 包", "按热度与时间浏览"],
+      "为宏观生态学、生物地理学和保护生物学研究整理的权威数据入口，覆盖标准地图与地理空间、土地利用/覆被、气候、生物多样性、保护地、物种编目与生态性状、人类活动与社会经济、生态学 R 包，以及高价值生态学数据论文。",
+    heroTags: ["专业", "开源优先", "权威官网直达", "土地利用与标准地图", "按热度与时间浏览"],
     browseLink: "开始浏览",
     criteriaLink: "查看筛选标准",
     legendTitle: "排序说明",
@@ -1606,12 +1740,16 @@ const uiCopy = {
       {
         title: "研究场景 5",
         body: "R 工作流起步：群落与多样性可从 vegan / iNEXT / betapart 入手；SDM 可用 biomod2 / ENMeval；层级模型可用 lme4 / glmmTMB / brms。"
+      },
+      {
+        title: "研究场景 6",
+        body: "土地利用变化与未来情景：推荐组合 WorldCover / GlobeLand30 / FROM-GLC + Copernicus 100 m / ESA CCI + LUH2 / 中国 1 km SSP-RCP 情景。"
       }
     ],
     controlsEyebrow: "Browse",
     controlsTitle: "按专题、热度和时间筛选",
     searchLabel: "搜索关键词",
-    searchPlaceholder: "输入数据源、机构、变量、标准地图、R 包、方法或专题关键词",
+    searchPlaceholder: "输入数据源、机构、变量、土地利用、标准地图、R 包、方法或专题关键词",
     sortLabel: "排序方式",
     sortOptions: {
       heat: "热度优先",
@@ -1647,6 +1785,10 @@ const uiCopy = {
         body: "热度为人工整理分级，综合考虑引用影响、社区采用度、生态模型复用率、保护政策使用频次和学术可见度。"
       },
       {
+        title: "土地利用专题",
+        body: "土地利用专题优先收录免费开放下载、时间连续性强、空间分辨率清晰、并在 LUCC、生态评估、碳循环和情景研究中高频使用的产品。"
+      },
+      {
         title: "工具专题",
         body: "R 包专题优先收录生态学社区高频使用、文档完善、CRAN 可访问，且能直接支撑群落分析、SDM、占域模型、GLMM、贝叶斯和 SEM 的成熟工具。"
       }
@@ -1671,7 +1813,7 @@ const uiCopy = {
     activeCategory: (label) => `专题：${label}`,
     activeFlagship: "仅旗舰资源",
     activeOpen: "开放入口优先",
-    useFor: "适用",
+    useFor: "重点标签",
     allTopicsShort: "全部专题"
   },
   en: {
@@ -1680,8 +1822,8 @@ const uiCopy = {
     heroEyebrow: "Open Data Navigator",
     heroTitle: "Ecological Data Hub",
     heroLead:
-      "A curated gateway to authoritative resources for macroecology, biogeography, and conservation biology, covering standard maps and geospatial layers, climate, biodiversity, protected areas, taxonomic catalogues and traits, human activity and socioeconomics, ecology-focused R packages, plus influential ecological data papers.",
-    heroTags: ["Research-grade", "Open-first", "Official source links", "Standard maps and R packages", "Sorted by relevance and time"],
+      "A curated gateway to authoritative resources for macroecology, biogeography, and conservation biology, covering standard maps and geospatial layers, land use and land cover, climate, biodiversity, protected areas, taxonomic catalogues and traits, human activity and socioeconomics, ecology-focused R packages, plus influential ecological data papers.",
+    heroTags: ["Research-grade", "Open-first", "Official source links", "Land use and standard maps", "Sorted by relevance and time"],
     browseLink: "Start browsing",
     criteriaLink: "See curation criteria",
     legendTitle: "Ranking guide",
@@ -1714,12 +1856,16 @@ const uiCopy = {
       {
         title: "Use case 5",
         body: "R workflow starter set: use vegan or iNEXT or betapart for diversity, biomod2 or ENMeval for SDMs, and lme4 or glmmTMB or brms for hierarchical models."
+      },
+      {
+        title: "Use case 6",
+        body: "Land-use change and future scenarios: try WorldCover or GlobeLand30 or FROM-GLC + Copernicus 100 m or ESA CCI + LUH2 or the China 1 km SSP-RCP scenarios."
       }
     ],
     controlsEyebrow: "Browse",
     controlsTitle: "Filter by topic, importance, and time",
     searchLabel: "Search keywords",
-    searchPlaceholder: "Search datasets, institutions, variables, standard maps, R packages, methods, or topics",
+    searchPlaceholder: "Search datasets, institutions, variables, land use, standard maps, R packages, methods, or topics",
     sortLabel: "Sort by",
     sortOptions: {
       heat: "Importance first",
@@ -1755,6 +1901,10 @@ const uiCopy = {
         body: "Importance is a curated score combining citation footprint, community adoption, reuse in ecological models, policy relevance, and scientific visibility."
       },
       {
+        title: "Land-use topic",
+        body: "The land-use topic prioritizes freely downloadable products with clear temporal coverage, explicit spatial resolution, and strong reuse in LUCC, ecosystem, carbon, and scenario research."
+      },
+      {
         title: "Software topic",
         body: "The R package topic prioritizes mature, ecology-facing packages with good documentation, active community use, and direct support for biodiversity, SDMs, occupancy, GLMMs, Bayesian models, and SEM."
       }
@@ -1780,13 +1930,19 @@ const uiCopy = {
     activeCategory: (label) => `Topic: ${label}`,
     activeFlagship: "Flagship only",
     activeOpen: "Open-access first",
-    useFor: "Best for",
+    useFor: "Quick tags",
     allTopicsShort: "All topics"
   }
 };
 
 const resourceDescriptionEn = {
   "esa-worldcover": "A global 10 m land-cover product suitable for habitat mapping, land-use change assessment, and coverage analyses inside protected areas.",
+  globeland30: "A classic 30 m global land-cover product for the 2000 and 2010 epochs, widely used as a baseline in land-change, restoration, and ecosystem studies.",
+  "from-glc": "Tsinghua University’s pioneering 30 m global land-cover map, an important milestone for high-resolution global land-cover mapping.",
+  "from-glc10": "A 10 m global land-cover product from Tsinghua based on Sentinel-2 imagery, popular for high-resolution global land-cover and landscape analyses.",
+  "glass-glc": "An annual global land-cover time series at 5 km from 1982 to 2015, highly useful for long-term change, trend, and global-change studies.",
+  "copernicus-lc100": "A Copernicus annual global land-cover product at 100 m resolution for large-scale land-change, ecosystem, and cross-region analyses.",
+  "esa-cci-land-cover": "A classic annual global land-cover time series at 300 m from 1992 onward, widely used in long-term change, climate, and consistency analyses.",
   soilgrids: "A standardized global soil raster product for plant distributions, niche modelling, and ecosystem function analyses.",
   hydrolakes: "A global polygon database of lakes widely used in freshwater ecology, connectivity studies, and conservation planning.",
   hydrorivers: "A global river network and attribute layer that serves as a key base map for catchment ecology, freshwater biogeography, and connectivity analyses.",
@@ -1840,6 +1996,7 @@ const resourceDescriptionEn = {
   gpwv4: "A standard gridded population baseline for exposure assessment, accessibility, and human-impact modelling.",
   hyde: "A historical reconstruction of population and land use, useful for long-term land-change and Anthropocene studies.",
   luh2: "A harmonized land-use change dataset connecting historical reconstructions to future scenarios, central to CMIP6 and biodiversity-scenario work.",
+  "china-lulc-ssp-rcp": "A 1 km future land-use and land-cover dataset for China covering 24 SSP-RCP scenarios from 2020 to 2100, useful for ecosystem services, carbon, and scenario assessments.",
   "viirs-nightlights": "Nighttime lights can act as a proxy for human activity intensity, infrastructure, and urbanization.",
   "human-footprint": "A composite global human-pressure product widely used for extinction risk, conservation gaps, and ecological intactness.",
   vegan: "The flagship R package for community ecology, ordination, diversity indices, permutation tests, and vegetation analyses.",
@@ -1924,7 +2081,8 @@ const exactFieldTranslations = {
     "2025-04-30 发布": "Released on 2025-04-30",
     "2023 勘误后持续维护": "Maintained after the 2023 correction",
     "2023 公共 trait 合并说明": "2023 public trait integration note",
-    "2025-11 后启用新结构": "New structure enabled after 2025-11"
+    "2025-11 后启用新结构": "New structure enabled after 2025-11",
+    "数据迁移后持续可访问": "Still accessible after data migration"
   },
   primaryLabel: {
     "官网 / 数据入口": "Official site / data access",
