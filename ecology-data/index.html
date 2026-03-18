@@ -49,6 +49,10 @@
           保护地、物种编目与生态性状、人类活动与社会经济，以及高价值生态学数据论文。
         </p>
         <div class="hero-tags" id="heroTags"></div>
+        <div class="hero-actions-bar">
+          <a class="hero-cta hero-cta-primary" href="#browse" id="browseLink">开始浏览</a>
+          <a class="hero-cta hero-cta-secondary" href="#methodology" id="criteriaLink">查看筛选标准</a>
+        </div>
       </section>
 
       <aside class="hero-panel">
@@ -58,6 +62,13 @@
           <p id="legendDescription">默认在每个专题内按照“热度优先，其次时间”排序，也可切换为“时间优先”。</p>
           <ul id="legendList"></ul>
         </div>
+        <div class="featured-panel">
+          <div class="featured-panel-head">
+            <p class="eyebrow" id="featuredEyebrow">Curated Picks</p>
+            <h2 id="featuredTitle">旗舰资源速览</h2>
+          </div>
+          <div class="featured-stack" id="featuredStack"></div>
+        </div>
       </aside>
     </div>
   </header>
@@ -65,48 +76,89 @@
   <main class="container main-shell">
     <section class="intro-strip" id="introStrip"></section>
 
-    <section class="control-panel" aria-labelledby="controlsTitle">
-      <div class="control-head">
-        <div>
-          <p class="eyebrow" id="controlsEyebrow">Browse</p>
-          <h2 id="controlsTitle">按专题、热度和时间筛选</h2>
-        </div>
-        <p class="control-caption" id="resultSummary">正在载入资源清单…</p>
+    <div class="workspace-shell">
+      <aside class="side-rail">
+        <section class="side-card">
+          <div class="side-card-head">
+            <p class="eyebrow" id="navEyebrow">Topic Map</p>
+            <h2 id="navTitle">专题导航</h2>
+          </div>
+          <div class="topic-navigator" id="topicNavigator"></div>
+        </section>
+
+        <section class="side-card side-card-soft">
+          <div class="side-card-head">
+            <p class="eyebrow" id="focusEyebrow">Focus Tools</p>
+            <h2 id="focusTitle">快速收敛</h2>
+          </div>
+          <div class="toggle-group">
+            <label class="toggle-card" for="flagshipToggle">
+              <input id="flagshipToggle" type="checkbox" />
+              <span class="toggle-copy">
+                <strong id="flagshipToggleLabel">只看旗舰资源</strong>
+                <small id="flagshipToggleHint">保留最高优先级的核心资源。</small>
+              </span>
+            </label>
+            <label class="toggle-card" for="openToggle">
+              <input id="openToggle" type="checkbox" />
+              <span class="toggle-copy">
+                <strong id="openToggleLabel">优先开放入口</strong>
+                <small id="openToggleHint">隐藏需要复杂访问流程的资源。</small>
+              </span>
+            </label>
+          </div>
+        </section>
+      </aside>
+
+      <div class="content-rail">
+        <section class="control-panel" id="browse" aria-labelledby="controlsTitle">
+          <div class="control-head">
+            <div>
+              <p class="eyebrow" id="controlsEyebrow">Browse</p>
+              <h2 id="controlsTitle">按专题、热度和时间筛选</h2>
+            </div>
+            <div class="control-summary">
+              <p class="control-caption" id="resultSummary">正在载入资源清单…</p>
+              <button type="button" class="clear-btn" id="clearFiltersBtn">重置筛选</button>
+            </div>
+          </div>
+
+          <div class="control-grid">
+            <label class="search-box">
+              <span id="searchLabel">搜索关键词</span>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="输入数据源、机构、变量、方法或专题关键词"
+                autocomplete="off"
+              />
+            </label>
+
+            <label class="sort-box">
+              <span id="sortLabel">排序方式</span>
+              <select id="sortSelect">
+                <option value="heat" id="sortOptionHeat">热度优先</option>
+                <option value="recent" id="sortOptionRecent">时间优先</option>
+                <option value="name" id="sortOptionName">名称 A-Z</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="filter-row" id="categoryFilters" aria-label="专题筛选"></div>
+          <div class="active-filters" id="activeFilters"></div>
+        </section>
+
+        <section class="resource-shell" id="resourceSections" aria-live="polite"></section>
+
+        <section class="methodology" id="methodology">
+          <div>
+            <p class="eyebrow" id="methodologyEyebrow">Curation Notes</p>
+            <h2 id="methodologyTitle">收录标准</h2>
+          </div>
+          <div class="method-grid" id="methodologyGrid"></div>
+        </section>
       </div>
-
-      <div class="control-grid">
-        <label class="search-box">
-          <span id="searchLabel">搜索关键词</span>
-          <input
-            id="searchInput"
-            type="search"
-            placeholder="输入数据源、机构、变量、方法或专题关键词"
-            autocomplete="off"
-          />
-        </label>
-
-        <label class="sort-box">
-          <span id="sortLabel">排序方式</span>
-          <select id="sortSelect">
-            <option value="heat" id="sortOptionHeat">热度优先</option>
-            <option value="recent" id="sortOptionRecent">时间优先</option>
-            <option value="name" id="sortOptionName">名称 A-Z</option>
-          </select>
-        </label>
-      </div>
-
-      <div class="filter-row" id="categoryFilters" aria-label="专题筛选"></div>
-    </section>
-
-    <section class="resource-shell" id="resourceSections" aria-live="polite"></section>
-
-    <section class="methodology">
-      <div>
-        <p class="eyebrow" id="methodologyEyebrow">Curation Notes</p>
-        <h2 id="methodologyTitle">收录标准</h2>
-      </div>
-      <div class="method-grid" id="methodologyGrid"></div>
-    </section>
+    </div>
   </main>
 
   <footer class="footer">

@@ -875,7 +875,9 @@ const state = {
   query: "",
   category: "全部",
   sort: "heat",
-  lang: localStorage.getItem("ecology-data-language") || "zh"
+  lang: localStorage.getItem("ecology-data-language") || "zh",
+  flagshipOnly: false,
+  openOnly: false
 };
 
 const categoryMetaLookup = {
@@ -922,6 +924,8 @@ const uiCopy = {
     heroLead:
       "为宏观生态学、生物地理学和保护生物学研究整理的权威数据入口，覆盖地理空间、气候、生物多样性、保护地、物种编目与生态性状、人类活动与社会经济，以及高价值生态学数据论文。",
     heroTags: ["专业", "开源优先", "权威官网直达", "可用于建模与制图", "按热度与时间浏览"],
+    browseLink: "开始浏览",
+    criteriaLink: "查看筛选标准",
     legendTitle: "排序说明",
     legendDescription: "默认在每个专题内按照“热度优先，其次时间”排序，也可切换为“时间优先”。",
     legendItems: [
@@ -930,6 +934,8 @@ const uiCopy = {
       { term: "常用", desc: "专业可靠、适合专题建模或补充分析。" },
       { term: "专题", desc: "适合特定问题、区域或分析流程。" }
     ],
+    featuredEyebrow: "Curated Picks",
+    featuredTitle: "旗舰资源速览",
     introCards: [
       {
         title: "研究场景 1",
@@ -954,6 +960,15 @@ const uiCopy = {
       recent: "时间优先",
       name: "名称 A-Z"
     },
+    navEyebrow: "Topic Map",
+    navTitle: "专题导航",
+    focusEyebrow: "Focus Tools",
+    focusTitle: "快速收敛",
+    flagshipToggleLabel: "只看旗舰资源",
+    flagshipToggleHint: "保留最高优先级的核心资源。",
+    openToggleLabel: "优先开放入口",
+    openToggleHint: "隐藏需要复杂访问流程的资源。",
+    clearFilters: "重置筛选",
     methodologyEyebrow: "Curation Notes",
     methodologyTitle: "收录标准",
     methodologyCards: [
@@ -978,6 +993,7 @@ const uiCopy = {
     footerLink: "回到个人主页",
     resultSummary: (count) => `当前显示 ${count} 条资源`,
     emptyState: "没有匹配到资源。建议换一个关键词，或切回“全部”专题浏览。",
+    featuredFallback: "优先展示旗舰和高热资源，帮助你快速找到常用核心入口。",
     stats: [
       "精选资源总数",
       "专题类别",
@@ -989,7 +1005,12 @@ const uiCopy = {
     topicLabel: "Topic",
     countLabel: (count) => `${count} 条`,
     factLabels: { access: "访问", license: "许可", version: "版本" },
-    heatLabel: { 4: "旗舰", 3: "高热", 2: "常用", 1: "专题" }
+    heatLabel: { 4: "旗舰", 3: "高热", 2: "常用", 1: "专题" },
+    activeCategory: (label) => `专题：${label}`,
+    activeFlagship: "仅旗舰资源",
+    activeOpen: "开放入口优先",
+    useFor: "适用",
+    allTopicsShort: "全部专题"
   },
   en: {
     homeLink: "Back to main site",
@@ -999,6 +1020,8 @@ const uiCopy = {
     heroLead:
       "A curated gateway to authoritative resources for macroecology, biogeography, and conservation biology, covering geospatial layers, climate, biodiversity, protected areas, taxonomic catalogues and traits, human activity and socioeconomics, plus influential ecological data papers.",
     heroTags: ["Research-grade", "Open-first", "Official source links", "Ready for mapping and modelling", "Sorted by relevance and time"],
+    browseLink: "Start browsing",
+    criteriaLink: "See curation criteria",
     legendTitle: "Ranking guide",
     legendDescription: "Within each topic, resources are ranked by community importance first and recency second by default. You can switch to recency-first at any time.",
     legendItems: [
@@ -1007,6 +1030,8 @@ const uiCopy = {
       { term: "Standard", desc: "Reliable professional resources suitable for thematic modelling and supplements." },
       { term: "Niche", desc: "Useful for specific questions, regions, or analytical workflows." }
     ],
+    featuredEyebrow: "Curated Picks",
+    featuredTitle: "Flagship shortcuts",
     introCards: [
       {
         title: "Use case 1",
@@ -1031,6 +1056,15 @@ const uiCopy = {
       recent: "Newest first",
       name: "Name A-Z"
     },
+    navEyebrow: "Topic Map",
+    navTitle: "Topic navigator",
+    focusEyebrow: "Focus Tools",
+    focusTitle: "Narrow faster",
+    flagshipToggleLabel: "Flagship resources only",
+    flagshipToggleHint: "Keep only the highest-priority core resources.",
+    openToggleLabel: "Open-access first",
+    openToggleHint: "Hide resources with more restrictive access paths.",
+    clearFilters: "Reset filters",
     methodologyEyebrow: "Curation Notes",
     methodologyTitle: "Selection criteria",
     methodologyCards: [
@@ -1056,6 +1090,7 @@ const uiCopy = {
     footerLink: "Back to main site",
     resultSummary: (count) => `Showing ${count} resources`,
     emptyState: "No matching resources found. Try another keyword or switch back to All topics.",
+    featuredFallback: "These flagship and high-use resources are surfaced first so you can jump straight into the most reused gateways.",
     stats: [
       "Curated resources",
       "Topic groups",
@@ -1067,7 +1102,12 @@ const uiCopy = {
     topicLabel: "Topic",
     countLabel: (count) => `${count} items`,
     factLabels: { access: "Access", license: "License", version: "Version" },
-    heatLabel: { 4: "Flagship", 3: "High-use", 2: "Standard", 1: "Niche" }
+    heatLabel: { 4: "Flagship", 3: "High-use", 2: "Standard", 1: "Niche" },
+    activeCategory: (label) => `Topic: ${label}`,
+    activeFlagship: "Flagship only",
+    activeOpen: "Open-access first",
+    useFor: "Best for",
+    allTopicsShort: "All topics"
   }
 };
 
@@ -1227,6 +1267,16 @@ const sortSelect = document.querySelector("#sortSelect");
 const introStrip = document.querySelector("#introStrip");
 const methodologyGrid = document.querySelector("#methodologyGrid");
 const languageButtons = document.querySelectorAll("[data-lang]");
+const featuredStack = document.querySelector("#featuredStack");
+const topicNavigator = document.querySelector("#topicNavigator");
+const activeFilters = document.querySelector("#activeFilters");
+const clearFiltersBtn = document.querySelector("#clearFiltersBtn");
+const flagshipToggle = document.querySelector("#flagshipToggle");
+const openToggle = document.querySelector("#openToggle");
+
+function categoryToSectionId(categoryId) {
+  return `topic-${categoryMeta.findIndex((item) => item.id === categoryId)}`;
+}
 
 function getUi() {
   return uiCopy[state.lang] || uiCopy.zh;
@@ -1258,6 +1308,76 @@ function getTags(item) {
   return item.tags.map((tag) => exactFieldTranslations.tag[tag] || tag);
 }
 
+function isOpenAccess(item) {
+  return item.access.includes("开放") || item.access.toLowerCase().includes("open");
+}
+
+function matchesQuery(item, query) {
+  if (!query) {
+    return true;
+  }
+
+  const categoryStrings = [item.category, getCategoryMeta(item.category).label, getCategoryMeta(item.category).description];
+  const haystack = [
+    item.title,
+    item.org,
+    item.description,
+    getDescription(item),
+    item.access,
+    translateExact("access", item.access),
+    item.license,
+    translateExact("license", item.license),
+    item.version,
+    translateExact("version", item.version),
+    item.updated,
+    translateExact("updated", item.updated),
+    ...item.tags,
+    ...getTags(item),
+    ...categoryStrings
+  ]
+    .join(" ")
+    .toLowerCase();
+
+  return query
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .every((word) => haystack.includes(word));
+}
+
+function getFilteredResources(options = {}) {
+  const { ignoreCategory = false } = options;
+  return resources.filter((item) => {
+    const categoryOk = ignoreCategory || state.category === "全部" || item.category === state.category;
+    const queryOk = matchesQuery(item, state.query);
+    const flagshipOk = !state.flagshipOnly || item.heat >= 4;
+    const openOk = !state.openOnly || isOpenAccess(item);
+    return categoryOk && queryOk && flagshipOk && openOk;
+  });
+}
+
+function compareByHeat(a, b) {
+  return b.heat - a.heat || b.year - a.year || a.title.localeCompare(b.title, "zh-CN");
+}
+
+function compareByRecent(a, b) {
+  return b.year - a.year || b.heat - a.heat || a.title.localeCompare(b.title, "zh-CN");
+}
+
+function compareByName(a, b) {
+  return a.title.localeCompare(b.title, "zh-CN");
+}
+
+function sortResources(items) {
+  if (state.sort === "recent") {
+    return [...items].sort(compareByRecent);
+  }
+  if (state.sort === "name") {
+    return [...items].sort(compareByName);
+  }
+  return [...items].sort(compareByHeat);
+}
+
 function renderStaticUi() {
   const ui = getUi();
   document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
@@ -1267,12 +1387,25 @@ function renderStaticUi() {
   document.querySelector("#heroEyebrow").textContent = ui.heroEyebrow;
   document.querySelector("#heroTitle").textContent = ui.heroTitle;
   document.querySelector("#heroLead").textContent = ui.heroLead;
+  document.querySelector("#browseLink").textContent = ui.browseLink;
+  document.querySelector("#criteriaLink").textContent = ui.criteriaLink;
   document.querySelector("#legendTitle").textContent = ui.legendTitle;
   document.querySelector("#legendDescription").textContent = ui.legendDescription;
+  document.querySelector("#featuredEyebrow").textContent = ui.featuredEyebrow;
+  document.querySelector("#featuredTitle").textContent = ui.featuredTitle;
   document.querySelector("#controlsEyebrow").textContent = ui.controlsEyebrow;
   document.querySelector("#controlsTitle").textContent = ui.controlsTitle;
   document.querySelector("#searchLabel").textContent = ui.searchLabel;
   document.querySelector("#sortLabel").textContent = ui.sortLabel;
+  document.querySelector("#navEyebrow").textContent = ui.navEyebrow;
+  document.querySelector("#navTitle").textContent = ui.navTitle;
+  document.querySelector("#focusEyebrow").textContent = ui.focusEyebrow;
+  document.querySelector("#focusTitle").textContent = ui.focusTitle;
+  document.querySelector("#flagshipToggleLabel").textContent = ui.flagshipToggleLabel;
+  document.querySelector("#flagshipToggleHint").textContent = ui.flagshipToggleHint;
+  document.querySelector("#openToggleLabel").textContent = ui.openToggleLabel;
+  document.querySelector("#openToggleHint").textContent = ui.openToggleHint;
+  document.querySelector("#clearFiltersBtn").textContent = ui.clearFilters;
   document.querySelector("#methodologyEyebrow").textContent = ui.methodologyEyebrow;
   document.querySelector("#methodologyTitle").textContent = ui.methodologyTitle;
   document.querySelector("#footerNote").textContent = ui.footerNote;
@@ -1312,11 +1445,14 @@ function renderStaticUi() {
   languageButtons.forEach((button) => {
     button.classList.toggle("is-active", button.dataset.lang === state.lang);
   });
+
+  flagshipToggle.checked = state.flagshipOnly;
+  openToggle.checked = state.openOnly;
 }
 
 function renderSummary() {
   const ui = getUi();
-  const openCount = resources.filter((item) => item.access.includes("开放") || item.access.includes("Open")).length;
+  const openCount = resources.filter((item) => isOpenAccess(item)).length;
   const paperCount = resources.filter((item) => item.category === "生态学数据论文专题").length;
   const latestCount = resources.filter((item) => item.year >= 2024).length;
   const stats = [
@@ -1340,6 +1476,25 @@ function renderSummary() {
     .join("");
 }
 
+function renderFeaturedStack() {
+  const ui = getUi();
+  const picks = [...resources.filter((item) => item.heat >= 3)].sort(compareByHeat).slice(0, 5);
+
+  featuredStack.innerHTML = picks.length
+    ? picks
+        .map(
+          (item) => `
+            <a class="featured-item" href="${item.primaryUrl}" target="_blank" rel="noopener">
+              <span class="featured-topic">${getCategoryMeta(item.category).label}</span>
+              <strong>${item.title}</strong>
+              <span>${getDescription(item)}</span>
+            </a>
+          `
+        )
+        .join("")
+    : `<div class="featured-item"><span>${ui.featuredFallback}</span></div>`;
+}
+
 function renderFilters() {
   categoryFilters.innerHTML = categoryMeta
     .map(
@@ -1358,81 +1513,88 @@ function renderFilters() {
   categoryFilters.querySelectorAll("[data-category]").forEach((button) => {
     button.addEventListener("click", () => {
       state.category = button.dataset.category;
-      renderFilters();
-      renderResources();
+      renderAll();
     });
   });
 }
 
-function matchesQuery(item, query) {
-  if (!query) {
-    return true;
+function renderTopicNavigator() {
+  const scoped = getFilteredResources({ ignoreCategory: true });
+  topicNavigator.innerHTML = categoryMeta
+    .map((category) => {
+      const label = getCategoryMeta(category.id).label;
+      const description = getCategoryMeta(category.id).description;
+      const count = category.id === "全部" ? scoped.length : scoped.filter((item) => item.category === category.id).length;
+
+      return `
+        <button
+          type="button"
+          class="topic-link ${state.category === category.id ? "is-active" : ""}"
+          data-topic-nav="${category.id}"
+        >
+          <span class="topic-link-label">
+            <strong>${label}</strong>
+            <span>${description}</span>
+          </span>
+          <span class="topic-link-count">${count}</span>
+        </button>
+      `;
+    })
+    .join("");
+
+  topicNavigator.querySelectorAll("[data-topic-nav]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.category = button.dataset.topicNav;
+      renderAll();
+      document.querySelector("#browse")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function renderActiveFilters() {
+  const ui = getUi();
+  const pills = [];
+
+  if (state.category !== "全部") {
+    pills.push(ui.activeCategory(getCategoryMeta(state.category).label));
+  }
+  if (state.flagshipOnly) {
+    pills.push(ui.activeFlagship);
+  }
+  if (state.openOnly) {
+    pills.push(ui.activeOpen);
+  }
+  if (state.query) {
+    pills.push(`"${state.query}"`);
   }
 
-  const categoryStrings = [item.category, getCategoryMeta(item.category).label, getCategoryMeta(item.category).description];
-  const haystack = [
-    item.title,
-    item.org,
-    item.description,
-    getDescription(item),
-    item.access,
-    translateExact("access", item.access),
-    item.license,
-    translateExact("license", item.license),
-    item.version,
-    translateExact("version", item.version),
-    item.updated,
-    translateExact("updated", item.updated),
-    ...item.tags,
-    ...getTags(item),
-    ...categoryStrings
-  ]
-    .join(" ")
-    .toLowerCase();
-
-  return query
-    .toLowerCase()
-    .split(/\s+/)
-    .filter(Boolean)
-    .every((word) => haystack.includes(word));
-}
-
-function compareByHeat(a, b) {
-  return b.heat - a.heat || b.year - a.year || a.title.localeCompare(b.title, "zh-CN");
-}
-
-function compareByRecent(a, b) {
-  return b.year - a.year || b.heat - a.heat || a.title.localeCompare(b.title, "zh-CN");
-}
-
-function compareByName(a, b) {
-  return a.title.localeCompare(b.title, "zh-CN");
-}
-
-function sortResources(items) {
-  if (state.sort === "recent") {
-    return [...items].sort(compareByRecent);
-  }
-  if (state.sort === "name") {
-    return [...items].sort(compareByName);
-  }
-  return [...items].sort(compareByHeat);
+  activeFilters.innerHTML = pills.map((pill) => `<span class="active-pill">${pill}</span>`).join("");
 }
 
 function renderCard(item) {
   const ui = getUi();
   const tags = getTags(item);
+  const useCases = tags.slice(0, 3);
   return `
     <article class="resource-card">
       <div class="card-top">
-        <span class="heat-badge">${ui.heatLabel[item.heat]}</span>
+        <div class="card-top-left">
+          <span class="topic-badge">${getCategoryMeta(item.category).label}</span>
+          <span class="heat-badge">${ui.heatLabel[item.heat]}</span>
+        </div>
         <span class="date-badge">${translateExact("updated", item.updated)}</span>
       </div>
       <div>
         <h3>${item.title}</h3>
         <p class="resource-org">${item.org}</p>
       </div>
-      <p>${getDescription(item)}</p>
+      <div class="card-summary">
+        <p>${getDescription(item)}</p>
+        <div class="card-use-row">
+          <span class="use-label">${ui.useFor}</span>
+          ${useCases.map((tag) => `<span class="use-case">${tag}</span>`).join("")}
+        </div>
+      </div>
       <div class="card-facts">
         <span class="fact"><strong>${ui.factLabels.access}:</strong> ${translateExact("access", item.access)}</span>
         <span class="fact"><strong>${ui.factLabels.license}:</strong> ${translateExact("license", item.license)}</span>
@@ -1455,10 +1617,7 @@ function renderCard(item) {
 
 function renderResources() {
   const ui = getUi();
-  const filtered = resources.filter((item) => {
-    const categoryOk = state.category === "全部" || item.category === state.category;
-    return categoryOk && matchesQuery(item, state.query);
-  });
+  const filtered = getFilteredResources();
 
   resultSummary.textContent = ui.resultSummary(filtered.length);
 
@@ -1480,7 +1639,7 @@ function renderResources() {
       }
 
       return `
-        <section class="resource-section" id="${category.id}">
+        <section class="resource-section" id="${categoryToSectionId(category.id)}">
           <div class="section-head">
             <div>
               <p class="eyebrow">${ui.topicLabel}</p>
@@ -1500,28 +1659,53 @@ function renderResources() {
   resourceSections.innerHTML = sections;
 }
 
+function renderAll() {
+  renderStaticUi();
+  renderSummary();
+  renderFeaturedStack();
+  renderFilters();
+  renderTopicNavigator();
+  renderActiveFilters();
+  renderResources();
+}
+
 searchInput.addEventListener("input", (event) => {
   state.query = event.target.value.trim();
-  renderResources();
+  renderAll();
 });
 
 sortSelect.addEventListener("change", (event) => {
   state.sort = event.target.value;
-  renderResources();
+  renderAll();
 });
 
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.lang = button.dataset.lang;
     localStorage.setItem("ecology-data-language", state.lang);
-    renderStaticUi();
-    renderSummary();
-    renderFilters();
-    renderResources();
+    renderAll();
   });
 });
 
-renderStaticUi();
-renderSummary();
-renderFilters();
-renderResources();
+flagshipToggle.addEventListener("change", () => {
+  state.flagshipOnly = flagshipToggle.checked;
+  renderAll();
+});
+
+openToggle.addEventListener("change", () => {
+  state.openOnly = openToggle.checked;
+  renderAll();
+});
+
+clearFiltersBtn.addEventListener("click", () => {
+  state.query = "";
+  state.category = "全部";
+  state.sort = "heat";
+  state.flagshipOnly = false;
+  state.openOnly = false;
+  searchInput.value = "";
+  sortSelect.value = "heat";
+  renderAll();
+});
+
+renderAll();
