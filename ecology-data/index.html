@@ -145,7 +145,28 @@
           </div>
 
           <div class="filter-row" id="categoryFilters" aria-label="专题筛选"></div>
+          <div class="workflow-panel" id="workflowFilterPanel">
+            <div class="workflow-head">
+              <div>
+                <p class="eyebrow" id="workflowFilterEyebrow">R Workflows</p>
+                <h3 id="workflowFilterTitle">按任务筛选 R 包</h3>
+              </div>
+              <p class="workflow-hint" id="workflowFilterHint">点击任务即可快速切到对应的生态学 R 工作流。</p>
+            </div>
+            <div class="workflow-row" id="workflowFilters" aria-label="R 包任务筛选"></div>
+          </div>
           <div class="active-filters" id="activeFilters"></div>
+        </section>
+
+        <section class="guide-panel" id="researchGuide">
+          <div class="guide-head">
+            <div>
+              <p class="eyebrow" id="guideEyebrow">Research Paths</p>
+              <h2 id="guideTitle">推荐起步组合与研究问题</h2>
+            </div>
+            <p class="guide-lead" id="guideLead">先按研究问题找到专题，再进入资源卡片快速定位数据和工具。</p>
+          </div>
+          <div class="guide-grid" id="guideGrid"></div>
         </section>
 
         <section class="resource-shell" id="resourceSections" aria-live="polite"></section>

@@ -620,6 +620,74 @@ a {
   margin-top: 18px;
 }
 
+.workflow-panel {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(245, 248, 238, 0.92), rgba(255, 255, 255, 0.94));
+  border: 1px solid rgba(23, 49, 39, 0.08);
+}
+
+.workflow-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: end;
+}
+
+.workflow-head h3,
+.guide-head h2,
+.guide-copy h3 {
+  margin: 0;
+}
+
+.workflow-hint,
+.guide-lead {
+  margin: 0;
+  max-width: 34rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.workflow-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.workflow-chip {
+  display: grid;
+  gap: 6px;
+  text-align: left;
+  padding: 14px 15px;
+  border-radius: 18px;
+  border: 1px solid rgba(23, 49, 39, 0.11);
+  background: rgba(255, 255, 255, 0.95);
+  color: #234237;
+  font: inherit;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.workflow-chip strong {
+  font-size: 0.96rem;
+}
+
+.workflow-chip small {
+  color: #5c6d66;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.workflow-chip:hover,
+.workflow-chip.is-active {
+  transform: translateY(-1px);
+  background: rgba(31, 106, 75, 0.1);
+  border-color: rgba(31, 106, 75, 0.26);
+  box-shadow: 0 10px 18px rgba(31, 106, 75, 0.08);
+}
+
 .active-filters {
   display: flex;
   flex-wrap: wrap;
@@ -657,6 +725,110 @@ a {
   background: rgba(31, 106, 75, 0.12);
   border-color: rgba(31, 106, 75, 0.28);
   color: #174b35;
+}
+
+.guide-panel {
+  border-radius: 28px;
+  padding: 24px;
+  background: linear-gradient(180deg, rgba(255, 252, 245, 0.92), rgba(250, 247, 240, 0.96));
+  border: 1px solid rgba(92, 73, 24, 0.09);
+  box-shadow: var(--shadow-soft);
+}
+
+.guide-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: end;
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.guide-card {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(23, 49, 39, 0.08);
+}
+
+.guide-card-top,
+.guide-questions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.guide-action-meta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(36, 106, 115, 0.08);
+  border: 1px solid rgba(36, 106, 115, 0.14);
+  color: #23565d;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.guide-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.guide-copy p {
+  margin: 0;
+  color: #42564d;
+}
+
+.guide-section-label {
+  margin: 0;
+  width: 100%;
+  color: #7b5c1f;
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.guide-question {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: rgba(214, 171, 88, 0.13);
+  border: 1px solid rgba(212, 154, 59, 0.2);
+  color: #6a4c12;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.guide-action {
+  justify-self: start;
+  min-height: 40px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(23, 49, 39, 0.11);
+  background: rgba(255, 255, 255, 0.96);
+  color: #224538;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.guide-action:hover {
+  transform: translateY(-1px);
+  border-color: rgba(31, 106, 75, 0.24);
+  box-shadow: 0 10px 18px rgba(31, 106, 75, 0.08);
 }
 
 .resource-shell {
@@ -1002,11 +1174,16 @@ a {
   .hero-grid,
   .card-grid,
   .intro-strip,
-  .method-grid {
+  .method-grid,
+  .guide-grid {
     grid-template-columns: 1fr;
   }
 
   .learning-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .workflow-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1027,7 +1204,9 @@ a {
   .site-bar,
   .section-head,
   .control-head,
-  .page-tools {
+  .page-tools,
+  .workflow-head,
+  .guide-head {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -1042,6 +1221,7 @@ a {
   .hero-panel,
   .side-card,
   .control-panel,
+  .guide-panel,
   .resource-section,
   .methodology {
     border-radius: 22px;
@@ -1060,6 +1240,7 @@ a {
     padding: 16px;
   }
 
+  .workflow-row,
   .learning-grid {
     grid-template-columns: 1fr;
   }

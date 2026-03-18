@@ -1704,6 +1704,7 @@ const resources = [
 const state = {
   query: "",
   category: "全部",
+  rTask: "all",
   sort: "heat",
   lang: localStorage.getItem("ecology-data-language") || "zh",
   flagshipOnly: false,
@@ -1750,6 +1751,191 @@ const categoryMetaLookup = {
   生态学数据论文专题: {
     zh: { label: "生态学数据论文专题", description: "高价值数据论文、数据描述论文和核心方法参考。" },
     en: { label: "Ecological Data Papers", description: "High-value data papers, dataset descriptors, and core methodological references." }
+  }
+};
+
+const rPackageTasks = [
+  {
+    id: "all",
+    labelZh: "全部任务",
+    labelEn: "All workflows",
+    hintZh: "显示全部生态学 R 包",
+    hintEn: "Show every ecology R package"
+  },
+  {
+    id: "ordination",
+    labelZh: "排序分析",
+    labelEn: "Ordination",
+    hintZh: "PCA、CA、NMDS、RDA、空间排序",
+    hintEn: "PCA, CA, NMDS, RDA, and spatial ordination",
+    packageIds: ["ade4", "adespatial", "ggvegan", "vegan"]
+  },
+  {
+    id: "diversity",
+    labelZh: "多样性指标",
+    labelEn: "Diversity",
+    hintZh: "稀释曲线、beta 分解、功能多样性",
+    hintEn: "Rarefaction, beta partitioning, and functional diversity",
+    packageIds: ["vegan", "inext", "betapart", "fd-package"]
+  },
+  {
+    id: "sdm",
+    labelZh: "物种分布模型",
+    labelEn: "SDM",
+    hintZh: "集合建模、调参、生态位评估",
+    hintEn: "Ensemble modelling, tuning, and niche-model evaluation",
+    packageIds: ["biomod2", "enmeval", "ecospat"]
+  },
+  {
+    id: "occupancy",
+    labelZh: "占域模型",
+    labelEn: "Occupancy",
+    hintZh: "检测概率、占域率、监测数据",
+    hintEn: "Detection, occupancy, and monitoring workflows",
+    packageIds: ["unmarked"]
+  },
+  {
+    id: "glmm",
+    labelZh: "混合效应 / GLMM",
+    labelEn: "GLMM",
+    hintZh: "层级模型、计数数据、零膨胀",
+    hintEn: "Hierarchical models, count data, and zero inflation",
+    packageIds: ["lme4", "glmmtmb"]
+  },
+  {
+    id: "bayesian",
+    labelZh: "贝叶斯建模",
+    labelEn: "Bayesian",
+    hintZh: "Stan、多层模型、后验预测",
+    hintEn: "Stan, multilevel models, and posterior workflows",
+    packageIds: ["brms"]
+  },
+  {
+    id: "sem",
+    labelZh: "结构方程模型",
+    labelEn: "SEM",
+    hintZh: "分段 SEM、路径分析、潜变量",
+    hintEn: "Piecewise SEM, path analysis, and latent variables",
+    packageIds: ["piecewise-sem", "lavaan"]
+  },
+  {
+    id: "meta",
+    labelZh: "Meta 分析",
+    labelEn: "Meta-analysis",
+    hintZh: "森林图、漏斗图、元回归",
+    hintEn: "Forest plots, funnel plots, and meta-regression",
+    packageIds: ["metafor"]
+  }
+];
+
+const researchGuideCards = {
+  地理空间专题数据: {
+    zh: {
+      title: "中国制图与基础空间叠加",
+      starter: "标准地图服务系统 + 天地图 + Natural Earth / GADM + HydroRIVERS + Geofabrik",
+      questions: ["如何快速做中国国家、省、市、县多层级标准地图？", "如何叠加道路、河流、湖泊和行政边界做论文图？"]
+    },
+    en: {
+      title: "China mapping and base overlays",
+      starter: "National Standard Map Service + Tianditu + Natural Earth or GADM + HydroRIVERS + Geofabrik",
+      questions: ["How do I assemble standard maps across national, provincial, prefectural, and county levels in China?", "How do I overlay roads, rivers, lakes, and boundaries for publication-ready figures?"]
+    }
+  },
+  土地利用专题: {
+    zh: {
+      title: "土地利用变化与未来情景",
+      starter: "WorldCover / GlobeLand30 / FROM-GLC + Copernicus LC100 + ESA CCI + LUH2 / 中国 SSP-RCP",
+      questions: ["想比较不同土地覆盖产品的空间分辨率和时间连续性？", "想做历史变化、未来情景和生态响应的联动分析？"]
+    },
+    en: {
+      title: "Land-use change and scenarios",
+      starter: "WorldCover or GlobeLand30 or FROM-GLC + Copernicus LC100 + ESA CCI + LUH2 or China SSP-RCP",
+      questions: ["How do I compare major land-cover products by resolution and temporal continuity?", "How do I connect historical land change with future scenarios and ecological responses?"]
+    }
+  },
+  气候专题: {
+    zh: {
+      title: "气候基准面与未来预测",
+      starter: "WorldClim / CHELSA + TerraClimate / ERA5-Land + CMFD 2.0 + 数据论文",
+      questions: ["做 SDM 时应该优先选哪类气候面和时序气候数据？", "如何兼顾全球分析、中国区域和未来情景预测？"]
+    },
+    en: {
+      title: "Climate baselines and projections",
+      starter: "WorldClim or CHELSA + TerraClimate or ERA5-Land + CMFD 2.0 + data papers",
+      questions: ["Which climate surfaces and time-series products are best suited to SDMs?", "How do I balance global coverage, China-focused analyses, and future projections?"]
+    }
+  },
+  生物多样性专题: {
+    zh: {
+      title: "分布记录与群落变化",
+      starter: "GBIF / eBird / OBIS + BioTIME / PREDICTS + sPlotOpen",
+      questions: ["想获取全球物种出现记录、监测序列和群落变化数据？", "想比较陆地、海洋和长期时间序列数据的适用性？"]
+    },
+    en: {
+      title: "Occurrences and community change",
+      starter: "GBIF or eBird or OBIS + BioTIME or PREDICTS + sPlotOpen",
+      questions: ["How do I gather global occurrences, monitoring series, and community-change datasets?", "How do I compare terrestrial, marine, and long-term biodiversity sources?"]
+    }
+  },
+  保护地专题: {
+    zh: {
+      title: "保护优先区与保护成效",
+      starter: "WDPCA + Protected Planet API + GD-PAME + KBA",
+      questions: ["如何做保护地覆盖、空缺分析和关键生物多样性区域叠加？", "如何从面积覆盖拓展到管理成效和政策评估？"]
+    },
+    en: {
+      title: "Priority areas and management outcomes",
+      starter: "WDPCA + Protected Planet API + GD-PAME + KBA",
+      questions: ["How do I run coverage or gap analyses and overlay protected areas with KBAs?", "How do I move from area coverage to management effectiveness and policy evaluation?"]
+    }
+  },
+  "物种编目及生态性状": {
+    zh: {
+      title: "物种名录、红名录与性状整合",
+      starter: "Catalogue of Life + IUCN Spatial Data + TRY + GIFT + AVONET / EltonTraits / PanTHERIA",
+      questions: ["如何做学名清洗、同物异名处理和分类骨架统一？", "如何把植物和动物性状接入宏观生态和功能多样性分析？"]
+    },
+    en: {
+      title: "Taxonomy, red lists, and traits",
+      starter: "Catalogue of Life + IUCN Spatial Data + TRY + GIFT + AVONET or EltonTraits or PanTHERIA",
+      questions: ["How do I standardize names, synonyms, and taxonomic backbones?", "How do I connect plant and animal traits to macroecology and functional analyses?"]
+    }
+  },
+  人类活动与社会经济专题: {
+    zh: {
+      title: "人类压力与社会生态耦合",
+      starter: "WorldPop / GPWv4 + VIIRS Nighttime Lights + Human Footprint + HYDE",
+      questions: ["如何量化人口密度、夜间灯光和人类活动强度？", "如何把历史土地利用和人口变化接入生物多样性响应研究？"]
+    },
+    en: {
+      title: "Human pressure and coupled systems",
+      starter: "WorldPop or GPWv4 + VIIRS Nighttime Lights + Human Footprint + HYDE",
+      questions: ["How do I quantify population density, night lights, and human activity intensity?", "How do I connect historical land use and population trajectories to biodiversity responses?"]
+    }
+  },
+  "生态学 R 包专题": {
+    zh: {
+      title: "生态学 R 工作流导航",
+      starter: "vegan / ade4 / ggvegan + iNEXT / betapart / FD + biomod2 / ENMeval + unmarked + lme4 / glmmTMB + brms + piecewiseSEM / lavaan",
+      questions: ["我现在做的是排序分析、GLMM、SDM、SEM 还是 Meta 分析？", "我想直接看中文教程、官方案例还是高质量作图示例？"]
+    },
+    en: {
+      title: "Ecology R workflow map",
+      starter: "vegan or ade4 or ggvegan + iNEXT or betapart or FD + biomod2 or ENMeval + unmarked + lme4 or glmmTMB + brms + piecewiseSEM or lavaan",
+      questions: ["Am I doing ordination, GLMMs, SDMs, SEM, or meta-analysis?", "Do I want Chinese tutorials, official examples, or polished plotting references first?"]
+    }
+  },
+  "生态学数据论文专题": {
+    zh: {
+      title: "数据论文与方法追踪",
+      starter: "WorldClim / CHELSA / SoilGrids / Surface Water / PREDICTS / BioTIME / TRY / AVONET / LUH2 论文",
+      questions: ["想快速找到高价值数据论文、数据说明文和代表性方法文章？", "想核对数据集的版本背景、变量定义和推荐引用方式？"]
+    },
+    en: {
+      title: "Data papers and method tracking",
+      starter: "WorldClim or CHELSA or SoilGrids or Surface Water or PREDICTS or BioTIME or TRY or AVONET or LUH2 papers",
+      questions: ["How do I quickly find high-value data papers and dataset descriptor articles?", "How do I verify provenance, variable definitions, and recommended citations?"]
+    }
   }
 };
 
@@ -1802,6 +1988,9 @@ const uiCopy = {
     ],
     controlsEyebrow: "Browse",
     controlsTitle: "按专题、热度和时间筛选",
+    workflowFilterEyebrow: "R Workflow Filters",
+    workflowFilterTitle: "按任务筛选 R 包",
+    workflowFilterHint: "点击任务即可快速切到对应的生态学 R 工作流。",
     searchLabel: "搜索关键词",
     searchPlaceholder: "输入数据源、机构、变量、土地利用、标准地图、R 包、教程、案例或专题关键词",
     sortLabel: "排序方式",
@@ -1819,6 +2008,9 @@ const uiCopy = {
     openToggleLabel: "优先开放入口",
     openToggleHint: "隐藏需要复杂访问流程的资源。",
     clearFilters: "重置筛选",
+    guideEyebrow: "Research Paths",
+    guideTitle: "推荐起步组合与研究问题",
+    guideLead: "先按研究问题找到专题，再进入资源卡片快速定位数据和工具。",
     methodologyEyebrow: "Curation Notes",
     methodologyTitle: "收录标准",
     methodologyCards: [
@@ -1871,8 +2063,12 @@ const uiCopy = {
     activeCategory: (label) => `专题：${label}`,
     activeFlagship: "仅旗舰资源",
     activeOpen: "开放入口优先",
+    activeRTask: (label) => `R 工作流：${label}`,
     useFor: "重点标签",
     learningResourcesTitle: "教程与案例",
+    guideStarterLabel: "推荐起步组合",
+    guideQuestionsLabel: "常见研究问题",
+    guideAction: "切到本专题",
     allTopicsShort: "全部专题"
   },
   en: {
@@ -1923,6 +2119,9 @@ const uiCopy = {
     ],
     controlsEyebrow: "Browse",
     controlsTitle: "Filter by topic, importance, and time",
+    workflowFilterEyebrow: "R Workflow Filters",
+    workflowFilterTitle: "Filter ecology R packages by workflow",
+    workflowFilterHint: "Tap a workflow to jump straight into the matching ecology R-tool set.",
     searchLabel: "Search keywords",
     searchPlaceholder: "Search datasets, institutions, variables, land use, standard maps, R packages, tutorials, examples, or topics",
     sortLabel: "Sort by",
@@ -1940,6 +2139,9 @@ const uiCopy = {
     openToggleLabel: "Open-access first",
     openToggleHint: "Hide resources with more restrictive access paths.",
     clearFilters: "Reset filters",
+    guideEyebrow: "Research Paths",
+    guideTitle: "Starter stacks and research questions",
+    guideLead: "Start from a research question, then jump into the matching topic and data or tool cards.",
     methodologyEyebrow: "Curation Notes",
     methodologyTitle: "Selection criteria",
     methodologyCards: [
@@ -1993,8 +2195,12 @@ const uiCopy = {
     activeCategory: (label) => `Topic: ${label}`,
     activeFlagship: "Flagship only",
     activeOpen: "Open-access first",
+    activeRTask: (label) => `R workflow: ${label}`,
     useFor: "Quick tags",
     learningResourcesTitle: "Tutorials and examples",
+    guideStarterLabel: "Starter stack",
+    guideQuestionsLabel: "Common questions",
+    guideAction: "Open topic",
     allTopicsShort: "All topics"
   }
 };
@@ -2591,11 +2797,14 @@ const exactFieldTranslations = {
 
 const summaryStats = document.querySelector("#summaryStats");
 const categoryFilters = document.querySelector("#categoryFilters");
+const workflowFilterPanel = document.querySelector("#workflowFilterPanel");
+const workflowFilters = document.querySelector("#workflowFilters");
 const resourceSections = document.querySelector("#resourceSections");
 const resultSummary = document.querySelector("#resultSummary");
 const searchInput = document.querySelector("#searchInput");
 const sortSelect = document.querySelector("#sortSelect");
 const introStrip = document.querySelector("#introStrip");
+const guideGrid = document.querySelector("#guideGrid");
 const methodologyGrid = document.querySelector("#methodologyGrid");
 const languageButtons = document.querySelectorAll("[data-lang]");
 const featuredStack = document.querySelector("#featuredStack");
@@ -2639,6 +2848,25 @@ function getTags(item) {
   return item.tags.map((tag) => exactFieldTranslations.tag[tag] || tag);
 }
 
+function getRTaskMeta(taskId) {
+  return rPackageTasks.find((task) => task.id === taskId) || rPackageTasks[0];
+}
+
+function getRTaskLabel(taskId) {
+  const task = getRTaskMeta(taskId);
+  return state.lang === "zh" ? task.labelZh : task.labelEn;
+}
+
+function itemMatchesRTask(item, taskId) {
+  if (taskId === "all") {
+    return true;
+  }
+  if (item.category !== "生态学 R 包专题") {
+    return false;
+  }
+  return getRTaskMeta(taskId).packageIds?.includes(item.id) || false;
+}
+
 function isOpenAccess(item) {
   return item.access.includes("开放") || item.access.toLowerCase().includes("open");
 }
@@ -2647,6 +2875,13 @@ function matchesQuery(item, query) {
   if (!query) {
     return true;
   }
+
+  const learningTerms = (packageLearningResources[item.id] || []).flatMap((resource) => [
+    resource.labelZh,
+    resource.labelEn,
+    resource.noteZh,
+    resource.noteEn
+  ]);
 
   const categoryStrings = [item.category, getCategoryMeta(item.category).label, getCategoryMeta(item.category).description];
   const haystack = [
@@ -2664,6 +2899,7 @@ function matchesQuery(item, query) {
     translateExact("updated", item.updated),
     ...item.tags,
     ...getTags(item),
+    ...learningTerms,
     ...categoryStrings
   ]
     .join(" ")
@@ -2680,10 +2916,11 @@ function getFilteredResources(options = {}) {
   const { ignoreCategory = false } = options;
   return resources.filter((item) => {
     const categoryOk = ignoreCategory || state.category === "全部" || item.category === state.category;
+    const rTaskOk = itemMatchesRTask(item, state.rTask);
     const queryOk = matchesQuery(item, state.query);
     const flagshipOk = !state.flagshipOnly || item.heat >= 4;
     const openOk = !state.openOnly || isOpenAccess(item);
-    return categoryOk && queryOk && flagshipOk && openOk;
+    return categoryOk && rTaskOk && queryOk && flagshipOk && openOk;
   });
 }
 
@@ -2726,8 +2963,14 @@ function renderStaticUi() {
   document.querySelector("#featuredTitle").textContent = ui.featuredTitle;
   document.querySelector("#controlsEyebrow").textContent = ui.controlsEyebrow;
   document.querySelector("#controlsTitle").textContent = ui.controlsTitle;
+  document.querySelector("#workflowFilterEyebrow").textContent = ui.workflowFilterEyebrow;
+  document.querySelector("#workflowFilterTitle").textContent = ui.workflowFilterTitle;
+  document.querySelector("#workflowFilterHint").textContent = ui.workflowFilterHint;
   document.querySelector("#searchLabel").textContent = ui.searchLabel;
   document.querySelector("#sortLabel").textContent = ui.sortLabel;
+  document.querySelector("#guideEyebrow").textContent = ui.guideEyebrow;
+  document.querySelector("#guideTitle").textContent = ui.guideTitle;
+  document.querySelector("#guideLead").textContent = ui.guideLead;
   document.querySelector("#navEyebrow").textContent = ui.navEyebrow;
   document.querySelector("#navTitle").textContent = ui.navTitle;
   document.querySelector("#focusEyebrow").textContent = ui.focusEyebrow;
@@ -2809,7 +3052,10 @@ function renderSummary() {
 
 function renderFeaturedStack() {
   const ui = getUi();
-  const picks = [...resources.filter((item) => item.heat >= 3)].sort(compareByHeat).slice(0, 5);
+  const filteredPicks = getFilteredResources().filter((item) => item.heat >= 3);
+  const picks = [...(filteredPicks.length ? filteredPicks : resources.filter((item) => item.heat >= 3))]
+    .sort(compareByHeat)
+    .slice(0, 5);
 
   featuredStack.innerHTML = picks.length
     ? picks
@@ -2844,7 +3090,39 @@ function renderFilters() {
   categoryFilters.querySelectorAll("[data-category]").forEach((button) => {
     button.addEventListener("click", () => {
       state.category = button.dataset.category;
+      if (state.category !== "全部" && state.category !== "生态学 R 包专题") {
+        state.rTask = "all";
+      }
       renderAll();
+    });
+  });
+}
+
+function renderWorkflowFilters() {
+  workflowFilterPanel.hidden = false;
+  workflowFilters.innerHTML = rPackageTasks
+    .map(
+      (task) => `
+        <button
+          type="button"
+          class="workflow-chip ${state.rTask === task.id ? "is-active" : ""}"
+          data-r-task="${task.id}"
+        >
+          <strong>${state.lang === "zh" ? task.labelZh : task.labelEn}</strong>
+          <small>${state.lang === "zh" ? task.hintZh : task.hintEn}</small>
+        </button>
+      `
+    )
+    .join("");
+
+  workflowFilters.querySelectorAll("[data-r-task]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.rTask = button.dataset.rTask;
+      if (state.rTask !== "all") {
+        state.category = "生态学 R 包专题";
+      }
+      renderAll();
+      document.querySelector("#browse")?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 }
@@ -2876,6 +3154,58 @@ function renderTopicNavigator() {
   topicNavigator.querySelectorAll("[data-topic-nav]").forEach((button) => {
     button.addEventListener("click", () => {
       state.category = button.dataset.topicNav;
+      if (state.category !== "全部" && state.category !== "生态学 R 包专题") {
+        state.rTask = "all";
+      }
+      renderAll();
+      document.querySelector("#browse")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function renderResearchGuides() {
+  const ui = getUi();
+  const categories = categoryMeta.filter(
+    (category) =>
+      category.id !== "全部" &&
+      (state.rTask !== "all"
+        ? category.id === "生态学 R 包专题"
+        : state.category === "全部" || category.id === state.category)
+  );
+
+  guideGrid.innerHTML = categories
+    .map((category) => {
+      const guide = researchGuideCards[category.id]?.[state.lang] || researchGuideCards[category.id]?.zh;
+      if (!guide) {
+        return "";
+      }
+
+      return `
+        <article class="guide-card">
+          <div class="guide-card-top">
+            <span class="topic-badge">${getCategoryMeta(category.id).label}</span>
+            <span class="guide-action-meta">${ui.countLabel(resources.filter((item) => item.category === category.id).length)}</span>
+          </div>
+          <div class="guide-copy">
+            <h3>${guide.title}</h3>
+            <p><strong>${ui.guideStarterLabel}:</strong> ${guide.starter}</p>
+          </div>
+          <div class="guide-questions">
+            <p class="guide-section-label">${ui.guideQuestionsLabel}</p>
+            ${guide.questions.map((question) => `<span class="guide-question">${question}</span>`).join("")}
+          </div>
+          <button type="button" class="guide-action" data-guide-topic="${category.id}">${ui.guideAction}</button>
+        </article>
+      `;
+    })
+    .join("");
+
+  guideGrid.querySelectorAll("[data-guide-topic]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.category = button.dataset.guideTopic;
+      if (state.category !== "生态学 R 包专题") {
+        state.rTask = "all";
+      }
       renderAll();
       document.querySelector("#browse")?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
@@ -2894,6 +3224,9 @@ function renderActiveFilters() {
   }
   if (state.openOnly) {
     pills.push(ui.activeOpen);
+  }
+  if (state.rTask !== "all") {
+    pills.push(ui.activeRTask(getRTaskLabel(state.rTask)));
   }
   if (state.query) {
     pills.push(`"${state.query}"`);
@@ -3024,8 +3357,10 @@ function renderAll() {
   renderSummary();
   renderFeaturedStack();
   renderFilters();
+  renderWorkflowFilters();
   renderTopicNavigator();
   renderActiveFilters();
+  renderResearchGuides();
   renderResources();
 }
 
@@ -3060,6 +3395,7 @@ openToggle.addEventListener("change", () => {
 clearFiltersBtn.addEventListener("click", () => {
   state.query = "";
   state.category = "全部";
+  state.rTask = "all";
   state.sort = "heat";
   state.flagshipOnly = false;
   state.openOnly = false;
