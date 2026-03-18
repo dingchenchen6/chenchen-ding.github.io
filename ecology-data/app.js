@@ -33,7 +33,7 @@ const categoryMeta = [
   },
   {
     id: "生态学 R 包专题",
-    description: "生物多样性指标、群落生态、排序分析、SDM、占域模型、GLMM、贝叶斯和 SEM 等常用生态学 R 工具。"
+    description: "数据整理清洗、假设检验、方差分析、排序分析、SDM、占域模型、GLMM、模型比较、贝叶斯和 SEM 等常用生态学 R 工具。"
   },
   {
     id: "生态学数据论文专题",
@@ -1232,6 +1232,132 @@ const resources = [
     secondaryUrl: "https://gavinsimpson.github.io/ggvegan/"
   },
   {
+    id: "tidyverse",
+    category: "生态学 R 包专题",
+    title: "tidyverse",
+    org: "CRAN / Posit",
+    description: "数据整理、清洗、变形和可视化的核心工具集合，是生态学数据预处理和可重复分析流程中最常用的基础 R 生态之一。",
+    access: "CRAN / 文档 / 教程",
+    license: "MIT + file LICENSE",
+    version: "持续更新",
+    updated: "2025",
+    year: 2025,
+    heat: 4,
+    tags: ["data cleaning", "wrangling", "tidy data", "dplyr", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=tidyverse",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://www.tidyverse.org/"
+  },
+  {
+    id: "janitor",
+    category: "生态学 R 包专题",
+    title: "janitor",
+    org: "CRAN / Sam Firke",
+    description: "数据清洗和字段整理高频包，尤其适合标准化列名、检查重复值、频数汇总和快速整理原始生态数据表。",
+    access: "CRAN / 文档 / 教程",
+    license: "MIT + file LICENSE",
+    version: "持续更新",
+    updated: "2024",
+    year: 2024,
+    heat: 3,
+    tags: ["data cleaning", "tables", "column names", "wrangling", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=janitor",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://sfirke.github.io/janitor/"
+  },
+  {
+    id: "rstatix",
+    category: "生态学 R 包专题",
+    title: "rstatix",
+    org: "CRAN / Kassambara",
+    description: "把常见假设检验、方差分析、效应量和事后比较整理成更流畅的数据分析语法，是生态学统计入门和论文分析的高频工具。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL-2",
+    version: "持续更新",
+    updated: "2025",
+    year: 2025,
+    heat: 4,
+    tags: ["hypothesis testing", "ANOVA", "effect size", "post hoc", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=rstatix",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://rpkgs.datanovia.com/rstatix/"
+  },
+  {
+    id: "car-package",
+    category: "生态学 R 包专题",
+    title: "car",
+    org: "CRAN / John Fox & Sanford Weisberg",
+    description: "经典回归与方差分析工具包，常用于 Type II/III ANOVA、Levene 检验、方差齐性和诊断分析。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL (>= 2)",
+    version: "持续更新",
+    updated: "2024",
+    year: 2024,
+    heat: 4,
+    tags: ["ANOVA", "Levene test", "regression", "diagnostics", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=car",
+    secondaryLabel: "文档页",
+    secondaryUrl: "https://rdrr.io/cran/car/"
+  },
+  {
+    id: "emmeans",
+    category: "生态学 R 包专题",
+    title: "emmeans",
+    org: "CRAN / Russell V. Lenth",
+    description: "边际均值、简单效应和多重比较的标准工具，适合方差分析、GLMM 和回归模型的事后比较与结果可视化。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL (>= 2)",
+    version: "持续更新",
+    updated: "2025",
+    year: 2025,
+    heat: 4,
+    tags: ["ANOVA", "post hoc", "marginal means", "contrasts", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=emmeans",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://rvlenth.github.io/emmeans/"
+  },
+  {
+    id: "MuMIn",
+    category: "生态学 R 包专题",
+    title: "MuMIn",
+    org: "CRAN / MuMIn authors",
+    description: "模型选择、AICc 比较和模型平均经典包，是生态学多模型推断和候选模型比较中的常用工具。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL-2",
+    version: "持续更新",
+    updated: "2024",
+    year: 2024,
+    heat: 3,
+    tags: ["model selection", "AICc", "model averaging", "dredge", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=MuMIn",
+    secondaryLabel: "文档页",
+    secondaryUrl: "https://rdrr.io/cran/MuMIn/"
+  },
+  {
+    id: "performance",
+    category: "生态学 R 包专题",
+    title: "performance",
+    org: "CRAN / easystats",
+    description: "面向模型诊断、拟合优度比较和性能评估的高频包，适合和 lme4、glmmTMB、brms 等模型流程联动使用。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL-3",
+    version: "持续更新",
+    updated: "2025",
+    year: 2025,
+    heat: 4,
+    tags: ["model diagnostics", "model comparison", "goodness of fit", "easystats", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=performance",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://easystats.github.io/performance/"
+  },
+  {
     id: "vegan",
     category: "生态学 R 包专题",
     title: "vegan",
@@ -1745,8 +1871,8 @@ const categoryMetaLookup = {
     en: { label: "Human Activity and Socioeconomics", description: "Population, night lights, and human-pressure layers." }
   },
   "生态学 R 包专题": {
-    zh: { label: "生态学 R 包专题", description: "生物多样性指标、群落生态、排序分析、SDM、占域模型、GLMM、贝叶斯和 SEM 等常用生态学 R 工具。" },
-    en: { label: "Ecology R Packages", description: "R tools for biodiversity metrics, community ecology, ordination, SDMs, occupancy, GLMMs, Bayesian models, and SEM." }
+    zh: { label: "生态学 R 包专题", description: "数据整理清洗、假设检验、方差分析、排序分析、SDM、占域模型、GLMM、模型比较、贝叶斯和 SEM 等常用生态学 R 工具。" },
+    en: { label: "Ecology R Packages", description: "R tools for data cleaning, hypothesis testing, ANOVA, ordination, SDMs, occupancy, GLMMs, model comparison, Bayesian models, and SEM." }
   },
   生态学数据论文专题: {
     zh: { label: "生态学数据论文专题", description: "高价值数据论文、数据描述论文和核心方法参考。" },
@@ -1761,6 +1887,30 @@ const rPackageTasks = [
     labelEn: "All workflows",
     hintZh: "显示全部生态学 R 包",
     hintEn: "Show every ecology R package"
+  },
+  {
+    id: "data-cleaning",
+    labelZh: "数据整理 / 清洗",
+    labelEn: "Data cleaning",
+    hintZh: "tidyverse、janitor 与整理流程",
+    hintEn: "tidyverse, janitor, and wrangling workflows",
+    packageIds: ["tidyverse", "janitor"]
+  },
+  {
+    id: "testing",
+    labelZh: "假设检验",
+    labelEn: "Hypothesis tests",
+    hintZh: "t 检验、非参数检验与效应量",
+    hintEn: "t-tests, nonparametric tests, and effect sizes",
+    packageIds: ["rstatix", "car-package"]
+  },
+  {
+    id: "anova",
+    labelZh: "方差分析 / 事后比较",
+    labelEn: "ANOVA",
+    hintZh: "Anova、Levene、边际均值与多重比较",
+    hintEn: "ANOVA, Levene tests, marginal means, and post hoc contrasts",
+    packageIds: ["rstatix", "car-package", "emmeans"]
   },
   {
     id: "ordination",
@@ -1801,6 +1951,14 @@ const rPackageTasks = [
     hintZh: "层级模型、计数数据、零膨胀",
     hintEn: "Hierarchical models, count data, and zero inflation",
     packageIds: ["lme4", "glmmtmb"]
+  },
+  {
+    id: "model-selection",
+    labelZh: "模型选择 / 比较",
+    labelEn: "Model selection",
+    hintZh: "AICc、模型平均、诊断与比较",
+    hintEn: "AICc, model averaging, diagnostics, and comparison",
+    packageIds: ["MuMIn", "performance", "lme4", "glmmtmb"]
   },
   {
     id: "bayesian",
@@ -1916,13 +2074,13 @@ const researchGuideCards = {
   "生态学 R 包专题": {
     zh: {
       title: "生态学 R 工作流导航",
-      starter: "vegan / ade4 / ggvegan + iNEXT / betapart / FD + biomod2 / ENMeval + unmarked + lme4 / glmmTMB + brms + piecewiseSEM / lavaan",
-      questions: ["我现在做的是排序分析、GLMM、SDM、SEM 还是 Meta 分析？", "我想直接看中文教程、官方案例还是高质量作图示例？"]
+      starter: "tidyverse / janitor + rstatix / car / emmeans + vegan / ade4 / ggvegan + biomod2 / ENMeval + unmarked + lme4 / glmmTMB / MuMIn / performance + brms + piecewiseSEM / lavaan",
+      questions: ["我现在做的是数据清洗、假设检验、方差分析、排序分析、GLMM、模型比较还是 SEM？", "我想直接看中文教程、官方案例、微信精选案例还是高质量作图示例？"]
     },
     en: {
       title: "Ecology R workflow map",
-      starter: "vegan or ade4 or ggvegan + iNEXT or betapart or FD + biomod2 or ENMeval + unmarked + lme4 or glmmTMB + brms + piecewiseSEM or lavaan",
-      questions: ["Am I doing ordination, GLMMs, SDMs, SEM, or meta-analysis?", "Do I want Chinese tutorials, official examples, or polished plotting references first?"]
+      starter: "tidyverse or janitor + rstatix or car or emmeans + vegan or ade4 or ggvegan + biomod2 or ENMeval + unmarked + lme4 or glmmTMB or MuMIn or performance + brms + piecewiseSEM or lavaan",
+      questions: ["Am I doing data cleaning, hypothesis tests, ANOVA, ordination, GLMMs, model comparison, or SEM?", "Do I want Chinese tutorials, official examples, WeChat-style writeups, or polished plotting references first?"]
     }
   },
   "生态学数据论文专题": {
@@ -1939,6 +2097,22 @@ const researchGuideCards = {
   }
 };
 
+const quickAccessTags = [
+  { id: "china-map", labelZh: "中国标准地图", labelEn: "China maps", category: "地理空间专题数据", query: "标准地图 天地图 China" },
+  { id: "land-use", labelZh: "土地利用", labelEn: "Land use", category: "土地利用专题", query: "" },
+  { id: "climate", labelZh: "气候", labelEn: "Climate", category: "气候专题", query: "" },
+  { id: "biodiversity", labelZh: "生物多样性", labelEn: "Biodiversity", category: "生物多样性专题", query: "" },
+  { id: "protected", labelZh: "保护地", labelEn: "Protected areas", category: "保护地专题", query: "" },
+  { id: "china-data", labelZh: "中国权威数据", labelEn: "China data", category: "全部", query: "China 中国 RESDC 天地图 标准地图 青藏高原" },
+  { id: "data-cleaning", labelZh: "数据整理", labelEn: "Data cleaning", category: "生态学 R 包专题", rTask: "data-cleaning" },
+  { id: "testing", labelZh: "假设检验", labelEn: "Hypothesis tests", category: "生态学 R 包专题", rTask: "testing" },
+  { id: "anova", labelZh: "方差分析", labelEn: "ANOVA", category: "生态学 R 包专题", rTask: "anova" },
+  { id: "ordination", labelZh: "排序分析", labelEn: "Ordination", category: "生态学 R 包专题", rTask: "ordination" },
+  { id: "glmm", labelZh: "GLMM", labelEn: "GLMM", category: "生态学 R 包专题", rTask: "glmm" },
+  { id: "model-selection", labelZh: "模型选择", labelEn: "Model selection", category: "生态学 R 包专题", rTask: "model-selection" },
+  { id: "papers", labelZh: "数据论文", labelEn: "Data papers", category: "生态学数据论文专题", query: "" }
+];
+
 const uiCopy = {
   zh: {
     homeLink: "返回主页",
@@ -1947,7 +2121,9 @@ const uiCopy = {
     heroTitle: "生态学数据网站",
     heroLead:
       "为宏观生态学、生物地理学和保护生物学研究整理的权威数据入口，覆盖标准地图与地理空间、土地利用/覆被、气候、生物多样性、保护地、物种编目与生态性状、人类活动与社会经济、生态学 R 包，以及高价值生态学数据论文。",
-    heroTags: ["专业", "开源优先", "权威官网直达", "土地利用与标准地图", "按热度与时间浏览"],
+    heroTags: ["专业", "开源优先", "权威官网直达", "土地利用与标准地图", "微信教程与工作流"],
+    tagNavEyebrow: "Quick Tags",
+    tagNavTitle: "标签导航",
     browseLink: "开始浏览",
     criteriaLink: "查看筛选标准",
     legendTitle: "排序说明",
@@ -1979,7 +2155,7 @@ const uiCopy = {
       },
       {
         title: "研究场景 5",
-        body: "R 工作流起步：群落与多样性可从 vegan / iNEXT / betapart 入手；排序与作图可用 ade4 / ggvegan；SDM 可用 biomod2 / ENMeval；层级模型可用 lme4 / glmmTMB / brms。"
+        body: "R 工作流起步：数据整理可用 tidyverse / janitor；假设检验与方差分析可用 rstatix / car / emmeans；排序与作图可用 ade4 / ggvegan；模型选择可用 MuMIn / performance。"
       },
       {
         title: "研究场景 6",
@@ -2036,7 +2212,7 @@ const uiCopy = {
       },
       {
         title: "工具专题",
-        body: "R 包专题优先收录生态学社区高频使用、文档完善、CRAN 可访问，且能直接支撑群落分析、SDM、占域模型、GLMM、贝叶斯和 SEM 的成熟工具。"
+        body: "R 包专题优先收录生态学社区高频使用、文档完善、CRAN 可访问，且能直接支撑数据清洗、假设检验、方差分析、群落分析、SDM、占域模型、GLMM、模型比较、贝叶斯和 SEM 的成熟工具。"
       },
       {
         title: "教程与案例",
@@ -2078,7 +2254,9 @@ const uiCopy = {
     heroTitle: "Ecological Data Hub",
     heroLead:
       "A curated gateway to authoritative resources for macroecology, biogeography, and conservation biology, covering standard maps and geospatial layers, land use and land cover, climate, biodiversity, protected areas, taxonomic catalogues and traits, human activity and socioeconomics, ecology-focused R packages, plus influential ecological data papers.",
-    heroTags: ["Research-grade", "Open-first", "Official source links", "Land use and standard maps", "Sorted by relevance and time"],
+    heroTags: ["Research-grade", "Open-first", "Official source links", "Land use and standard maps", "WeChat-style tutorials and workflows"],
+    tagNavEyebrow: "Quick Tags",
+    tagNavTitle: "Tag navigator",
     browseLink: "Start browsing",
     criteriaLink: "See curation criteria",
     legendTitle: "Ranking guide",
@@ -2110,7 +2288,7 @@ const uiCopy = {
       },
       {
         title: "Use case 5",
-        body: "R workflow starter set: use vegan or iNEXT or betapart for diversity, ade4 or ggvegan for ordination, biomod2 or ENMeval for SDMs, and lme4 or glmmTMB or brms for hierarchical models."
+        body: "R workflow starter set: use tidyverse or janitor for cleaning, rstatix or car or emmeans for tests and ANOVA, ade4 or ggvegan for ordination, and MuMIn or performance for model selection."
       },
       {
         title: "Use case 6",
@@ -2167,7 +2345,7 @@ const uiCopy = {
       },
       {
         title: "Software topic",
-        body: "The R package topic prioritizes mature, ecology-facing packages with good documentation, active community use, and direct support for biodiversity, SDMs, occupancy, GLMMs, Bayesian models, and SEM."
+        body: "The R package topic prioritizes mature, ecology-facing packages with good documentation, active community use, and direct support for cleaning, hypothesis tests, ANOVA, biodiversity, SDMs, occupancy, GLMMs, model comparison, Bayesian models, and SEM."
       },
       {
         title: "Tutorial links",
@@ -2272,6 +2450,13 @@ const resourceDescriptionEn = {
   ade4: "A classic ordination and multivariate-analysis package covering PCA, CA, DCA, and related workflows for community ecology.",
   adespatial: "An extension package for spatial ecology and ordination, useful for Moran eigenvector methods, dbMEM analyses, and spatially explicit community workflows.",
   ggvegan: "A high-value companion to vegan that turns ordination results into more modern, publication-ready ggplot-style figures.",
+  tidyverse: "The core tidy-data ecosystem for wrangling, reshaping, cleaning, and visualizing ecological datasets in reproducible workflows.",
+  janitor: "A practical cleaning package for column names, duplicates, tabulations, and fast cleanup of messy ecological tables.",
+  rstatix: "A streamlined ecology-friendly package for hypothesis tests, ANOVA, effect sizes, and post hoc comparisons.",
+  "car-package": "A classic package for regression and ANOVA workflows, including Type II or III tests, Levene tests, and diagnostics.",
+  emmeans: "The standard package for estimated marginal means, simple effects, and post hoc contrasts after ANOVA, GLMMs, and regressions.",
+  MuMIn: "A classic package for model selection, AICc-based comparison, dredging, and model averaging in multi-model inference workflows.",
+  performance: "A high-use easystats package for model diagnostics, goodness-of-fit summaries, and comparison across common ecological model classes.",
   vegan: "The flagship R package for community ecology, ordination, diversity indices, permutation tests, and vegetation analyses.",
   inext: "A leading R package for rarefaction, extrapolation, coverage-based comparisons, and Hill-number diversity estimation.",
   betapart: "A specialist R package for beta-diversity partitioning into turnover and nestedness components.",
@@ -2368,6 +2553,167 @@ const packageLearningResources = {
       noteZh: "中文排序分析示例，适合对照学习论文级群落排序图。",
       noteEn: "A Chinese ordination walkthrough that helps benchmark publication-style community plots.",
       url: "https://bio-spring.top/post/2018/10/22/ordination-analysis-in-r/"
+    }
+  ],
+  tidyverse: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "tidyverse 数据整理与清洗视频教程，适合快速熟悉 dplyr / tidyr 语法。",
+      noteEn: "A Chinese tidyverse tutorial for quickly learning dplyr and tidyr workflows.",
+      url: "https://www.bilibili.com/video/BV19K4y1C7eu/"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "tidyverse 官网入口，可直接查看 tidy data、管道和可视化案例。",
+      noteEn: "The tidyverse site with tidy-data, piping, and visualization examples.",
+      url: "https://www.tidyverse.org/"
+    },
+    {
+      labelZh: "微信精选",
+      labelEn: "WeChat pick",
+      noteZh: "RStata 数据整理案例，适合看真实中文数据清洗工作流。",
+      noteEn: "A WeChat-style RStata case study showing a real Chinese data-cleaning workflow.",
+      url: "https://tidyfriday.cn/posts/38638/index.html"
+    }
+  ],
+  janitor: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "janitor 入门教程，适合学习清理列名和快速汇总脏表格。",
+      noteEn: "A janitor primer for cleaning column names and summarizing messy tables.",
+      url: "https://blog.csdn.net/weixin_46605479/article/details/130053390"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "janitor 官方文档，适合直接查看 clean_names、tabyl 等函数案例。",
+      noteEn: "The janitor docs with examples for clean_names, tabyl, and related helpers.",
+      url: "https://sfirke.github.io/janitor/"
+    },
+    {
+      labelZh: "微信精选",
+      labelEn: "WeChat pick",
+      noteZh: "公众号转载的数据清洗工具合集，适合把 janitor 放进完整清洗流程里理解。",
+      noteEn: "A WeChat-style roundup of data-cleaning tools that helps place janitor into a full wrangling workflow.",
+      url: "https://cloud.tencent.com.cn/developer/article/1425619"
+    }
+  ],
+  rstatix: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "rstatix 中文教程，适合学习 t 检验、非参数检验和效应量。",
+      noteEn: "A Chinese rstatix tutorial for t-tests, nonparametric tests, and effect sizes.",
+      url: "https://www.cnblogs.com/ayueme/articles/16844678.html"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "rstatix 官方主页，含 pipe 友好的统计检验与 ANOVA 示例。",
+      noteEn: "The official rstatix site with pipe-friendly hypothesis tests and ANOVA examples.",
+      url: "https://rpkgs.datanovia.com/rstatix/"
+    },
+    {
+      labelZh: "微信精选",
+      labelEn: "WeChat pick",
+      noteZh: "微信公众号转载的单/双因素方差分析案例，适合直接看中文图表输出。",
+      noteEn: "A WeChat-style one-way and two-way ANOVA case with Chinese plot outputs.",
+      url: "https://www.10100.com/article/41435522"
+    }
+  ],
+  "car-package": [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "car 包与线性模型诊断中文教程，适合理解残差、杠杆值和回归检验。",
+      noteEn: "A Chinese tutorial on car and linear-model diagnostics, covering residuals and leverage.",
+      url: "https://mcp.csdn.net/680060a4a5baf817cf49167f.html"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "car 文档页，适合直接查阅 Anova、LeveneTest 和诊断函数。",
+      noteEn: "A car docs hub for Anova, LeveneTest, and diagnostic functions.",
+      url: "https://rdrr.io/cran/car/"
+    },
+    {
+      labelZh: "微信精选",
+      labelEn: "WeChat pick",
+      noteZh: "中文方差分析与方差齐性案例，可配合 car::Anova 和 LeveneTest 使用。",
+      noteEn: "A WeChat-style ANOVA and variance-homogeneity case that pairs well with car::Anova and LeveneTest.",
+      url: "https://www.cnblogs.com/ayueme/articles/16844684.html"
+    }
+  ],
+  emmeans: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "emmeans 中文教程，适合理解边际均值、简单效应和事后比较。",
+      noteEn: "A Chinese emmeans tutorial on marginal means, simple effects, and post hoc comparisons.",
+      url: "https://blog.csdn.net/Junbao_Zhang/article/details/100590416"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "emmeans 官方站点，含对比、边际均值和可视化示例。",
+      noteEn: "The official emmeans site with contrasts, marginal means, and visualization examples.",
+      url: "https://rvlenth.github.io/emmeans/"
+    },
+    {
+      labelZh: "微信精选",
+      labelEn: "WeChat pick",
+      noteZh: "微信公众号转载的简单效应分析案例，适合直接看 emmeans 输出解释。",
+      noteEn: "A WeChat-style simple-effects case that is useful for reading emmeans outputs.",
+      url: "https://www.10100.com/article/22572717"
+    }
+  ],
+  MuMIn: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "MuMIn 中文教程，适合理解 dredge、AICc 比较和模型平均。",
+      noteEn: "A Chinese MuMIn tutorial covering dredge, AICc comparison, and model averaging.",
+      url: "https://blog.csdn.net/qq_39859424/article/details/129690308"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "MuMIn 文档页，适合直接查看 dredge、model.avg 等函数示例。",
+      noteEn: "A MuMIn docs hub for dredge, model.avg, and related examples.",
+      url: "https://rdrr.io/cran/MuMIn/"
+    },
+    {
+      labelZh: "微信精选",
+      labelEn: "WeChat pick",
+      noteZh: "中文模型选择案例，适合对照 AIC 结果理解候选模型比较。",
+      noteEn: "A Chinese model-selection case useful for reading AIC-based candidate-model comparisons.",
+      url: "https://blog.csdn.net/qq_39859424/article/details/129690308"
+    }
+  ],
+  performance: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "performance 模型诊断中文教程，适合理解共线性、残差与拟合优度检查。",
+      noteEn: "A Chinese performance tutorial on collinearity, residuals, and goodness-of-fit checks.",
+      url: "https://blog.csdn.net/Mrrunsen/article/details/126831478"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "performance 官方主页，适合查看 check_model、compare_performance 等案例。",
+      noteEn: "The official performance site with check_model and compare_performance examples.",
+      url: "https://easystats.github.io/performance/"
+    },
+    {
+      labelZh: "微信精选",
+      labelEn: "WeChat pick",
+      noteZh: "中文模型诊断案例，适合把 performance 接到 GLMM / 回归工作流中理解。",
+      noteEn: "A Chinese model-diagnostics case useful for placing performance into GLMM or regression workflows.",
+      url: "https://blog.csdn.net/Mrrunsen/article/details/126831478"
     }
   ],
   vegan: [
@@ -2808,6 +3154,7 @@ const guideGrid = document.querySelector("#guideGrid");
 const methodologyGrid = document.querySelector("#methodologyGrid");
 const languageButtons = document.querySelectorAll("[data-lang]");
 const featuredStack = document.querySelector("#featuredStack");
+const tagNavBar = document.querySelector("#tagNavBar");
 const topicNavigator = document.querySelector("#topicNavigator");
 const activeFilters = document.querySelector("#activeFilters");
 const clearFiltersBtn = document.querySelector("#clearFiltersBtn");
@@ -2955,6 +3302,8 @@ function renderStaticUi() {
   document.querySelector("#heroEyebrow").textContent = ui.heroEyebrow;
   document.querySelector("#heroTitle").textContent = ui.heroTitle;
   document.querySelector("#heroLead").textContent = ui.heroLead;
+  document.querySelector("#tagNavEyebrow").textContent = ui.tagNavEyebrow;
+  document.querySelector("#tagNavTitle").textContent = ui.tagNavTitle;
   document.querySelector("#browseLink").textContent = ui.browseLink;
   document.querySelector("#criteriaLink").textContent = ui.criteriaLink;
   document.querySelector("#legendTitle").textContent = ui.legendTitle;
@@ -3048,6 +3397,34 @@ function renderSummary() {
       `
     )
     .join("");
+}
+
+function renderTagNav() {
+  tagNavBar.innerHTML = quickAccessTags
+    .map(
+      (tag) => `
+        <button type="button" class="tag-nav-btn" data-quick-tag="${tag.id}">
+          ${state.lang === "zh" ? tag.labelZh : tag.labelEn}
+        </button>
+      `
+    )
+    .join("");
+
+  tagNavBar.querySelectorAll("[data-quick-tag]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const tag = quickAccessTags.find((item) => item.id === button.dataset.quickTag);
+      if (!tag) {
+        return;
+      }
+
+      state.category = tag.category || "全部";
+      state.rTask = tag.rTask || "all";
+      state.query = tag.query || "";
+      searchInput.value = state.query;
+      renderAll();
+      document.querySelector("#browse")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
 }
 
 function renderFeaturedStack() {
@@ -3355,6 +3732,7 @@ function renderResources() {
 function renderAll() {
   renderStaticUi();
   renderSummary();
+  renderTagNav();
   renderFeaturedStack();
   renderFilters();
   renderWorkflowFilters();

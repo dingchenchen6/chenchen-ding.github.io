@@ -164,6 +164,7 @@ a {
 
 .hero-copy,
 .hero-panel,
+.tag-rail,
 .control-panel,
 .resource-section,
 .methodology {
@@ -177,6 +178,12 @@ a {
 .hero-panel {
   border-radius: 28px;
   padding: 30px;
+}
+
+.tag-rail {
+  margin-top: 18px;
+  border-radius: 28px;
+  padding: 22px 24px;
 }
 
 .eyebrow {
@@ -221,6 +228,40 @@ a {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 22px;
+}
+
+.tag-rail-head h2 {
+  margin: 0;
+  font-family: "Fraunces", "Source Serif 4", serif;
+  font-size: clamp(1.3rem, 2vw, 1.8rem);
+  line-height: 1.15;
+}
+
+.tag-nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.tag-nav-btn {
+  border: 1px solid rgba(23, 49, 39, 0.1);
+  background: rgba(255, 255, 255, 0.92);
+  color: #25483c;
+  min-height: 40px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.tag-nav-btn:hover {
+  transform: translateY(-1px);
+  background: rgba(31, 106, 75, 0.09);
+  border-color: rgba(31, 106, 75, 0.24);
+  box-shadow: 0 10px 18px rgba(31, 106, 75, 0.08);
 }
 
 .hero-cta {
@@ -1219,6 +1260,7 @@ a {
 
   .hero-copy,
   .hero-panel,
+  .tag-rail,
   .side-card,
   .control-panel,
   .guide-panel,
