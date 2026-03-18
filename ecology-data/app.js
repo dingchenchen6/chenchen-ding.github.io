@@ -33,7 +33,7 @@ const categoryMeta = [
   },
   {
     id: "生态学 R 包专题",
-    description: "生物多样性指标、群落生态、SDM、占域模型、GLMM、贝叶斯和 SEM 等常用生态学 R 工具。"
+    description: "生物多样性指标、群落生态、排序分析、SDM、占域模型、GLMM、贝叶斯和 SEM 等常用生态学 R 工具。"
   },
   {
     id: "生态学数据论文专题",
@@ -1178,6 +1178,60 @@ const resources = [
     secondaryUrl: "https://doi.org/10.5061/dryad.052q5"
   },
   {
+    id: "ade4",
+    category: "生态学 R 包专题",
+    title: "ade4",
+    org: "CRAN / adeverse",
+    description: "经典生态排序与多元分析包，覆盖 PCA、CA、DCA 等常用方法，适合群落生态、环境梯度和排序分析教学与研究。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL (>= 2)",
+    version: "持续更新",
+    updated: "2025",
+    year: 2025,
+    heat: 3,
+    tags: ["ordination", "multivariate", "PCA/CA", "ecology", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=ade4",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://adeverse.github.io/ade4/"
+  },
+  {
+    id: "adespatial",
+    category: "生态学 R 包专题",
+    title: "adespatial",
+    org: "CRAN / adeverse",
+    description: "面向空间生态与排序分析的扩展包，适合 Moran 特征向量、空间结构分解和空间约束排序研究。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL (>= 2)",
+    version: "持续更新",
+    updated: "2025",
+    year: 2025,
+    heat: 3,
+    tags: ["ordination", "spatial ecology", "MEM", "dbMEM", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=adespatial",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://adeverse.github.io/adespatial/"
+  },
+  {
+    id: "ggvegan",
+    category: "生态学 R 包专题",
+    title: "ggvegan",
+    org: "CRAN / Gavin Simpson",
+    description: "把 vegan 的排序结果转成更现代、更适合论文发表的 ggplot 风格图形，是生态排序作图的高价值补充包。",
+    access: "CRAN / 文档 / 教程",
+    license: "GPL-2",
+    version: "持续更新",
+    updated: "2025",
+    year: 2025,
+    heat: 4,
+    tags: ["ordination", "plotting", "ggplot", "vegan", "R"],
+    primaryLabel: "CRAN 页面",
+    primaryUrl: "https://cran.r-project.org/package=ggvegan",
+    secondaryLabel: "官网主页",
+    secondaryUrl: "https://gavinsimpson.github.io/ggvegan/"
+  },
+  {
     id: "vegan",
     category: "生态学 R 包专题",
     title: "vegan",
@@ -1690,8 +1744,8 @@ const categoryMetaLookup = {
     en: { label: "Human Activity and Socioeconomics", description: "Population, night lights, and human-pressure layers." }
   },
   "生态学 R 包专题": {
-    zh: { label: "生态学 R 包专题", description: "生物多样性指标、群落生态、SDM、占域模型、GLMM、贝叶斯和 SEM 等常用生态学 R 工具。" },
-    en: { label: "Ecology R Packages", description: "R tools for biodiversity metrics, community ecology, SDMs, occupancy, GLMMs, Bayesian models, and SEM." }
+    zh: { label: "生态学 R 包专题", description: "生物多样性指标、群落生态、排序分析、SDM、占域模型、GLMM、贝叶斯和 SEM 等常用生态学 R 工具。" },
+    en: { label: "Ecology R Packages", description: "R tools for biodiversity metrics, community ecology, ordination, SDMs, occupancy, GLMMs, Bayesian models, and SEM." }
   },
   生态学数据论文专题: {
     zh: { label: "生态学数据论文专题", description: "高价值数据论文、数据描述论文和核心方法参考。" },
@@ -1739,7 +1793,7 @@ const uiCopy = {
       },
       {
         title: "研究场景 5",
-        body: "R 工作流起步：群落与多样性可从 vegan / iNEXT / betapart 入手；SDM 可用 biomod2 / ENMeval；层级模型可用 lme4 / glmmTMB / brms。"
+        body: "R 工作流起步：群落与多样性可从 vegan / iNEXT / betapart 入手；排序与作图可用 ade4 / ggvegan；SDM 可用 biomod2 / ENMeval；层级模型可用 lme4 / glmmTMB / brms。"
       },
       {
         title: "研究场景 6",
@@ -1749,7 +1803,7 @@ const uiCopy = {
     controlsEyebrow: "Browse",
     controlsTitle: "按专题、热度和时间筛选",
     searchLabel: "搜索关键词",
-    searchPlaceholder: "输入数据源、机构、变量、土地利用、标准地图、R 包、方法或专题关键词",
+    searchPlaceholder: "输入数据源、机构、变量、土地利用、标准地图、R 包、教程、案例或专题关键词",
     sortLabel: "排序方式",
     sortOptions: {
       heat: "热度优先",
@@ -1791,6 +1845,10 @@ const uiCopy = {
       {
         title: "工具专题",
         body: "R 包专题优先收录生态学社区高频使用、文档完善、CRAN 可访问，且能直接支撑群落分析、SDM、占域模型、GLMM、贝叶斯和 SEM 的成熟工具。"
+      },
+      {
+        title: "教程与案例",
+        body: "R 包卡片优先附中文教程、官方案例和精选示例；少数中文教程稀缺的包，会补充高质量中文课程、应用解读或公众号镜像。"
       }
     ],
     footerNote: "本页面向生态学科研使用整理，建议在正式分析前再次核对许可条款、版本号、坐标系、空间分辨率和时间范围。",
@@ -1814,6 +1872,7 @@ const uiCopy = {
     activeFlagship: "仅旗舰资源",
     activeOpen: "开放入口优先",
     useFor: "重点标签",
+    learningResourcesTitle: "教程与案例",
     allTopicsShort: "全部专题"
   },
   en: {
@@ -1855,7 +1914,7 @@ const uiCopy = {
       },
       {
         title: "Use case 5",
-        body: "R workflow starter set: use vegan or iNEXT or betapart for diversity, biomod2 or ENMeval for SDMs, and lme4 or glmmTMB or brms for hierarchical models."
+        body: "R workflow starter set: use vegan or iNEXT or betapart for diversity, ade4 or ggvegan for ordination, biomod2 or ENMeval for SDMs, and lme4 or glmmTMB or brms for hierarchical models."
       },
       {
         title: "Use case 6",
@@ -1865,7 +1924,7 @@ const uiCopy = {
     controlsEyebrow: "Browse",
     controlsTitle: "Filter by topic, importance, and time",
     searchLabel: "Search keywords",
-    searchPlaceholder: "Search datasets, institutions, variables, land use, standard maps, R packages, methods, or topics",
+    searchPlaceholder: "Search datasets, institutions, variables, land use, standard maps, R packages, tutorials, examples, or topics",
     sortLabel: "Sort by",
     sortOptions: {
       heat: "Importance first",
@@ -1907,6 +1966,10 @@ const uiCopy = {
       {
         title: "Software topic",
         body: "The R package topic prioritizes mature, ecology-facing packages with good documentation, active community use, and direct support for biodiversity, SDMs, occupancy, GLMMs, Bayesian models, and SEM."
+      },
+      {
+        title: "Tutorial links",
+        body: "R package cards prioritize Chinese tutorials, official examples, and selected showcase links. Where dedicated Chinese tutorials are scarce, curated Chinese courses or application notes are used instead."
       }
     ],
     footerNote:
@@ -1931,6 +1994,7 @@ const uiCopy = {
     activeFlagship: "Flagship only",
     activeOpen: "Open-access first",
     useFor: "Quick tags",
+    learningResourcesTitle: "Tutorials and examples",
     allTopicsShort: "All topics"
   }
 };
@@ -1999,6 +2063,9 @@ const resourceDescriptionEn = {
   "china-lulc-ssp-rcp": "A 1 km future land-use and land-cover dataset for China covering 24 SSP-RCP scenarios from 2020 to 2100, useful for ecosystem services, carbon, and scenario assessments.",
   "viirs-nightlights": "Nighttime lights can act as a proxy for human activity intensity, infrastructure, and urbanization.",
   "human-footprint": "A composite global human-pressure product widely used for extinction risk, conservation gaps, and ecological intactness.",
+  ade4: "A classic ordination and multivariate-analysis package covering PCA, CA, DCA, and related workflows for community ecology.",
+  adespatial: "An extension package for spatial ecology and ordination, useful for Moran eigenvector methods, dbMEM analyses, and spatially explicit community workflows.",
+  ggvegan: "A high-value companion to vegan that turns ordination results into more modern, publication-ready ggplot-style figures.",
   vegan: "The flagship R package for community ecology, ordination, diversity indices, permutation tests, and vegetation analyses.",
   inext: "A leading R package for rarefaction, extrapolation, coverage-based comparisons, and Hill-number diversity estimation.",
   betapart: "A specialist R package for beta-diversity partitioning into turnover and nestedness components.",
@@ -2025,6 +2092,400 @@ const resourceDescriptionEn = {
   "paper-worldpop": "The core open-data paper introducing WorldPop for spatial demography and human-pressure analyses.",
   "paper-hyde": "The main HYDE paper describing historical population and land-use estimates through long time periods.",
   "paper-luh2": "The main LUH2 paper documenting harmonized land-use scenarios for CMIP6 and biodiversity modelling."
+};
+
+const packageLearningResources = {
+  ade4: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "PCA 入门，适合先熟悉 ade4 的语法与排序图。",
+      noteEn: "A PCA-focused starter for learning ade4 syntax and ordination graphics.",
+      url: "https://officeguide.cc/r-pca-principal-components-analysis-tutorial/"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "ade4 官方入口，集中查看排序、多元分析与文档示例。",
+      noteEn: "Official ade4 entry point with ordination, multivariate, and documentation examples.",
+      url: "https://adeverse.github.io/ade4/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "群落排序工作流与图形表达，适合搭配 ade4 / vegan 对照学习。",
+      noteEn: "A community-ordination workflow with graphical interpretation that pairs well with ade4 or vegan.",
+      url: "https://bio-spring.top/post/2018/10/22/ordination-analysis-in-r/"
+    }
+  ],
+  adespatial: [
+    {
+      labelZh: "中文课程",
+      labelEn: "Chinese course",
+      noteZh: "生态统计系统课程，含空间结构、排序和作图思路。",
+      noteEn: "A Chinese ecology-stats course covering spatial structure, ordination, and plotting ideas.",
+      url: "https://www.bilibili.com/video/BV1twAZeBEc4/"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "adespatial 官方入口，适合查看空间特征向量与排序流程。",
+      noteEn: "Official adespatial entry point for Moran eigenvector and spatial-ordination workflows.",
+      url: "https://adeverse.github.io/adespatial/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "中文生态建模综述，覆盖 ade4 / adespatial 等多元与空间分析流程。",
+      noteEn: "A Chinese ecology-modelling overview that includes ade4 or adespatial-style multivariate and spatial workflows.",
+      url: "https://blog.csdn.net/weixin_48230888/article/details/150770483"
+    }
+  ],
+  ggvegan: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "vegan 排序结果的 ggplot2 作图思路，适合做更现代的论文图。",
+      noteEn: "A Chinese guide to ggplot2-style ordination graphics built on vegan results.",
+      url: "https://blog.csdn.net/woodcorpse/article/details/79617146"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "ggvegan 官方主页，直接看排序图、分层图与图形语法。",
+      noteEn: "The official ggvegan site with ordination figures, layers, and grammar examples.",
+      url: "https://gavinsimpson.github.io/ggvegan/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "中文排序分析示例，适合对照学习论文级群落排序图。",
+      noteEn: "A Chinese ordination walkthrough that helps benchmark publication-style community plots.",
+      url: "https://bio-spring.top/post/2018/10/22/ordination-analysis-in-r/"
+    }
+  ],
+  vegan: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "排序分析中文入门，含 PCA、NMDS、RDA、CCA 等核心流程。",
+      noteEn: "A Chinese ordination primer covering PCA, NMDS, RDA, CCA, and related workflows.",
+      url: "https://bio-spring.top/post/2018/10/22/ordination-analysis-in-r/"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "vegan FAQ 与文档入口，适合系统熟悉函数体系与常见问题。",
+      noteEn: "The vegan FAQ and docs hub for learning the package structure and common workflows.",
+      url: "https://vegandevs.github.io/vegan/articles/FAQ-vegan.html"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "RDA / CCA 中文精选示例，适合学习解释排序轴与环境变量。",
+      noteEn: "A selected Chinese RDA or CCA example for interpreting ordination axes and environmental vectors.",
+      url: "https://posts.careerengine.us/p/601b9a4051532c0ee165c58f"
+    }
+  ],
+  inext: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "稀释与外推、多样性覆盖度和 Hill numbers 的中文入门。",
+      noteEn: "A Chinese introduction to rarefaction, extrapolation, coverage, and Hill numbers.",
+      url: "https://cloud.tencent.com/developer/article/1624003"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "iNEXT 官方主页，含 ggiNEXT 图形、示例数据与 vignette 入口。",
+      noteEn: "The official iNEXT page with ggiNEXT figures, example data, and vignette links.",
+      url: "https://johnsonhsieh.github.io/iNEXT/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "iNEXT 方法论文，适合配合图形输出理解样本覆盖与多样性比较。",
+      noteEn: "The core iNEXT methods paper for understanding coverage-based comparisons and plot outputs.",
+      url: "https://doi.org/10.1111/2041-210X.12613"
+    }
+  ],
+  betapart: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "beta 多样性分解中文教程，适合理解周转与嵌套性指标。",
+      noteEn: "A Chinese tutorial on beta-diversity partitioning into turnover and nestedness.",
+      url: "https://cloud.tencent.com/developer/article/1635073"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "betapart 文档入口，可直接查看 pairwise 与 multiple-site 计算示例。",
+      noteEn: "A package docs hub for pairwise and multiple-site beta-diversity examples.",
+      url: "https://cran.r-universe.dev/betapart"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "中文 beta 脚本笔记，适合快速比对输出结果与图形表达。",
+      noteEn: "A Chinese beta-diversity script note that is handy for comparing outputs and plots.",
+      url: "https://helixcn.github.io/2019/07/10/2019-7-10-beta/"
+    }
+  ],
+  "fd-package": [
+    {
+      labelZh: "中文解读",
+      labelEn: "Chinese explainer",
+      noteZh: "中文应用论文，适合理解功能多样性指标在生态研究中的解释方式。",
+      noteEn: "A Chinese application paper showing how functional-diversity indices are interpreted in ecology.",
+      url: "https://www.plant-ecology.com/article/2023/1005-264X/1005-264X-47-6-822.shtml"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "dbFD 核心函数说明与示例，是使用 FD 包的最好起点之一。",
+      noteEn: "The dbFD help page with core examples, one of the best entry points to the FD package.",
+      url: "https://search.r-project.org/CRAN/refmans/FD/html/dbFD.html"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "功能多样性与生态功能案例解读，适合对照指标含义与论文写法。",
+      noteEn: "A functional-diversity case study helpful for matching index meaning to ecological interpretation.",
+      url: "https://www.ebiotrade.com/newsf/2025-5/20250513002433391.htm"
+    }
+  ],
+  biomod2: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "biomod2 物种分布模型中文教程，含伪缺失点与建模流程。",
+      noteEn: "A Chinese biomod2 tutorial covering pseudo-absences and the core SDM workflow.",
+      url: "https://blog.csdn.net/amyniez/article/details/129337323"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "biomod2 官方主页，适合查看 ensemble modelling 与预测流程。",
+      noteEn: "The official biomod2 site for ensemble-modelling and projection workflows.",
+      url: "https://biomodhub.github.io/biomod2/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "中文图文案例，适合快速看 biomod2 的输入、输出与制图逻辑。",
+      noteEn: "A Chinese biomod2 showcase for inputs, outputs, and map-oriented visualization logic.",
+      url: "https://www.bilibili.com/opus/1050878825040152616"
+    }
+  ],
+  enmeval: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "ENMeval 调参与评估中文教程，适合理解分块交叉验证与复杂度控制。",
+      noteEn: "A Chinese ENMeval tutorial on tuning, partitioning, and complexity control.",
+      url: "https://blog.csdn.net/qq_42374697/article/details/135011660"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "ENMeval 官方主页，直接看自动调参与生态位模型评估流程。",
+      noteEn: "The official ENMeval site for automated tuning and niche-model evaluation workflows.",
+      url: "https://jamiemkass.github.io/ENMeval/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "MaxEnt 中文视频示例，适合配合 ENMeval 理解变量筛选与结果输出。",
+      noteEn: "A Chinese MaxEnt video walkthrough that pairs well with ENMeval tuning workflows.",
+      url: "https://www.bilibili.com/video/BV1Vq4y1J7F9/"
+    }
+  ],
+  ecospat: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "生态位重叠与 niche overlap 中文视频教程。",
+      noteEn: "A Chinese video tutorial for niche overlap and ecospat-style workflows.",
+      url: "https://www.bilibili.com/video/BV1DS421A7Bz/"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "ecospat 生态位相似性函数说明，可直观看 overlap 分析流程。",
+      noteEn: "An ecospat niche-similarity reference page that shows the overlap workflow clearly.",
+      url: "https://rdrr.io/cran/ecospat/man/ecospat.niche.similarity.test.html"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "niche model 案例文章，适合理解环境空间与分布投影图。",
+      noteEn: "A niche-modelling case study useful for reading environmental-space and projection plots.",
+      url: "https://www.rcoding.org/blog/niche-model-in-r/"
+    }
+  ],
+  unmarked: [
+    {
+      labelZh: "中文案例",
+      labelEn: "Chinese example",
+      noteZh: "单季占域模型中文应用解读，适合理解检测概率与占域率输出。",
+      noteEn: "A Chinese single-season occupancy case for understanding detection and occupancy outputs.",
+      url: "https://www.ebiotrade.com/newsf/2026-1/20260125000550358.htm"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "unmarked 官方入口，适合查看 occupancy、N-mixture 与动态模型文档。",
+      noteEn: "The official unmarked entry point for occupancy, N-mixture, and dynamic-model docs.",
+      url: "https://rbchan.github.io/unmarked/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "被动声学监测占域分析示例，适合理解 unmarked 的生态监测应用。",
+      noteEn: "A passive-acoustic occupancy example that illustrates ecological monitoring applications of unmarked.",
+      url: "https://www.ebiotrade.com/newsf/2025-3/20250321001325629.htm"
+    }
+  ],
+  lme4: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "混合效应模型中文入门，适合从随机效应和层级结构开始。",
+      noteEn: "A Chinese mixed-model primer focused on random effects and hierarchical structure.",
+      url: "https://blog.csdn.net/Mrrunsen/article/details/126707066"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "lme4 官方主页，适合查看 LMM / GLMM 基础范式与文档。",
+      noteEn: "The official lme4 site for core LMM or GLMM patterns and documentation.",
+      url: "https://lme4.github.io/lme4/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "GLMM 中文视频案例，适合看固定效应、交互项与结果解释。",
+      noteEn: "A Chinese GLMM video example useful for fixed effects, interactions, and interpretation.",
+      url: "https://www.bilibili.com/video/BV1wi421C7wY/"
+    }
+  ],
+  glmmtmb: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "glmmTMB 中文教程，适合学习零膨胀、负二项和计数数据建模。",
+      noteEn: "A Chinese glmmTMB guide for zero inflation, negative binomial models, and count data.",
+      url: "https://blog.csdn.net/qq_32649321/article/details/123823561"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "glmmTMB 官方主页，适合查看复杂 GLMM 与诊断文档。",
+      noteEn: "The official glmmTMB site for complex GLMM workflows and diagnostics.",
+      url: "https://glmmtmb.github.io/glmmTMB/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "GLMM 视频案例，适合对照 glmmTMB 的计数模型和交互解释。",
+      noteEn: "A GLMM video example helpful for comparing count models and interaction interpretation in glmmTMB.",
+      url: "https://www.bilibili.com/video/BV1wi421C7wY/"
+    }
+  ],
+  metafor: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "元分析与森林图中文视频教程，适合快速进入 metafor 工作流。",
+      noteEn: "A Chinese video tutorial on meta-analysis and forest plots for getting started with metafor.",
+      url: "https://www.bilibili.com/video/BV1fv411G74T/"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "metafor 官方主页，集中展示 forest、funnel 和 meta-regression 图。",
+      noteEn: "The official metafor site featuring forest, funnel, and meta-regression plot examples.",
+      url: "https://wviechtb.github.io/metafor/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "中文元分析案例与图形解读，适合对照学习论文级森林图输出。",
+      noteEn: "A Chinese meta-analysis case with plot interpretation, useful for publication-style forest plots.",
+      url: "https://geekdaxue.co/read/MetaAnalysisinR/12-Meta-Analysis-with-R-Tutorial.md"
+    }
+  ],
+  brms: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "brms 贝叶斯多层模型中文讲座，适合理解公式接口和模型范围。",
+      noteEn: "A Chinese talk on brms for understanding its formula interface and model scope.",
+      url: "https://learn.microsoft.com/zh-cn/shows/user-international-r-user-conferences-user-international-r-user-2017-conference/brms-bayesian-multilevel-models-using-stan"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "brms 官方主页，适合查看贝叶斯回归、层级模型与可视化入口。",
+      noteEn: "The official brms site with Bayesian regression, hierarchical-model, and visualization entry points.",
+      url: "https://paulbuerkner.com/brms/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "贝叶斯回归与混合效应中文课程，适合看生态数据建模案例。",
+      noteEn: "A Chinese course on Bayesian regression and mixed models with ecology-friendly examples.",
+      url: "https://www.bilibili.com/video/BV1iT411c7bi/"
+    }
+  ],
+  "piecewise-sem": [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "piecewiseSEM 中文入门，适合理解 GLMM / LMM 与路径分析结合方式。",
+      noteEn: "A Chinese primer on combining GLMMs or LMMs with path analysis in piecewiseSEM.",
+      url: "https://developer.baidu.com/article/details/2826689"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "piecewiseSEM 官方主页，适合查看生态路径模型工作流。",
+      noteEn: "The official piecewiseSEM site for ecology-facing path-model workflows.",
+      url: "https://jslefche.github.io/piecewiseSEM/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "中文视频案例，适合看 piecewiseSEM 在生态数据中的路径拆分逻辑。",
+      noteEn: "A Chinese video case showing how piecewiseSEM decomposes paths in ecological data.",
+      url: "https://www.bilibili.com/video/BV1Vm411C7xD/"
+    }
+  ],
+  lavaan: [
+    {
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "lavaan 结构方程模型中文教程，适合理解语法、拟合与路径图。",
+      noteEn: "A Chinese lavaan tutorial covering syntax, fitting, and path-diagram interpretation.",
+      url: "https://blog.csdn.net/PhyliciaFelicia/article/details/136558921"
+    },
+    {
+      labelZh: "官方案例",
+      labelEn: "Official examples",
+      noteZh: "lavaan 官方教程入口，适合系统查看 CFA、SEM 与多层模型示例。",
+      noteEn: "The official lavaan tutorial hub for CFA, SEM, and multilevel examples.",
+      url: "https://lavaan.ugent.be/tutorial/"
+    },
+    {
+      labelZh: "精选示例",
+      labelEn: "Curated example",
+      noteZh: "SEM 中文视频案例，适合配合 lavaan 对照学习模型图与结果表。",
+      noteEn: "A Chinese SEM video case that pairs well with lavaan for reading path diagrams and output tables.",
+      url: "https://www.bilibili.com/video/BV1Ea4y1c7mh/"
+    }
+  ]
 };
 
 const exactFieldTranslations = {
@@ -2441,6 +2902,34 @@ function renderActiveFilters() {
   activeFilters.innerHTML = pills.map((pill) => `<span class="active-pill">${pill}</span>`).join("");
 }
 
+function renderLearningResources(item) {
+  const resources = packageLearningResources[item.id];
+  if (!resources || !resources.length) {
+    return "";
+  }
+
+  const ui = getUi();
+  const isZh = state.lang === "zh";
+
+  return `
+    <section class="learning-resources" aria-label="${ui.learningResourcesTitle}">
+      <p class="learning-heading">${ui.learningResourcesTitle}</p>
+      <div class="learning-grid">
+        ${resources
+          .map(
+            (resource) => `
+              <a class="learning-link" href="${resource.url}" target="_blank" rel="noopener">
+                <span class="learning-kind">${isZh ? resource.labelZh : resource.labelEn}</span>
+                <span class="learning-note">${isZh ? resource.noteZh : resource.noteEn}</span>
+              </a>
+            `
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
 function renderCard(item) {
   const ui = getUi();
   const tags = getTags(item);
@@ -2473,6 +2962,7 @@ function renderCard(item) {
       <div class="meta-tags">
         ${tags.map((tag) => `<span class="meta-tag">${tag}</span>`).join("")}
       </div>
+      ${renderLearningResources(item)}
       <div class="card-actions">
         <a class="primary-link" href="${item.primaryUrl}" target="_blank" rel="noopener">${translateExact("primaryLabel", item.primaryLabel)}</a>
         ${
