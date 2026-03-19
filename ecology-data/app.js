@@ -2216,7 +2216,7 @@ const uiCopy = {
       },
       {
         title: "教程与案例",
-        body: "R 包卡片优先附中文教程、官方案例和精选示例；少数中文教程稀缺的包，会补充高质量中文课程、应用解读或公众号镜像。"
+        body: "R 包卡片优先附中文教程、官方案例和公众号精选；优先收录生态学、地理学和 R 语言作图相关公众号原文或高质量镜像，如 RStata、BIO-SPRING 和 10100 等。"
       }
     ],
     footerNote: "本页面向生态学科研使用整理，建议在正式分析前再次核对许可条款、版本号、坐标系、空间分辨率和时间范围。",
@@ -2349,7 +2349,7 @@ const uiCopy = {
       },
       {
         title: "Tutorial links",
-        body: "R package cards prioritize Chinese tutorials, official examples, and selected showcase links. Where dedicated Chinese tutorials are scarce, curated Chinese courses or application notes are used instead."
+        body: "R package cards prioritize Chinese tutorials, official examples, and WeChat-style picks, with a preference for strong ecology, geography, and R-plotting accounts such as RStata, BIO-SPRING, and 10100."
       }
     ],
     footerNote:
@@ -2502,10 +2502,10 @@ const packageLearningResources = {
       url: "https://adeverse.github.io/ade4/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "群落排序工作流与图形表达，适合搭配 ade4 / vegan 对照学习。",
-      noteEn: "A community-ordination workflow with graphical interpretation that pairs well with ade4 or vegan.",
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "BIO-SPRING 生态排序文章，适合搭配 ade4 / vegan 对照学习。",
+      noteEn: "A BIO-SPRING ordination article that pairs well with ade4 or vegan workflows.",
       url: "https://bio-spring.top/post/2018/10/22/ordination-analysis-in-r/"
     }
   ],
@@ -2536,9 +2536,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "vegan 排序结果的 ggplot2 作图思路，适合做更现代的论文图。",
-      noteEn: "A Chinese guide to ggplot2-style ordination graphics built on vegan results.",
-      url: "https://blog.csdn.net/woodcorpse/article/details/79617146"
+      noteZh: "RStata 的配色与图层文章，适合把 ggvegan 图做得更像论文图。",
+      noteEn: "An RStata article on palettes and layers that helps turn ggvegan figures into publication-style plots.",
+      url: "https://tidyfriday.cn/posts/18040/index.html"
     },
     {
       labelZh: "官方案例",
@@ -2548,10 +2548,10 @@ const packageLearningResources = {
       url: "https://gavinsimpson.github.io/ggvegan/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "中文排序分析示例，适合对照学习论文级群落排序图。",
-      noteEn: "A Chinese ordination walkthrough that helps benchmark publication-style community plots.",
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "BIO-SPRING 排序分析文章，适合对照学习生态排序图和环境梯度解释。",
+      noteEn: "A BIO-SPRING ordination article useful for reading ecological plots and environmental gradients.",
       url: "https://bio-spring.top/post/2018/10/22/ordination-analysis-in-r/"
     }
   ],
@@ -2559,9 +2559,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "tidyverse 数据整理与清洗视频教程，适合快速熟悉 dplyr / tidyr 语法。",
-      noteEn: "A Chinese tidyverse tutorial for quickly learning dplyr and tidyr workflows.",
-      url: "https://www.bilibili.com/video/BV19K4y1C7eu/"
+      noteZh: "RStata 数据整理案例，适合用 tidyverse 理解真实中文数据清洗流程。",
+      noteEn: "An RStata wrangling case that uses tidyverse-style ideas for real Chinese data-cleaning workflows.",
+      url: "https://tidyfriday.cn/posts/20729/index.html"
     },
     {
       labelZh: "官方案例",
@@ -2571,7 +2571,7 @@ const packageLearningResources = {
       url: "https://www.tidyverse.org/"
     },
     {
-      labelZh: "微信精选",
+      labelZh: "公众号精选",
       labelEn: "WeChat pick",
       noteZh: "RStata 数据整理案例，适合看真实中文数据清洗工作流。",
       noteEn: "A WeChat-style RStata case study showing a real Chinese data-cleaning workflow.",
@@ -2582,9 +2582,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "janitor 入门教程，适合学习清理列名和快速汇总脏表格。",
-      noteEn: "A janitor primer for cleaning column names and summarizing messy tables.",
-      url: "https://blog.csdn.net/weixin_46605479/article/details/130053390"
+      noteZh: "RStata 数据清洗案例，适合理解 janitor 在字段和表格整理里的位置。",
+      noteEn: "An RStata cleaning case that helps place janitor into field-name and table-cleaning workflows.",
+      url: "https://tidyfriday.cn/posts/38638/index.html"
     },
     {
       labelZh: "官方案例",
@@ -2594,7 +2594,7 @@ const packageLearningResources = {
       url: "https://sfirke.github.io/janitor/"
     },
     {
-      labelZh: "微信精选",
+      labelZh: "公众号精选",
       labelEn: "WeChat pick",
       noteZh: "公众号转载的数据清洗工具合集，适合把 janitor 放进完整清洗流程里理解。",
       noteEn: "A WeChat-style roundup of data-cleaning tools that helps place janitor into a full wrangling workflow.",
@@ -2605,9 +2605,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "rstatix 中文教程，适合学习 t 检验、非参数检验和效应量。",
-      noteEn: "A Chinese rstatix tutorial for t-tests, nonparametric tests, and effect sizes.",
-      url: "https://www.cnblogs.com/ayueme/articles/16844678.html"
+      noteZh: "公众号转载的方差分析案例，适合从 rstatix 语法理解检验与可视化流程。",
+      noteEn: "A WeChat-style ANOVA case that helps interpret testing and plotting through rstatix-style syntax.",
+      url: "https://www.10100.com/article/41435522"
     },
     {
       labelZh: "官方案例",
@@ -2617,7 +2617,7 @@ const packageLearningResources = {
       url: "https://rpkgs.datanovia.com/rstatix/"
     },
     {
-      labelZh: "微信精选",
+      labelZh: "公众号精选",
       labelEn: "WeChat pick",
       noteZh: "微信公众号转载的单/双因素方差分析案例，适合直接看中文图表输出。",
       noteEn: "A WeChat-style one-way and two-way ANOVA case with Chinese plot outputs.",
@@ -2628,9 +2628,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "car 包与线性模型诊断中文教程，适合理解残差、杠杆值和回归检验。",
-      noteEn: "A Chinese tutorial on car and linear-model diagnostics, covering residuals and leverage.",
-      url: "https://mcp.csdn.net/680060a4a5baf817cf49167f.html"
+      noteZh: "公众号转载的方差分析案例，适合理解 car::Anova 与方差齐性检验的使用场景。",
+      noteEn: "A WeChat-style ANOVA case that helps place car::Anova and variance tests into context.",
+      url: "https://www.10100.com/article/41435522"
     },
     {
       labelZh: "官方案例",
@@ -2640,20 +2640,20 @@ const packageLearningResources = {
       url: "https://rdrr.io/cran/car/"
     },
     {
-      labelZh: "微信精选",
+      labelZh: "公众号精选",
       labelEn: "WeChat pick",
-      noteZh: "中文方差分析与方差齐性案例，可配合 car::Anova 和 LeveneTest 使用。",
-      noteEn: "A WeChat-style ANOVA and variance-homogeneity case that pairs well with car::Anova and LeveneTest.",
-      url: "https://www.cnblogs.com/ayueme/articles/16844684.html"
+      noteZh: "公众号风格的方差分析与事后比较案例，可配合 car::Anova 和 LeveneTest 使用。",
+      noteEn: "A WeChat-style ANOVA and post hoc case that pairs well with car::Anova and LeveneTest.",
+      url: "https://www.10100.com/article/22572717"
     }
   ],
   emmeans: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "emmeans 中文教程，适合理解边际均值、简单效应和事后比较。",
-      noteEn: "A Chinese emmeans tutorial on marginal means, simple effects, and post hoc comparisons.",
-      url: "https://blog.csdn.net/Junbao_Zhang/article/details/100590416"
+      noteZh: "公众号转载的简单效应分析案例，适合直接理解边际均值和事后比较。",
+      noteEn: "A WeChat-style simple-effects case that helps explain marginal means and post hoc contrasts.",
+      url: "https://www.10100.com/article/22572717"
     },
     {
       labelZh: "官方案例",
@@ -2663,7 +2663,7 @@ const packageLearningResources = {
       url: "https://rvlenth.github.io/emmeans/"
     },
     {
-      labelZh: "微信精选",
+      labelZh: "公众号精选",
       labelEn: "WeChat pick",
       noteZh: "微信公众号转载的简单效应分析案例，适合直接看 emmeans 输出解释。",
       noteEn: "A WeChat-style simple-effects case that is useful for reading emmeans outputs.",
@@ -2674,8 +2674,8 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "MuMIn 中文教程，适合理解 dredge、AICc 比较和模型平均。",
-      noteEn: "A Chinese MuMIn tutorial covering dredge, AICc comparison, and model averaging.",
+      noteZh: "中文模型选择案例，适合先理解 AIC / AICc 与候选模型比较的思路。",
+      noteEn: "A Chinese model-selection case that is helpful for understanding AIC or AICc-based comparisons first.",
       url: "https://blog.csdn.net/qq_39859424/article/details/129690308"
     },
     {
@@ -2686,7 +2686,7 @@ const packageLearningResources = {
       url: "https://rdrr.io/cran/MuMIn/"
     },
     {
-      labelZh: "微信精选",
+      labelZh: "公众号精选",
       labelEn: "WeChat pick",
       noteZh: "中文模型选择案例，适合对照 AIC 结果理解候选模型比较。",
       noteEn: "A Chinese model-selection case useful for reading AIC-based candidate-model comparisons.",
@@ -2709,7 +2709,7 @@ const packageLearningResources = {
       url: "https://easystats.github.io/performance/"
     },
     {
-      labelZh: "微信精选",
+      labelZh: "公众号精选",
       labelEn: "WeChat pick",
       noteZh: "中文模型诊断案例，适合把 performance 接到 GLMM / 回归工作流中理解。",
       noteEn: "A Chinese model-diagnostics case useful for placing performance into GLMM or regression workflows.",
@@ -2732,11 +2732,11 @@ const packageLearningResources = {
       url: "https://vegandevs.github.io/vegan/articles/FAQ-vegan.html"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "RDA / CCA 中文精选示例，适合学习解释排序轴与环境变量。",
-      noteEn: "A selected Chinese RDA or CCA example for interpreting ordination axes and environmental vectors.",
-      url: "https://posts.careerengine.us/p/601b9a4051532c0ee165c58f"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "BIO-SPRING 生态学排序文章，适合学习解释排序轴与环境变量。",
+      noteEn: "A BIO-SPRING ecology article useful for reading ordination axes and environmental vectors.",
+      url: "https://bio-spring.top/post/2018/10/17/bray-curtis-dissimilarity/"
     }
   ],
   inext: [
