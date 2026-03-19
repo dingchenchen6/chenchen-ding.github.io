@@ -2511,11 +2511,11 @@ const packageLearningResources = {
   ],
   adespatial: [
     {
-      labelZh: "中文课程",
-      labelEn: "Chinese course",
-      noteZh: "生态统计系统课程，含空间结构、排序和作图思路。",
-      noteEn: "A Chinese ecology-stats course covering spatial structure, ordination, and plotting ideas.",
-      url: "https://www.bilibili.com/video/BV1twAZeBEc4/"
+      labelZh: "中文教程",
+      labelEn: "Chinese tutorial",
+      noteZh: "BIO-SPRING 的生态排序文章，适合作为空间排序、梯度解释和群落结构分析的中文起点。",
+      noteEn: "A BIO-SPRING ordination article that works well as a Chinese starting point for spatial ordination, gradient reading, and community-structure analyses.",
+      url: "https://bio-spring.top/post/2018/10/22/ordination-analysis-in-r/"
     },
     {
       labelZh: "官方案例",
@@ -2525,11 +2525,11 @@ const packageLearningResources = {
       url: "https://adeverse.github.io/adespatial/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "中文生态建模综述，覆盖 ade4 / adespatial 等多元与空间分析流程。",
-      noteEn: "A Chinese ecology-modelling overview that includes ade4 or adespatial-style multivariate and spatial workflows.",
-      url: "https://blog.csdn.net/weixin_48230888/article/details/150770483"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "RStata 的配色与图层文章，适合把空间排序图和群落图进一步打磨成论文级图形。",
+      noteEn: "An RStata article on palettes and layers that helps polish spatial ordination and community plots into publication-style figures.",
+      url: "https://tidyfriday.cn/posts/18040/index.html"
     }
   ],
   ggvegan: [
@@ -2605,9 +2605,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "公众号转载的方差分析案例，适合从 rstatix 语法理解检验与可视化流程。",
-      noteEn: "A WeChat-style ANOVA case that helps interpret testing and plotting through rstatix-style syntax.",
-      url: "https://www.10100.com/article/41435522"
+      noteZh: "BIO-SPRING 假设检验文章，适合先建立 t 检验、非参数检验和方差分析的整体框架。",
+      noteEn: "A BIO-SPRING article on hypothesis tests that helps build a coherent foundation for t-tests, nonparametric tests, and ANOVA.",
+      url: "https://bio-spring.top/post/2019/09/23/basic-stats-in-r/"
     },
     {
       labelZh: "官方案例",
@@ -2619,18 +2619,18 @@ const packageLearningResources = {
     {
       labelZh: "公众号精选",
       labelEn: "WeChat pick",
-      noteZh: "微信公众号转载的单/双因素方差分析案例，适合直接看中文图表输出。",
-      noteEn: "A WeChat-style one-way and two-way ANOVA case with Chinese plot outputs.",
-      url: "https://www.10100.com/article/41435522"
+      noteZh: "BIO-SPRING 的 ANOVA + TukeyHSD 文章，适合直接看方差分析和事后比较的作图流程。",
+      noteEn: "A BIO-SPRING ANOVA plus TukeyHSD article that is useful for seeing the full plotting workflow for ANOVA and post hoc tests.",
+      url: "https://r.bio-spring.top/2019/09/24/anova-turkeyhsd-plotting/"
     }
   ],
   "car-package": [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "公众号转载的方差分析案例，适合理解 car::Anova 与方差齐性检验的使用场景。",
-      noteEn: "A WeChat-style ANOVA case that helps place car::Anova and variance tests into context.",
-      url: "https://www.10100.com/article/41435522"
+      noteZh: "BIO-SPRING 假设检验文章，适合理解方差分析、非参数检验和回归检验的基础场景。",
+      noteEn: "A BIO-SPRING hypothesis-testing article useful for understanding where ANOVA, nonparametric tests, and regression checks fit.",
+      url: "https://bio-spring.top/post/2019/09/23/basic-stats-in-r/"
     },
     {
       labelZh: "官方案例",
@@ -2642,18 +2642,18 @@ const packageLearningResources = {
     {
       labelZh: "公众号精选",
       labelEn: "WeChat pick",
-      noteZh: "公众号风格的方差分析与事后比较案例，可配合 car::Anova 和 LeveneTest 使用。",
-      noteEn: "A WeChat-style ANOVA and post hoc case that pairs well with car::Anova and LeveneTest.",
-      url: "https://www.10100.com/article/22572717"
+      noteZh: "BIO-SPRING 的 ANOVA + TukeyHSD 文章，适合配合 car::Anova 和 LeveneTest 理解完整检验流程。",
+      noteEn: "A BIO-SPRING ANOVA plus TukeyHSD article that pairs well with car::Anova and LeveneTest.",
+      url: "https://r.bio-spring.top/2019/09/24/anova-turkeyhsd-plotting/"
     }
   ],
   emmeans: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "公众号转载的简单效应分析案例，适合直接理解边际均值和事后比较。",
-      noteEn: "A WeChat-style simple-effects case that helps explain marginal means and post hoc contrasts.",
-      url: "https://www.10100.com/article/22572717"
+      noteZh: "BIO-SPRING 的 ANOVA + TukeyHSD 文章，适合作为理解事后比较与组间差异可视化的起点。",
+      noteEn: "A BIO-SPRING ANOVA plus TukeyHSD article that works well as a starting point for post hoc comparisons and group-difference plotting.",
+      url: "https://r.bio-spring.top/2019/09/24/anova-turkeyhsd-plotting/"
     },
     {
       labelZh: "官方案例",
@@ -2665,18 +2665,18 @@ const packageLearningResources = {
     {
       labelZh: "公众号精选",
       labelEn: "WeChat pick",
-      noteZh: "微信公众号转载的简单效应分析案例，适合直接看 emmeans 输出解释。",
-      noteEn: "A WeChat-style simple-effects case that is useful for reading emmeans outputs.",
-      url: "https://www.10100.com/article/22572717"
+      noteZh: "BIO-SPRING 的方差分析作图文章，适合对照理解边际均值和组间比较的结果表达。",
+      noteEn: "A BIO-SPRING ANOVA plotting article that helps interpret marginal means and group contrasts.",
+      url: "https://r.bio-spring.top/2019/09/24/anova-turkeyhsd-plotting/"
     }
   ],
   MuMIn: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "中文模型选择案例，适合先理解 AIC / AICc 与候选模型比较的思路。",
-      noteEn: "A Chinese model-selection case that is helpful for understanding AIC or AICc-based comparisons first.",
-      url: "https://blog.csdn.net/qq_39859424/article/details/129690308"
+      noteZh: "10100 的混合线性模型词条，适合先建立候选模型、AIC 类比较和多模型推断的整体概念。",
+      noteEn: "A 10100 mixed-linear-model explainer that helps build intuition for candidate models, AIC-style comparison, and multi-model inference.",
+      url: "https://www.10100.com/article/41710296"
     },
     {
       labelZh: "官方案例",
@@ -2688,18 +2688,18 @@ const packageLearningResources = {
     {
       labelZh: "公众号精选",
       labelEn: "WeChat pick",
-      noteZh: "中文模型选择案例，适合对照 AIC 结果理解候选模型比较。",
-      noteEn: "A Chinese model-selection case useful for reading AIC-based candidate-model comparisons.",
-      url: "https://blog.csdn.net/qq_39859424/article/details/129690308"
+      noteZh: "Ai尚研修生态环境课程页，适合把 MuMIn 放进生态建模、模型筛选和比较的完整流程里理解。",
+      noteEn: "An Ai尚研修 ecology-course page that helps place MuMIn inside a full ecological workflow of model screening and comparison.",
+      url: "https://www.10100.com/article/9259060"
     }
   ],
   performance: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "performance 模型诊断中文教程，适合理解共线性、残差与拟合优度检查。",
-      noteEn: "A Chinese performance tutorial on collinearity, residuals, and goodness-of-fit checks.",
-      url: "https://blog.csdn.net/Mrrunsen/article/details/126831478"
+      noteZh: "10100 的混合线性模型词条，适合理解诊断、残差检查和拟合优度比较在生态模型中的位置。",
+      noteEn: "A 10100 mixed-linear-model explainer that helps place diagnostics, residual checks, and goodness-of-fit comparisons in ecological modelling.",
+      url: "https://www.10100.com/article/41710296"
     },
     {
       labelZh: "官方案例",
@@ -2711,9 +2711,9 @@ const packageLearningResources = {
     {
       labelZh: "公众号精选",
       labelEn: "WeChat pick",
-      noteZh: "中文模型诊断案例，适合把 performance 接到 GLMM / 回归工作流中理解。",
-      noteEn: "A Chinese model-diagnostics case useful for placing performance into GLMM or regression workflows.",
-      url: "https://blog.csdn.net/Mrrunsen/article/details/126831478"
+      noteZh: "Ai尚研修生态环境课程页，适合把 performance 接到 GLMM、回归和模型比较工作流中理解。",
+      noteEn: "An Ai尚研修 ecology-course page that helps place performance into GLMM, regression, and model-comparison workflows.",
+      url: "https://www.10100.com/article/9259060"
     }
   ],
   vegan: [
@@ -2812,9 +2812,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "biomod2 物种分布模型中文教程，含伪缺失点与建模流程。",
-      noteEn: "A Chinese biomod2 tutorial covering pseudo-absences and the core SDM workflow.",
-      url: "https://blog.csdn.net/amyniez/article/details/129337323"
+      noteZh: "Ai尚研修的生态环境多元分析课程页，明确列出 biomod2 物种分布模拟专题，适合作为中文入口。",
+      noteEn: "An Ai尚研修 ecology-course page that explicitly lists a biomod2 species-distribution module as a Chinese entry point.",
+      url: "https://www.10100.com/article/9259060"
     },
     {
       labelZh: "官方案例",
@@ -2824,20 +2824,20 @@ const packageLearningResources = {
       url: "https://biomodhub.github.io/biomod2/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "中文图文案例，适合快速看 biomod2 的输入、输出与制图逻辑。",
-      noteEn: "A Chinese biomod2 showcase for inputs, outputs, and map-oriented visualization logic.",
-      url: "https://www.bilibili.com/opus/1050878825040152616"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "海龟热点研究的公众号镜像，文中直接展示 biomod2 在气候情景和保护规划中的应用。",
+      noteEn: "A WeChat-style mirror of a sea-turtle hotspot study that directly shows biomod2 in climate-scenario and conservation-planning work.",
+      url: "https://www.10100.com/article/41646541"
     }
   ],
   enmeval: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "ENMeval 调参与评估中文教程，适合理解分块交叉验证与复杂度控制。",
-      noteEn: "A Chinese ENMeval tutorial on tuning, partitioning, and complexity control.",
-      url: "https://blog.csdn.net/qq_42374697/article/details/135011660"
+      noteZh: "Ai尚研修生态环境课程页，明确覆盖物种分布模型路线，适合作为 ENMeval 调参与评估的中文入口。",
+      noteEn: "An Ai尚研修 ecology-course page that explicitly covers species-distribution workflows and works as a Chinese entry point to ENMeval tuning and evaluation.",
+      url: "https://www.10100.com/article/9259060"
     },
     {
       labelZh: "官方案例",
@@ -2847,20 +2847,20 @@ const packageLearningResources = {
       url: "https://jamiemkass.github.io/ENMeval/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "MaxEnt 中文视频示例，适合配合 ENMeval 理解变量筛选与结果输出。",
-      noteEn: "A Chinese MaxEnt video walkthrough that pairs well with ENMeval tuning workflows.",
-      url: "https://www.bilibili.com/video/BV1Vq4y1J7F9/"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "海龟热点研究的公众号镜像，适合结合 ENMeval 理解变量调优、情景预测和保护应用。",
+      noteEn: "A WeChat-style mirror of a sea-turtle hotspot study that pairs well with ENMeval for tuning, scenario projections, and conservation applications.",
+      url: "https://www.10100.com/article/41646541"
     }
   ],
   ecospat: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "生态位重叠与 niche overlap 中文视频教程。",
-      noteEn: "A Chinese video tutorial for niche overlap and ecospat-style workflows.",
-      url: "https://www.bilibili.com/video/BV1DS421A7Bz/"
+      noteZh: "Ai尚研修生态环境课程页，适合作为生态位建模、环境空间分析和分布变化研究的中文入口。",
+      noteEn: "An Ai尚研修 ecology-course page that works as a Chinese entry point for niche modelling, environmental-space analyses, and range-shift studies.",
+      url: "https://www.10100.com/article/9259060"
     },
     {
       labelZh: "官方案例",
@@ -2870,11 +2870,11 @@ const packageLearningResources = {
       url: "https://rdrr.io/cran/ecospat/man/ecospat.niche.similarity.test.html"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "niche model 案例文章，适合理解环境空间与分布投影图。",
-      noteEn: "A niche-modelling case study useful for reading environmental-space and projection plots.",
-      url: "https://www.rcoding.org/blog/niche-model-in-r/"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "海龟热点研究的公众号镜像，适合对照理解生态位空间、气候情景和潜在分布图的表达。",
+      noteEn: "A WeChat-style mirror of a sea-turtle hotspot study that helps interpret niche space, climate scenarios, and projected distribution maps.",
+      url: "https://www.10100.com/article/41646541"
     }
   ],
   unmarked: [
@@ -2904,9 +2904,9 @@ const packageLearningResources = {
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "混合效应模型中文入门，适合从随机效应和层级结构开始。",
-      noteEn: "A Chinese mixed-model primer focused on random effects and hierarchical structure.",
-      url: "https://blog.csdn.net/Mrrunsen/article/details/126707066"
+      noteZh: "10100 的混合线性模型词条，适合先建立随机效应、层级结构和 REML 等基本概念。",
+      noteEn: "A 10100 mixed-linear-model explainer that is useful for building intuition about random effects, hierarchy, and REML.",
+      url: "https://www.10100.com/article/41710296"
     },
     {
       labelZh: "官方案例",
@@ -2916,20 +2916,20 @@ const packageLearningResources = {
       url: "https://lme4.github.io/lme4/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "GLMM 中文视频案例，适合看固定效应、交互项与结果解释。",
-      noteEn: "A Chinese GLMM video example useful for fixed effects, interactions, and interpretation.",
-      url: "https://www.bilibili.com/video/BV1wi421C7wY/"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "Ai尚研修生态环境课程页，明确包含混合效应模型专题，适合作为生态应用入口。",
+      noteEn: "An Ai尚研修 ecology-course page that explicitly includes a mixed-effects module, useful as an ecology-facing entry point.",
+      url: "https://www.10100.com/article/9259060"
     }
   ],
   glmmtmb: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "glmmTMB 中文教程，适合学习零膨胀、负二项和计数数据建模。",
-      noteEn: "A Chinese glmmTMB guide for zero inflation, negative binomial models, and count data.",
-      url: "https://blog.csdn.net/qq_32649321/article/details/123823561"
+      noteZh: "Ai尚研修生态环境课程页，包含混合效应与复杂模型专题，适合作为 glmmTMB 的中文路线入口。",
+      noteEn: "An Ai尚研修 ecology-course page with mixed-effects and complex-model modules that works as a Chinese entry point for glmmTMB-style workflows.",
+      url: "https://www.10100.com/article/9259060"
     },
     {
       labelZh: "官方案例",
@@ -2939,20 +2939,20 @@ const packageLearningResources = {
       url: "https://glmmtmb.github.io/glmmTMB/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "GLMM 视频案例，适合对照 glmmTMB 的计数模型和交互解释。",
-      noteEn: "A GLMM video example helpful for comparing count models and interaction interpretation in glmmTMB.",
-      url: "https://www.bilibili.com/video/BV1wi421C7wY/"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "10100 的混合线性模型词条，适合理解复杂随机结构与混合模型的整体位置。",
+      noteEn: "A 10100 mixed-linear-model explainer that helps place complex random structures and mixed models in context.",
+      url: "https://www.10100.com/article/41710296"
     }
   ],
   metafor: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "元分析与森林图中文视频教程，适合快速进入 metafor 工作流。",
-      noteEn: "A Chinese video tutorial on meta-analysis and forest plots for getting started with metafor.",
-      url: "https://www.bilibili.com/video/BV1fv411G74T/"
+      noteZh: "10100 的热文汇总页，集中整理了 Meta 分析全流程、森林图和发表偏倚等内容入口。",
+      noteEn: "A 10100 roundup page that aggregates meta-analysis workflow, forest-plot, and publication-bias entry points.",
+      url: "https://www.10100.com/article/9645100"
     },
     {
       labelZh: "官方案例",
@@ -2962,20 +2962,20 @@ const packageLearningResources = {
       url: "https://wviechtb.github.io/metafor/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "中文元分析案例与图形解读，适合对照学习论文级森林图输出。",
-      noteEn: "A Chinese meta-analysis case with plot interpretation, useful for publication-style forest plots.",
-      url: "https://geekdaxue.co/read/MetaAnalysisinR/12-Meta-Analysis-with-R-Tutorial.md"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "10100 的 Meta 专题入口，适合继续追踪森林图、亚组分析和偏倚检验的公众号内容。",
+      noteEn: "A 10100 meta-analysis hub that is useful for following WeChat-style content on forest plots, subgroup analyses, and bias checks.",
+      url: "https://www.10100.com/article/9645100"
     }
   ],
   brms: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "brms 贝叶斯多层模型中文讲座，适合理解公式接口和模型范围。",
-      noteEn: "A Chinese talk on brms for understanding its formula interface and model scope.",
-      url: "https://learn.microsoft.com/zh-cn/shows/user-international-r-user-conferences-user-international-r-user-2017-conference/brms-bayesian-multilevel-models-using-stan"
+      noteZh: "Ai尚研修的 piecewiseSEM 课程页中组合列出贝叶斯方法专题，适合作为生态贝叶斯建模的中文入口。",
+      noteEn: "An Ai尚研修 piecewiseSEM course page that explicitly bundles an ecology-focused Bayesian module, useful as a Chinese entry point.",
+      url: "https://www.10100.com/article/10005616"
     },
     {
       labelZh: "官方案例",
@@ -2985,20 +2985,20 @@ const packageLearningResources = {
       url: "https://paulbuerkner.com/brms/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "贝叶斯回归与混合效应中文课程，适合看生态数据建模案例。",
-      noteEn: "A Chinese course on Bayesian regression and mixed models with ecology-friendly examples.",
-      url: "https://www.bilibili.com/video/BV1iT411c7bi/"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "Ai尚研修生态环境课程页中同时列出贝叶斯与混合效应专题，适合对照中文应用场景。",
+      noteEn: "An Ai尚研修 ecology-course page that lists both Bayesian and mixed-effects modules, useful for Chinese application contexts.",
+      url: "https://www.10100.com/article/9259060"
     }
   ],
   "piecewise-sem": [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "piecewiseSEM 中文入门，适合理解 GLMM / LMM 与路径分析结合方式。",
-      noteEn: "A Chinese primer on combining GLMMs or LMMs with path analysis in piecewiseSEM.",
-      url: "https://developer.baidu.com/article/details/2826689"
+      noteZh: "Ai尚研修的 piecewiseSEM 生态环境专题，适合作为最贴近生态应用场景的中文入口。",
+      noteEn: "An Ai尚研修 piecewiseSEM ecology page that serves as one of the most ecology-facing Chinese entry points.",
+      url: "https://www.10100.com/article/10005616"
     },
     {
       labelZh: "官方案例",
@@ -3008,20 +3008,20 @@ const packageLearningResources = {
       url: "https://jslefche.github.io/piecewiseSEM/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "中文视频案例，适合看 piecewiseSEM 在生态数据中的路径拆分逻辑。",
-      noteEn: "A Chinese video case showing how piecewiseSEM decomposes paths in ecological data.",
-      url: "https://www.bilibili.com/video/BV1Vm411C7xD/"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "Ai尚研修的生态环境专题介绍，直接点出 piecewiseSEM 在生态与地学中的应用优势。",
+      noteEn: "An Ai尚研修 ecology article that directly highlights the strengths of piecewiseSEM in ecological and geoscience work.",
+      url: "https://www.10100.com/article/10005616"
     }
   ],
   lavaan: [
     {
       labelZh: "中文教程",
       labelEn: "Chinese tutorial",
-      noteZh: "lavaan 结构方程模型中文教程，适合理解语法、拟合与路径图。",
-      noteEn: "A Chinese lavaan tutorial covering syntax, fitting, and path-diagram interpretation.",
-      url: "https://blog.csdn.net/PhyliciaFelicia/article/details/136558921"
+      noteZh: "Ai尚研修生态环境结构方程模型课程页，适合作为中文 SEM 入门入口。",
+      noteEn: "An Ai尚研修 ecology-focused SEM course page that works as a Chinese entry point to SEM workflows.",
+      url: "https://www.10100.com/article/10005616"
     },
     {
       labelZh: "官方案例",
@@ -3031,11 +3031,11 @@ const packageLearningResources = {
       url: "https://lavaan.ugent.be/tutorial/"
     },
     {
-      labelZh: "精选示例",
-      labelEn: "Curated example",
-      noteZh: "SEM 中文视频案例，适合配合 lavaan 对照学习模型图与结果表。",
-      noteEn: "A Chinese SEM video case that pairs well with lavaan for reading path diagrams and output tables.",
-      url: "https://www.bilibili.com/video/BV1Ea4y1c7mh/"
+      labelZh: "公众号精选",
+      labelEn: "WeChat pick",
+      noteZh: "Ai尚研修生态环境 SEM 专题，适合配合 lavaan 理解路径图与因果结构表达。",
+      noteEn: "An Ai尚研修 ecology-focused SEM page that pairs well with lavaan for reading path diagrams and causal structures.",
+      url: "https://www.10100.com/article/10005616"
     }
   ]
 };
