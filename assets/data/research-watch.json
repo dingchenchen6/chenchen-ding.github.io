@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T06:43:16.474706+00:00",
+  "generated_at": "2026-08-05T06:44:50.268434+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 42.07076,
+      "relevance_score": 41.635475,
       "keyword_score": 9.8,
-      "score": 5.3102
+      "score": 5.3066
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -35,9 +35,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 82.52075,
+      "relevance_score": 81.94072,
       "keyword_score": 7.0,
-      "score": 4.8803
+      "score": 4.8776
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -53,9 +53,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 39.329674,
+      "relevance_score": 39.36456,
       "keyword_score": 7.6,
-      "score": 4.7577
+      "score": 4.7572
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -72,9 +72,27 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 43.495865,
+      "relevance_score": 43.33517,
       "keyword_score": 7.3,
-      "score": 4.3171
+      "score": 4.3153
+    },
+    {
+      "id": "https://openalex.org/W7147562748",
+      "title": "Future scenarios for British biodiversity under climate and land-use change",
+      "publication_date": "2026-03-31",
+      "journal": "Nature Communications",
+      "authors_text": "Rob Cooke, Victoria J. Burton, Calum Brown, Colin Harrower, Steven M. White et al.",
+      "abstract": "Projections of biodiversity futures are needed to translate global policies into national action. We use dissimilarity modelling to project climate change scenarios for 1002 plant, 56 butterfly, and 219 bird species across Great Britain up to 2080. Under all scenarios we find extensive community reorganisation, with the disappearance of current bioclimate...",
+      "primary_url": "https://doi.org/10.1038/s41467-026-70064-4",
+      "doi_url": "https://doi.org/10.1038/s41467-026-70064-4",
+      "openalex_url": "https://openalex.org/W7147562748",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 66.57812,
+      "keyword_score": 6.8,
+      "score": 4.2983
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -90,9 +108,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 42.10089,
+      "relevance_score": 42.240925,
       "keyword_score": 6.7,
-      "score": 4.2785
+      "score": 4.2786
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -108,9 +126,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 61.631596,
+      "relevance_score": 61.130085,
       "keyword_score": 5.5,
-      "score": 4.1588
+      "score": 4.1557
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -126,9 +144,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.644145,
+      "relevance_score": 9.615215,
       "keyword_score": 6.5,
-      "score": 4.1063
+      "score": 4.1048
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -144,9 +162,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 86.28165,
+      "relevance_score": 86.21786,
       "keyword_score": 6.4,
-      "score": 4.0692
+      "score": 4.0683
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -162,9 +180,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 40.958607,
+      "relevance_score": 40.934505,
       "keyword_score": 5.7,
-      "score": 4.0616
+      "score": 4.0606
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -180,9 +198,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 46.000507,
+      "relevance_score": 45.7959,
       "keyword_score": 5.4,
-      "score": 3.9911
+      "score": 3.9891
     },
     {
       "id": "https://openalex.org/W4414263076",
@@ -199,27 +217,9 @@
         "land_use_climate_interactions",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 93.55104,
+      "relevance_score": 92.79152,
       "keyword_score": 5.2,
-      "score": 3.9477
-    },
-    {
-      "id": "https://openalex.org/W4415912410",
-      "title": "Toward a global repository of insect traits ( <scp>GRIT</scp> )",
-      "publication_date": "2025-11-05",
-      "journal": "Insect Conservation and Diversity",
-      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
-      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
-      "primary_url": "https://doi.org/10.1111/icad.70035",
-      "doi_url": "https://doi.org/10.1111/icad.70035",
-      "openalex_url": "https://openalex.org/W4415912410",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 29.179424,
-      "keyword_score": 6.4,
-      "score": 3.7933
+      "score": 3.9447
     }
   ]
 }
