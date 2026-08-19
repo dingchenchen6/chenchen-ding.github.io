@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:54:36.705332+00:00",
+  "generated_at": "2026-08-19T04:54:20.996581+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 41.402607,
+      "relevance_score": 40.762665,
       "keyword_score": 9.8,
-      "score": 5.2951
+      "score": 5.2901
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 50.431194,
+      "relevance_score": 49.18504,
       "keyword_score": 8.9,
-      "score": 4.9934
+      "score": 4.9857
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -53,9 +53,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 93.96812,
+      "relevance_score": 97.51331,
       "keyword_score": 7.0,
-      "score": 4.9055
+      "score": 4.915
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -71,9 +71,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 39.25159,
+      "relevance_score": 38.894325,
       "keyword_score": 7.6,
-      "score": 4.7464
+      "score": 4.7431
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -90,27 +90,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 43.141155,
+      "relevance_score": 42.84595,
       "keyword_score": 7.3,
-      "score": 4.3041
-    },
-    {
-      "id": "https://openalex.org/W7147562748",
-      "title": "Future scenarios for British biodiversity under climate and land-use change",
-      "publication_date": "2026-03-31",
-      "journal": "Nature Communications",
-      "authors_text": "Rob Cooke, Victoria J. Burton, Calum Brown, Colin Harrower, Steven M. White et al.",
-      "abstract": "Projections of biodiversity futures are needed to translate global policies into national action. We use dissimilarity modelling to project climate change scenarios for 1002 plant, 56 butterfly, and 219 bird species across Great Britain up to 2080. Under all scenarios we find extensive community reorganisation, with the disappearance of current bioclimate...",
-      "primary_url": "https://doi.org/10.1038/s41467-026-70064-4",
-      "doi_url": "https://doi.org/10.1038/s41467-026-70064-4",
-      "openalex_url": "https://openalex.org/W7147562748",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 67.31065,
-      "keyword_score": 6.8,
-      "score": 4.2913
+      "score": 4.3015
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -126,9 +108,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 42.25766,
+      "relevance_score": 42.02198,
       "keyword_score": 6.7,
-      "score": 4.2688
+      "score": 4.2665
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -144,9 +126,27 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 60.895412,
+      "relevance_score": 59.06707,
       "keyword_score": 5.5,
-      "score": 4.1447
+      "score": 4.1356
+    },
+    {
+      "id": "https://openalex.org/W4414281620",
+      "title": "Impacts of Indigenous Cultural Burning Versus Hazard Reduction on Dry Sclerophyll Forest Composition, Abundance, and Species Richness in Southeast Australia",
+      "publication_date": "2025-09-17",
+      "journal": "Fire",
+      "authors_text": "Michelle McKemey, John T. Hunter, Maureen L. P. Patterson, Ian C. Simpson, Nick Reid",
+      "abstract": "Fire has had a profound impact on Australia’s landscapes and biodiversity since the late Tertiary. Indigenous (Aboriginal) people have lived in Australia for at least 65,000 years and fire is an integral part of their culture and cosmology. In 2015, an Indigenous cultural burn was undertaken by Banbai rangers at Wattleridge Indigenous Protected Area, New...",
+      "primary_url": "https://doi.org/10.3390/fire8090367",
+      "doi_url": "https://doi.org/10.3390/fire8090367",
+      "openalex_url": "https://openalex.org/W4414281620",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 65.551506,
+      "keyword_score": 6.8,
+      "score": 4.1337
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -162,9 +162,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.532644,
+      "relevance_score": 9.443285,
       "keyword_score": 6.5,
-      "score": 4.0926
+      "score": 4.0895
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -180,27 +180,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 90.89546,
+      "relevance_score": 89.58835,
       "keyword_score": 6.4,
-      "score": 4.0729
-    },
-    {
-      "id": "https://openalex.org/W4417036299",
-      "title": "Climate‐Driven Habitat Loss and Natural Fragmentation Increase Extinction Risk and Compromise Population Viability in Freshwater Fish",
-      "publication_date": "2025-12-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Jessica Côte, Gaël Grenouillet, Fanny Thiéry, Céline Jezequel, Bernard Hugueny",
-      "abstract": "Climate change is one of the major drivers of the current extinction crisis. In this context, determining the probability of species extinction is crucial. In aquatic ecosystems, basin area is a key factor influencing extinction risk. Habitat fragmentation can significantly reduce river basin size and lead to both deterministic and stochastic extinctions....",
-      "primary_url": "https://doi.org/10.1111/gcb.70630",
-      "doi_url": "https://doi.org/10.1111/gcb.70630",
-      "openalex_url": "https://openalex.org/W4417036299",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 39.79251,
-      "keyword_score": 5.7,
-      "score": 4.0429
+      "score": 4.0681
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -216,9 +198,28 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 48.945267,
+      "relevance_score": 48.312157,
       "keyword_score": 5.4,
-      "score": 3.9974
+      "score": 3.993
+    },
+    {
+      "id": "https://openalex.org/W4414263076",
+      "title": "Using total abundance as a proxy for wild bee species richness: A practical tool for non‐experts",
+      "publication_date": "2025-09-12",
+      "journal": "Journal of Applied Ecology",
+      "authors_text": "Lorenzo Marini, Elena Gazzea, Matthias Albrecht, Andràs Báldí, Péter Batáry et al.",
+      "abstract": "Abstract As there is growing interest among non‐specialists in participating in pollinator conservation initiatives, developing proxies for wild bee species richness that could be potentially used by non‐experts can aid conservation, decision support systems for managers and policymakers, and create entry points for future taxonomists. We used data from 6...",
+      "primary_url": "https://doi.org/10.1111/1365-2664.70167",
+      "doi_url": "https://doi.org/10.1111/1365-2664.70167",
+      "openalex_url": "https://openalex.org/W4414263076",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions",
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 92.5329,
+      "keyword_score": 5.2,
+      "score": 3.9331
     }
   ]
 }
