@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T16:42:08.126379+00:00",
+  "generated_at": "2026-08-29T11:10:01.866490+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -18,7 +18,7 @@
       ],
       "relevance_score": 40.859222,
       "keyword_score": 9.8,
-      "score": 5.2838
+      "score": 5.283
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -36,7 +36,7 @@
       ],
       "relevance_score": 48.85997,
       "keyword_score": 8.9,
-      "score": 4.977
+      "score": 4.9763
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -55,7 +55,7 @@
       ],
       "relevance_score": 98.14128,
       "keyword_score": 7.0,
-      "score": 4.9099
+      "score": 4.9091
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -73,7 +73,7 @@
       ],
       "relevance_score": 39.063133,
       "keyword_score": 7.6,
-      "score": 4.7374
+      "score": 4.7366
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -92,7 +92,7 @@
       ],
       "relevance_score": 42.509914,
       "keyword_score": 7.3,
-      "score": 4.2924
+      "score": 4.2916
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -110,7 +110,7 @@
       ],
       "relevance_score": 42.61715,
       "keyword_score": 6.7,
-      "score": 4.2634
+      "score": 4.2626
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -128,7 +128,7 @@
       ],
       "relevance_score": 60.750595,
       "keyword_score": 5.5,
-      "score": 4.1364
+      "score": 4.1356
     },
     {
       "id": "https://openalex.org/W4414281620",
@@ -146,7 +146,7 @@
       ],
       "relevance_score": 65.54908,
       "keyword_score": 6.8,
-      "score": 4.1268
+      "score": 4.126
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -164,7 +164,7 @@
       ],
       "relevance_score": 101.24007,
       "keyword_score": 6.4,
-      "score": 4.0951
+      "score": 4.0943
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -182,7 +182,7 @@
       ],
       "relevance_score": 9.437735,
       "keyword_score": 6.5,
-      "score": 4.0824
+      "score": 4.0817
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -198,9 +198,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 40.242744,
+      "relevance_score": 40.416725,
       "keyword_score": 5.7,
-      "score": 4.0383
+      "score": 4.0387
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -218,7 +218,7 @@
       ],
       "relevance_score": 48.30515,
       "keyword_score": 5.4,
-      "score": 3.9861
+      "score": 3.9853
     }
   ]
 }
