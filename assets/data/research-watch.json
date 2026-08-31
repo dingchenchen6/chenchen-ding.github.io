@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T09:58:36.233816+00:00",
+  "generated_at": "2026-08-31T10:55:51.846601+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 40.442245,
+      "relevance_score": 40.254196,
       "keyword_score": 9.8,
-      "score": 5.2795
+      "score": 5.2774
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 48.5802,
+      "relevance_score": 48.519905,
       "keyword_score": 8.9,
-      "score": 4.9739
+      "score": 4.9728
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -53,9 +53,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 97.98488,
+      "relevance_score": 102.37916,
       "keyword_score": 7.0,
-      "score": 4.9079
+      "score": 4.9193
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -71,9 +71,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 38.799686,
+      "relevance_score": 38.73915,
       "keyword_score": 7.6,
-      "score": 4.734
+      "score": 4.7328
+    },
+    {
+      "id": "https://openalex.org/W7147562748",
+      "title": "Future scenarios for British biodiversity under climate and land-use change",
+      "publication_date": "2026-03-31",
+      "journal": "Nature Communications",
+      "authors_text": "Rob Cooke, Victoria J. Burton, Calum Brown, Colin Harrower, Steven M. White et al.",
+      "abstract": "Projections of biodiversity futures are needed to translate global policies into national action. We use dissimilarity modelling to project climate change scenarios for 1002 plant, 56 butterfly, and 219 bird species across Great Britain up to 2080. Under all scenarios we find extensive community reorganisation, with the disappearance of current bioclimate...",
+      "primary_url": "https://doi.org/10.1038/s41467-026-70064-4",
+      "doi_url": "https://doi.org/10.1038/s41467-026-70064-4",
+      "openalex_url": "https://openalex.org/W7147562748",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 79.03528,
+      "keyword_score": 6.8,
+      "score": 4.3257
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -90,9 +108,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 42.65367,
+      "relevance_score": 42.526295,
       "keyword_score": 7.3,
-      "score": 4.2918
+      "score": 4.2902
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -108,9 +126,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 42.329712,
+      "relevance_score": 42.264137,
       "keyword_score": 6.7,
-      "score": 4.26
+      "score": 4.2588
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -126,27 +144,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 60.21655,
+      "relevance_score": 59.79181,
       "keyword_score": 5.5,
-      "score": 4.1324
-    },
-    {
-      "id": "https://openalex.org/W4414281620",
-      "title": "Impacts of Indigenous Cultural Burning Versus Hazard Reduction on Dry Sclerophyll Forest Composition, Abundance, and Species Richness in Southeast Australia",
-      "publication_date": "2025-09-17",
-      "journal": "Fire",
-      "authors_text": "Michelle McKemey, John T. Hunter, Maureen L. P. Patterson, Ian C. Simpson, Nick Reid",
-      "abstract": "Fire has had a profound impact on Australia’s landscapes and biodiversity since the late Tertiary. Indigenous (Aboriginal) people have lived in Australia for at least 65,000 years and fire is an integral part of their culture and cosmology. In 2015, an Indigenous cultural burn was undertaken by Banbai rangers at Wattleridge Indigenous Protected Area, New...",
-      "primary_url": "https://doi.org/10.3390/fire8090367",
-      "doi_url": "https://doi.org/10.3390/fire8090367",
-      "openalex_url": "https://openalex.org/W4414281620",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 65.6026,
-      "keyword_score": 6.8,
-      "score": 4.1255
+      "score": 4.1297
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -162,9 +162,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 104.11904,
+      "relevance_score": 103.778946,
       "keyword_score": 6.4,
-      "score": 4.1013
+      "score": 4.0997
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -180,9 +180,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.407418,
+      "relevance_score": 9.388264,
       "keyword_score": 6.5,
-      "score": 4.0801
+      "score": 4.0788
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -198,9 +198,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 39.999603,
+      "relevance_score": 39.888813,
       "keyword_score": 5.7,
-      "score": 4.0351
+      "score": 4.0336
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -216,9 +216,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 48.11134,
+      "relevance_score": 48.044186,
       "keyword_score": 5.4,
-      "score": 3.9835
+      "score": 3.9823
     }
   ]
 }
