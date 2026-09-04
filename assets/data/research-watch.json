@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:58:41.123454+00:00",
+  "generated_at": "2026-09-04T08:53:05.431553+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 40.120575,
+      "relevance_score": 40.30207,
       "keyword_score": 9.8,
-      "score": 5.2742
+      "score": 5.2747
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 48.350315,
+      "relevance_score": 48.27593,
       "keyword_score": 8.9,
-      "score": 4.9695
+      "score": 4.9684
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -53,7 +53,7 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 102.75543,
+      "relevance_score": 103.02598,
       "keyword_score": 7.0,
       "score": 4.918
     },
@@ -71,9 +71,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 38.74354,
+      "relevance_score": 38.831024,
       "keyword_score": 7.6,
-      "score": 4.7306
+      "score": 4.7304
     },
     {
       "id": "https://openalex.org/W7106230469",
@@ -89,9 +89,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 29.858248,
+      "relevance_score": 29.875002,
       "keyword_score": 7.4,
-      "score": 4.4935
+      "score": 4.4929
     },
     {
       "id": "https://openalex.org/W7147562748",
@@ -107,9 +107,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 79.85561,
+      "relevance_score": 79.83005,
       "keyword_score": 6.8,
-      "score": 4.3263
+      "score": 4.3254
     },
     {
       "id": "https://openalex.org/W4414095486",
@@ -126,9 +126,9 @@
         "ecological_modelling_biogeography",
         "species_distribution_monitoring"
       ],
-      "relevance_score": 42.51172,
+      "relevance_score": 42.667183,
       "keyword_score": 7.3,
-      "score": 4.2878
+      "score": 4.288
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -144,9 +144,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 42.563374,
+      "relevance_score": 42.521633,
       "keyword_score": 6.7,
-      "score": 4.2585
+      "score": 4.2574
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -162,9 +162,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 59.372013,
+      "relevance_score": 59.445175,
       "keyword_score": 5.5,
-      "score": 4.1255
+      "score": 4.125
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -180,9 +180,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 103.38528,
+      "relevance_score": 103.24176,
       "keyword_score": 6.4,
-      "score": 4.0963
+      "score": 4.0952
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -198,9 +198,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.374283,
+      "relevance_score": 9.36936,
       "keyword_score": 6.5,
-      "score": 4.0761
+      "score": 4.0752
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -216,9 +216,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 39.853596,
+      "relevance_score": 39.79388,
       "keyword_score": 5.7,
-      "score": 4.0311
+      "score": 4.0299
     }
   ]
 }
