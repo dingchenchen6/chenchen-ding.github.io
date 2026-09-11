@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:00:21.327130+00:00",
+  "generated_at": "2026-09-11T08:57:18.413787+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 39.80387,
+      "relevance_score": 39.9995,
       "keyword_score": 9.8,
-      "score": 5.2674
+      "score": 5.2672
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 50.801857,
+      "relevance_score": 50.7843,
       "keyword_score": 8.9,
-      "score": 4.9785
+      "score": 4.9769
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -53,9 +53,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 100.34232,
+      "relevance_score": 100.97646,
       "keyword_score": 7.0,
-      "score": 4.9069
+      "score": 4.9071
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -71,9 +71,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 38.19938,
+      "relevance_score": 38.112404,
       "keyword_score": 7.6,
-      "score": 4.7221
+      "score": 4.7199
     },
     {
       "id": "https://openalex.org/W7106230469",
@@ -89,9 +89,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 29.68566,
+      "relevance_score": 29.708313,
       "keyword_score": 7.4,
-      "score": 4.4873
+      "score": 4.486
     },
     {
       "id": "https://openalex.org/W7147562748",
@@ -107,28 +107,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 77.541435,
+      "relevance_score": 76.95189,
       "keyword_score": 6.8,
-      "score": 4.3135
-    },
-    {
-      "id": "https://openalex.org/W4414095486",
-      "title": "Integrating Species Richness, Distribution and Human Pressures to Assess Conservation Priorities in High Andean Salares",
-      "publication_date": "2025-09-10",
-      "journal": "Sustainability",
-      "authors_text": "Marcelo Hernández-Rojas, Rodrigo A. Estévez, Cristian Romero, Sebastián Pérez Díaz, Fabio A. Labra",
-      "abstract": "High Andean salares and their surrounding basins host unique ecosystems and rich biodiversity. Increasing global demand for lithium and brines in these environments have attracted significant international investment, raising both economic expectations and socio-environmental concerns. This poses major challenges for biodiversity conservation, governance...",
-      "primary_url": "https://doi.org/10.3390/su17188139",
-      "doi_url": "https://doi.org/10.3390/su17188139",
-      "openalex_url": "https://openalex.org/W4414095486",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 42.131805,
-      "keyword_score": 7.3,
-      "score": 4.2808
+      "score": 4.3099
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -144,9 +125,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 41.420273,
+      "relevance_score": 41.078876,
       "keyword_score": 6.7,
-      "score": 4.2464
+      "score": 4.2426
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -162,9 +143,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 58.24742,
+      "relevance_score": 58.20078,
       "keyword_score": 5.5,
-      "score": 4.1156
+      "score": 4.1138
     },
     {
       "id": "https://openalex.org/W4414281620",
@@ -180,9 +161,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 64.38237,
+      "relevance_score": 64.06995,
       "keyword_score": 6.8,
-      "score": 4.1126
+      "score": 4.1097
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -198,9 +179,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 104.77263,
+      "relevance_score": 104.779434,
       "keyword_score": 6.4,
-      "score": 4.0954
+      "score": 4.0939
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -216,9 +197,27 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.203644,
+      "relevance_score": 9.246833,
       "keyword_score": 6.5,
-      "score": 4.0669
+      "score": 4.0665
+    },
+    {
+      "id": "https://openalex.org/W4417036299",
+      "title": "Climate‐Driven Habitat Loss and Natural Fragmentation Increase Extinction Risk and Compromise Population Viability in Freshwater Fish",
+      "publication_date": "2025-12-01",
+      "journal": "Global Change Biology",
+      "authors_text": "Jessica Côte, Gaël Grenouillet, Fanny Thiéry, Céline Jezequel, Bernard Hugueny",
+      "abstract": "Climate change is one of the major drivers of the current extinction crisis. In this context, determining the probability of species extinction is crucial. In aquatic ecosystems, basin area is a key factor influencing extinction risk. Habitat fragmentation can significantly reduce river basin size and lead to both deterministic and stochastic extinctions....",
+      "primary_url": "https://doi.org/10.1111/gcb.70630",
+      "doi_url": "https://doi.org/10.1111/gcb.70630",
+      "openalex_url": "https://openalex.org/W4417036299",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 38.81261,
+      "keyword_score": 5.7,
+      "score": 4.0177
     }
   ]
 }
