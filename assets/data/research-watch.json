@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:40:45.238123+00:00",
+  "generated_at": "2026-09-13T09:35:34.927170+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -18,7 +18,7 @@
       ],
       "relevance_score": 40.025784,
       "keyword_score": 9.8,
-      "score": 5.2667
+      "score": 5.2659
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -36,7 +36,7 @@
       ],
       "relevance_score": 50.800186,
       "keyword_score": 8.9,
-      "score": 4.9762
+      "score": 4.9754
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -55,7 +55,7 @@
       ],
       "relevance_score": 101.12231,
       "keyword_score": 7.0,
-      "score": 4.9067
+      "score": 4.9059
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -73,7 +73,7 @@
       ],
       "relevance_score": 38.29695,
       "keyword_score": 7.6,
-      "score": 4.7205
+      "score": 4.7197
     },
     {
       "id": "https://openalex.org/W7106230469",
@@ -91,7 +91,7 @@
       ],
       "relevance_score": 29.68391,
       "keyword_score": 7.4,
-      "score": 4.485
+      "score": 4.4842
     },
     {
       "id": "https://openalex.org/W7147562748",
@@ -109,7 +109,7 @@
       ],
       "relevance_score": 77.49465,
       "keyword_score": 6.8,
-      "score": 4.3111
+      "score": 4.3103
     },
     {
       "id": "https://openalex.org/W4414266448",
@@ -127,7 +127,7 @@
       ],
       "relevance_score": 41.493267,
       "keyword_score": 6.7,
-      "score": 4.2446
+      "score": 4.2438
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -145,7 +145,7 @@
       ],
       "relevance_score": 57.981136,
       "keyword_score": 5.5,
-      "score": 4.112
+      "score": 4.1113
     },
     {
       "id": "https://openalex.org/W4414281620",
@@ -163,7 +163,7 @@
       ],
       "relevance_score": 64.174095,
       "keyword_score": 6.8,
-      "score": 4.1094
+      "score": 4.1086
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -181,7 +181,7 @@
       ],
       "relevance_score": 104.75306,
       "keyword_score": 6.4,
-      "score": 4.0931
+      "score": 4.0923
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -199,7 +199,7 @@
       ],
       "relevance_score": 9.275684,
       "keyword_score": 6.5,
-      "score": 4.0665
+      "score": 4.0658
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -217,7 +217,7 @@
       ],
       "relevance_score": 38.944225,
       "keyword_score": 5.7,
-      "score": 4.0179
+      "score": 4.0171
     }
   ]
 }
