@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T09:35:34.927170+00:00",
+  "generated_at": "2026-09-14T09:56:47.155720+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 40.025784,
+      "relevance_score": 39.97705,
       "keyword_score": 9.8,
-      "score": 5.2659
+      "score": 5.2648
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 50.800186,
+      "relevance_score": 50.59875,
       "keyword_score": 8.9,
-      "score": 4.9754
+      "score": 4.9736
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -53,9 +53,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 101.12231,
+      "relevance_score": 100.83709,
       "keyword_score": 7.0,
-      "score": 4.9059
+      "score": 4.9044
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -71,9 +71,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 38.29695,
+      "relevance_score": 38.225597,
       "keyword_score": 7.6,
-      "score": 4.7197
+      "score": 4.7185
     },
     {
       "id": "https://openalex.org/W7106230469",
@@ -89,9 +89,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 29.68391,
+      "relevance_score": 34.110497,
       "keyword_score": 7.4,
-      "score": 4.4842
+      "score": 4.5212
     },
     {
       "id": "https://openalex.org/W7147562748",
@@ -107,27 +107,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 77.49465,
+      "relevance_score": 77.806915,
       "keyword_score": 6.8,
-      "score": 4.3103
-    },
-    {
-      "id": "https://openalex.org/W4414266448",
-      "title": "Uncertainty in blacklisting potential Pacific plant invaders using species distribution models",
-      "publication_date": "2025-09-13",
-      "journal": "Journal of Applied Ecology",
-      "authors_text": "Valén Holle, Anna Rönnfeldt, Katrin Schifferle, Juliano Sarmento Cabral, Dylan Craven et al.",
-      "abstract": "Abstract Invasive alien species pose a growing threat to global biodiversity, underscoring the need for evidence‐based prevention strategies. Species distribution models ( SDMs ) are a widely used tool to estimate the potential distribution of alien species and to inform blacklists based on establishment risk. Yet, data limitations and modelling decisions...",
-      "primary_url": "https://doi.org/10.1111/1365-2664.70163",
-      "doi_url": "https://doi.org/10.1111/1365-2664.70163",
-      "openalex_url": "https://openalex.org/W4414266448",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 41.493267,
-      "keyword_score": 6.7,
-      "score": 4.2438
+      "score": 4.3107
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -143,9 +125,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 57.981136,
+      "relevance_score": 57.78257,
       "keyword_score": 5.5,
-      "score": 4.1113
+      "score": 4.1096
     },
     {
       "id": "https://openalex.org/W4414281620",
@@ -161,9 +143,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 64.174095,
+      "relevance_score": 64.42229,
       "keyword_score": 6.8,
-      "score": 4.1086
+      "score": 4.1089
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -179,9 +161,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 104.75306,
+      "relevance_score": 104.81744,
       "keyword_score": 6.4,
-      "score": 4.0923
+      "score": 4.0917
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -197,9 +179,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.275684,
+      "relevance_score": 9.266457,
       "keyword_score": 6.5,
-      "score": 4.0658
+      "score": 4.0647
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -215,9 +197,27 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 38.944225,
+      "relevance_score": 39.232407,
       "keyword_score": 5.7,
-      "score": 4.0171
+      "score": 4.0183
+    },
+    {
+      "id": "https://openalex.org/W7119527183",
+      "title": "The Performance and Potential of Deep Learning for Predicting Species Distributions",
+      "publication_date": "2026-01-01",
+      "journal": "Global Ecology and Biogeography",
+      "authors_text": "Benjamin Kellenberger, Kevin Winner, W. Jetz",
+      "abstract": "ABSTRACT Aim Species distribution models (SDMs) address the whereabouts of species and are central to ecology. Deep learning (DL) is poised to further elevate the already significant role of SDMs in ecology and conservation, but the potential and limitations of this transformation are still largely unassessed. Location North America. Time Period 2009–2021...",
+      "primary_url": "https://doi.org/10.1111/geb.70184",
+      "doi_url": "https://doi.org/10.1111/geb.70184",
+      "openalex_url": "https://openalex.org/W7119527183",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 55.39064,
+      "keyword_score": 5.4,
+      "score": 4.0107
     }
   ]
 }
