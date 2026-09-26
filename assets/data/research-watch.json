@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T09:39:27.861170+00:00",
+  "generated_at": "2026-09-26T09:23:52.945224+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 41.12508,
+      "relevance_score": 41.591156,
       "keyword_score": 9.8,
-      "score": 5.2641
+      "score": 5.2664
     },
     {
       "id": "https://openalex.org/W4416407172",
@@ -32,11 +32,12 @@
       "openalex_url": "https://openalex.org/W4416407172",
       "type": "article",
       "matched_topic_keys": [
-        "extinction_risk_conservation"
+        "extinction_risk_conservation",
+        "land_use_climate_interactions"
       ],
-      "relevance_score": 51.928135,
+      "relevance_score": 66.10828,
       "keyword_score": 8.9,
-      "score": 4.9723
+      "score": 5.118
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -53,9 +54,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 104.65649,
+      "relevance_score": 105.01549,
       "keyword_score": 7.0,
-      "score": 4.9063
+      "score": 4.9064
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -71,9 +72,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 46.816242,
+      "relevance_score": 46.978703,
       "keyword_score": 7.6,
-      "score": 4.7655
+      "score": 4.7656
     },
     {
       "id": "https://openalex.org/W7106230469",
@@ -89,9 +90,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 34.302452,
+      "relevance_score": 34.42111,
       "keyword_score": 7.4,
-      "score": 4.5143
+      "score": 4.5145
     },
     {
       "id": "https://openalex.org/W7147562748",
@@ -107,9 +108,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 79.40468,
+      "relevance_score": 79.37998,
       "keyword_score": 6.8,
-      "score": 4.3078
+      "score": 4.307
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -125,9 +126,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 59.7412,
+      "relevance_score": 60.09811,
       "keyword_score": 5.5,
-      "score": 4.1103
+      "score": 4.1112
     },
     {
       "id": "https://openalex.org/W4414971307",
@@ -143,9 +144,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 107.994125,
+      "relevance_score": 108.10416,
       "keyword_score": 6.4,
-      "score": 4.0915
+      "score": 4.0911
     },
     {
       "id": "https://openalex.org/W7154980729",
@@ -161,7 +162,7 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.408931,
+      "relevance_score": 9.438993,
       "keyword_score": 6.5,
       "score": 4.0602
     },
@@ -179,27 +180,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 39.408894,
+      "relevance_score": 39.809795,
       "keyword_score": 5.7,
-      "score": 4.0111
-    },
-    {
-      "id": "https://openalex.org/W4417524019",
-      "title": "Airborne eDNA captures three decades of ecosystem biodiversity",
-      "publication_date": "2025-12-18",
-      "journal": "Nature Communications",
-      "authors_text": "Alexis R. Sullivan, Edvin Karlsson, Daniel Svensson, Björn Brindefalk, Jose Antonio Lozano Villegas et al.",
-      "abstract": "Biodiversity loss threatens ecosystems and human well-being, making accurate, large-scale monitoring crucial. Environmental DNA (eDNA) has enabled species detection from substrates such as water, without the need for direct observation. Lately, airborne eDNA has been showing promise for tracking organisms from insects to mammals in terrestrial ecosystems....",
-      "primary_url": "https://doi.org/10.1038/s41467-025-67676-7",
-      "doi_url": "https://doi.org/10.1038/s41467-025-67676-7",
-      "openalex_url": "https://openalex.org/W4417524019",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 66.026436,
-      "keyword_score": 6.4,
-      "score": 4.0099
+      "score": 4.0131
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -215,9 +198,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 55.918255,
+      "relevance_score": 55.932457,
       "keyword_score": 5.4,
-      "score": 4.0048
+      "score": 4.0041
+    },
+    {
+      "id": "https://openalex.org/W4415912410",
+      "title": "Toward a global repository of insect traits ( GRIT )",
+      "publication_date": "2025-11-05",
+      "journal": "Insect Conservation and Diversity",
+      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
+      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
+      "primary_url": "https://doi.org/10.1111/icad.70035",
+      "doi_url": "https://doi.org/10.1111/icad.70035",
+      "openalex_url": "https://openalex.org/W4415912410",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 28.85332,
+      "keyword_score": 6.4,
+      "score": 3.7496
     }
   ]
 }
