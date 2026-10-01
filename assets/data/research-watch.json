@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T09:23:52.945224+00:00",
+  "generated_at": "2026-10-01T11:00:31.067805+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,28 +16,27 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 41.591156,
+      "relevance_score": 40.978046,
       "keyword_score": 9.8,
-      "score": 5.2664
+      "score": 5.2585
     },
     {
       "id": "https://openalex.org/W4416407172",
       "title": "Climate change triggering shifts in venomous snakes hotspots and snakebite risk in India",
       "publication_date": "2025-11-20",
       "journal": "Scientific Reports",
-      "authors_text": "Siddhesh Khandve, Ashish Kumar Jangid, Patil Shivprasad Suresh, Dipesh Kumar Jangir, Akshit R. Suthar et al.",
+      "authors_text": "Siddhesh Khandve, Ashish Kumar Jangid, P. C. Sreelekha Suresh, Dipesh Kumar Jangir, Akshit R. Suthar et al.",
       "abstract": "Amidst several global environmental challenges, climate change severely threatens biodiversity, leading to shifts in species distributions, and, in extreme cases, local or global extinctions. Here, we modeled the current and future distributions of biodiversity hotspots for terrestrial venomous snake species across India and evaluated shifts under two cli...",
       "primary_url": "https://doi.org/10.1038/s41598-025-24731-z",
       "doi_url": "https://doi.org/10.1038/s41598-025-24731-z",
       "openalex_url": "https://openalex.org/W4416407172",
       "type": "article",
       "matched_topic_keys": [
-        "extinction_risk_conservation",
-        "land_use_climate_interactions"
+        "extinction_risk_conservation"
       ],
-      "relevance_score": 66.10828,
+      "relevance_score": 55.454987,
       "keyword_score": 8.9,
-      "score": 5.118
+      "score": 4.9857
     },
     {
       "id": "https://openalex.org/W4417151467",
@@ -54,9 +53,9 @@
         "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 105.01549,
+      "relevance_score": 103.81862,
       "keyword_score": 7.0,
-      "score": 4.9064
+      "score": 4.8994
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -72,9 +71,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 46.978703,
+      "relevance_score": 47.0288,
       "keyword_score": 7.6,
-      "score": 4.7656
+      "score": 4.7621
     },
     {
       "id": "https://openalex.org/W7106230469",
@@ -90,9 +89,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 34.42111,
+      "relevance_score": 34.84148,
       "keyword_score": 7.4,
-      "score": 4.5145
+      "score": 4.5139
+    },
+    {
+      "id": "https://openalex.org/W7212980477",
+      "title": "Beyond area‐based design: Optimizing urban other effective area‐based conservation measures with a scale‐sensitive, multispecies framework",
+      "publication_date": "2026-09-01",
+      "journal": "Journal of Applied Ecology",
+      "authors_text": "Minhui Li, Yue Weng, Hongmin Wang, Xi Zhao, Yunxiang Zheng et al.",
+      "abstract": "Abstract With 68% of the global population projected to reside in urban areas by 2050, conserving urban biodiversity through other effective area‐based conservation measures (OECMs) represents an urgent global priority under the Kunming–Montreal Global Biodiversity Framework. OECMs are geographically defined, non‐protected areas that sustain long‐term bio...",
+      "primary_url": "https://doi.org/10.1111/1365-2664.70586",
+      "doi_url": "https://doi.org/10.1111/1365-2664.70586",
+      "openalex_url": "https://openalex.org/W7212980477",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 21.73682,
+      "keyword_score": 6.8,
+      "score": 4.3677
     },
     {
       "id": "https://openalex.org/W7147562748",
@@ -108,9 +125,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 79.37998,
+      "relevance_score": 79.7785,
       "keyword_score": 6.8,
-      "score": 4.307
+      "score": 4.3045
     },
     {
       "id": "https://openalex.org/W7133361774",
@@ -126,16 +143,16 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 60.09811,
+      "relevance_score": 61.00319,
       "keyword_score": 5.5,
-      "score": 4.1112
+      "score": 4.1114
     },
     {
       "id": "https://openalex.org/W4414971307",
       "title": "Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals",
       "publication_date": "2025-10-08",
       "journal": "Methods in Ecology and Evolution",
-      "authors_text": "Sebastian Herbert Hoefer, Slade Allen‐Ankins, Donald T. McKnight, Eric J. Nordberg, Lin Schwarzkopf",
+      "authors_text": "Sebastian Hoefer, Slade Allen‐Ankins, Donald T. McKnight, Eric J. Nordberg, Lin Schwarzkopf",
       "abstract": "Abstract Mammals play vital roles in ecological communities, but many are in rapid decline worldwide. Comprehensive monitoring of mammal populations is crucial for effective conservation, but large‐scale monitoring presents significant challenges. Remote sensing techniques such as passive acoustic monitoring offer viable and effective solutions for survey...",
       "primary_url": "https://doi.org/10.1111/2041-210x.70169",
       "doi_url": "https://doi.org/10.1111/2041-210x.70169",
@@ -144,16 +161,16 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 108.10416,
+      "relevance_score": 109.21022,
       "keyword_score": 6.4,
-      "score": 4.0911
+      "score": 4.09
     },
     {
       "id": "https://openalex.org/W7154980729",
       "title": "Estimating the Impacts of Future Extreme Heat on Dryland Threatened Mammals: An Australian Case Study",
       "publication_date": "2026-04-01",
       "journal": "Global Change Biology",
-      "authors_text": "Jack Bilby, William K. Cornwell, Katherine Moseby",
+      "authors_text": "Jack Bilby, William K. Cornwell, Katherine E. Moseby",
       "abstract": "Extreme heat is an escalating threat to biodiversity, with dryland ecosystems particularly vulnerable. Using Australia's dryland mammals as a model system, we present a framework comparing baseline and future heat envelopes for 36 threatened species to quantify future heat exposure, identify potential refugia and evaluate the suitability of translocation...",
       "primary_url": "https://doi.org/10.1111/gcb.70872",
       "doi_url": "https://doi.org/10.1111/gcb.70872",
@@ -162,9 +179,9 @@
       "matched_topic_keys": [
         "dryland_birds_heatwaves"
       ],
-      "relevance_score": 9.438993,
+      "relevance_score": 9.528203,
       "keyword_score": 6.5,
-      "score": 4.0602
+      "score": 4.0588
     },
     {
       "id": "https://openalex.org/W4417036299",
@@ -180,9 +197,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 39.809795,
+      "relevance_score": 40.86472,
       "keyword_score": 5.7,
-      "score": 4.0131
+      "score": 4.0164
     },
     {
       "id": "https://openalex.org/W7119527183",
@@ -198,27 +215,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 55.932457,
+      "relevance_score": 56.492706,
       "keyword_score": 5.4,
-      "score": 4.0041
-    },
-    {
-      "id": "https://openalex.org/W4415912410",
-      "title": "Toward a global repository of insect traits ( GRIT )",
-      "publication_date": "2025-11-05",
-      "journal": "Insect Conservation and Diversity",
-      "authors_text": "Pedro Cardoso, Nathan Jay Baker, Mário Boieiro, Dries Bonte, Paulo A. V. Borges et al.",
-      "abstract": "Abstract The pace of biodiversity loss outstrips our ability to conserve Earth's most diverse group of named species—the insects (Arthropoda: Insecta). We increasingly rely on trait‐based metrics to understand how insects respond to and affect their environment. Traits provide insights that aid conservation assessment and planning. Yet, we lack a centrali...",
-      "primary_url": "https://doi.org/10.1111/icad.70035",
-      "doi_url": "https://doi.org/10.1111/icad.70035",
-      "openalex_url": "https://openalex.org/W4415912410",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 28.85332,
-      "keyword_score": 6.4,
-      "score": 3.7496
+      "score": 4.003
     }
   ]
 }
