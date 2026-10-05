@@ -1,61 +1,132 @@
 {
-  "generated_at": "2026-10-03T09:54:36.995635+00:00",
+  "generated_at": "2026-10-05T11:35:57.886579+00:00",
   "source": "OpenAlex",
   "items": [
     {
-      "id": "https://openalex.org/W4415419270",
-      "title": "Climate change and conservation of Caladenia orchids in Western Australia",
-      "publication_date": "2025-10-22",
-      "journal": "Biodiversity and Conservation",
-      "authors_text": "Jacopo Calevo, Kingsley Wayne Dixon, Michael F. Fay, Karl J. Duffy",
-      "abstract": "Abstract Understanding how species distributions are being shaped by current rises in atmospheric temperature is of immediate conservation importance. Orchids are a globally threatened plant family, with many species having narrow ranges and low abundances that heighten extinction risk due to rising atmospheric temperature. Using 26 rare and common Calade...",
-      "primary_url": "https://doi.org/10.1007/s10531-025-03185-9",
-      "doi_url": "https://doi.org/10.1007/s10531-025-03185-9",
-      "openalex_url": "https://openalex.org/W4415419270",
+      "id": "https://openalex.org/W7154621734",
+      "title": "Over-the-horizon extinction risk assessment reveals rapidly shifting geographic and taxonomic priorities for conservation",
+      "publication_date": "2026-04-16",
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "authors_text": "Alex Slavenko, Marcel Cardillo, Lindell D. Bromham, Xia Hua, Ben C. Scheele",
+      "abstract": "A central challenge in conservation is understanding how climate change interacts with other global change drivers to shape future species extinction risk, threatened species hotspots, and the effectiveness of protected areas. Here, we use an integrated over the horizon forecasting framework to jointly model changing species' range dynamics and shifts in...",
+      "primary_url": "https://doi.org/10.64898/2026.04.13.718320",
+      "doi_url": "https://doi.org/10.64898/2026.04.13.718320",
+      "openalex_url": "https://openalex.org/W7154621734",
+      "type": "preprint",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 61.98499,
+      "keyword_score": 10.2,
+      "score": 5.6721
+    },
+    {
+      "id": "https://openalex.org/W7123615012",
+      "title": "Protected areas, habitat integrity and terrestrial mammal biodiversity in Lebanon",
+      "publication_date": "2026-01-14",
+      "journal": "Environmental Conservation",
+      "authors_text": "Giacomo Cremonesi, Stefano Rota Martir, Alessandra Gagliardi, Shadi El Indary, Maher Mckenna et al.",
+      "abstract": "Summary Political instability, socio-economic challenges and ongoing conflict hinder effective conservation and monitoring efforts within Lebanon’s nature reserves (NRs) and thus threaten the country’s biodiversity. The first nationwide NR mammal survey in 2023–2024 employed camera traps and line transect sampling to assess species presence and evaluate t...",
+      "primary_url": "https://doi.org/10.1017/s0376892925100283",
+      "doi_url": "https://doi.org/10.1017/s0376892925100283",
+      "openalex_url": "https://openalex.org/W7123615012",
+      "type": "article",
+      "matched_topic_keys": [
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 32.329876,
+      "keyword_score": 9.4,
+      "score": 5.0873
+    },
+    {
+      "id": "https://openalex.org/W4412949132",
+      "title": "Using phylogenetic relationships to assess conservation priorities for birds in India",
+      "publication_date": "2026-08-07",
+      "journal": "Global Ecology and Conservation",
+      "authors_text": "Adrian K. Sharma, Naman Goyal, Dhyey Shah, V. V. Robin",
+      "abstract": "Abstract In the midst of the ongoing biodiversity crisis, setting conservation priorities has moved beyond the conventional approaches. The need to incorporate phylogeny-based metrics that capture evolutionary rarity with extinction risk for prioritization of global conservation efforts has been widely recognized. Such metrics are even more important in m...",
+      "primary_url": "https://doi.org/10.1016/j.gecco.2026.e04363",
+      "doi_url": "https://doi.org/10.1016/j.gecco.2026.e04363",
+      "openalex_url": "https://openalex.org/W4412949132",
       "type": "article",
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 42.452896,
-      "keyword_score": 9.8,
-      "score": 5.2666
+      "relevance_score": 39.442566,
+      "keyword_score": 8.7,
+      "score": 5.0047
     },
     {
-      "id": "https://openalex.org/W4416407172",
-      "title": "Climate change triggering shifts in venomous snakes hotspots and snakebite risk in India",
-      "publication_date": "2025-11-20",
-      "journal": "Scientific Reports",
-      "authors_text": "Siddhesh Khandve, Ashish Kumar Jangid, P. C. Sreelekha Suresh, Dipesh Kumar Jangir, Akshit R. Suthar et al.",
-      "abstract": "Amidst several global environmental challenges, climate change severely threatens biodiversity, leading to shifts in species distributions, and, in extreme cases, local or global extinctions. Here, we modeled the current and future distributions of biodiversity hotspots for terrestrial venomous snake species across India and evaluated shifts under two cli...",
-      "primary_url": "https://doi.org/10.1038/s41598-025-24731-z",
-      "doi_url": "https://doi.org/10.1038/s41598-025-24731-z",
-      "openalex_url": "https://openalex.org/W4416407172",
+      "id": "https://openalex.org/W4416934565",
+      "title": "Climate change will greatly alter multifaceted biodiversity patterns in goatfish species",
+      "publication_date": "2025-12-03",
+      "journal": "npj Biodiversity",
+      "authors_text": "Hongwei Huang, Geng Qin, Zhixin Zhang, Qiang Lin",
+      "abstract": "Multifaceted biodiversity is crucial for biological conservation and ecosystem sustainability but has been largely neglected in marine biodiversity research. Here we focused on 53 goatfish species of the family Mullidae, developed species distribution models using 34,577 georeferenced occurrence records, and examined redistribution of multifaceted biodive...",
+      "primary_url": "https://doi.org/10.1038/s44185-025-00113-6",
+      "doi_url": "https://doi.org/10.1038/s44185-025-00113-6",
+      "openalex_url": "https://openalex.org/W4416934565",
       "type": "article",
       "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 57.80321,
-      "keyword_score": 8.9,
-      "score": 4.9956
-    },
-    {
-      "id": "https://openalex.org/W4417151467",
-      "title": "Effects of Future Climate Extreme Heat Events and Land Use Changes on Land Vertebrates",
-      "publication_date": "2025-12-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Reut Vardi, Gopal Murali, Gabriel Henrique de Oliveira Caetano, Uri Roll, Shai Meiri",
-      "abstract": "Climate and land use changes pose the greatest threats to biodiversity, but their synergistic effects on biodiversity have been rarely studied. Here, we assessed the combined effects of future climate and land use changes on the world's land vertebrates (29,657 species) across four socioeconomic scenarios between 2015 and 2100. We evaluated species range...",
-      "primary_url": "https://doi.org/10.1111/gcb.70625",
-      "doi_url": "https://doi.org/10.1111/gcb.70625",
-      "openalex_url": "https://openalex.org/W4417151467",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 107.487175,
-      "keyword_score": 7.0,
-      "score": 4.9075
+      "relevance_score": 46.931774,
+      "keyword_score": 9.0,
+      "score": 4.9888
+    },
+    {
+      "id": "https://openalex.org/W7213328210",
+      "title": "The Biogeography of Cacti Protection and Vulnerability in South America",
+      "publication_date": "2026-09-01",
+      "journal": "Journal of Biogeography",
+      "authors_text": "Fábio Suzart de Albuquerque, Arnóbio de Mendonça Barreto Cavalcante, Alberto Búrquez, Miguel Ángel Macías-Rodríguez",
+      "abstract": "ABSTRACT Aim The Cactaceae family is the dominant plant group in America's drylands, with many species threatened by anthropogenic factors and climate change. Here, we assessed the geographic distribution and conservation status of cacti in South America in relation to climate change. Location South America. Taxon Cactaceae. Methods We projected habitat s...",
+      "primary_url": "https://doi.org/10.1111/jbi.70366",
+      "doi_url": "https://doi.org/10.1111/jbi.70366",
+      "openalex_url": "https://openalex.org/W7213328210",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 38.13698,
+      "keyword_score": 8.5,
+      "score": 4.9307
+    },
+    {
+      "id": "https://openalex.org/W7213915267",
+      "title": "Post-2020 conservation priorities are threatened by global mining",
+      "publication_date": "2026-09-21",
+      "journal": "Nature Communications",
+      "authors_text": "Kaixuan Pan, Niels Raes, Wassim Le Lann, Leon Marshall, Ana Feijoo Quezada et al.",
+      "abstract": "Abstract The United Nations has committed to halting and reversing biodiversity loss by 2030. Despite this commitment, mining remains a major driver of biodiversity decline, particularly in conservation priority zones (CPZs) and areas with high species extinction risk. Regardless of growing awareness, the full extent of current and future mining threats t...",
+      "primary_url": "https://doi.org/10.1038/s41467-026-77626-6",
+      "doi_url": "https://doi.org/10.1038/s41467-026-77626-6",
+      "openalex_url": "https://openalex.org/W7213915267",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 35.176613,
+      "keyword_score": 8.3,
+      "score": 4.84
+    },
+    {
+      "id": "https://openalex.org/W7202247860",
+      "title": "The historical biogeography of marine ray-finned fishes (Actinopterygii) in the Southwest Pacific: species richness and endemism patterns",
+      "publication_date": "2026-08-12",
+      "journal": "Frontiers of Biogeography",
+      "authors_text": "André P. Samayoa, Libby Liggins",
+      "abstract": "Inferring how biodiversity is generated and how it responded to past events is fundamental to understanding how biodiversity may respond to future changes. As the largest ubiquitous taxonomic group amongst marine vertebrates, ray-finned fishes (Actinopterygii) represent a good model to understand the generation of biodiversity and the processes that shape...",
+      "primary_url": "https://doi.org/10.21425/fob.19.204479",
+      "doi_url": "https://doi.org/10.21425/fob.19.204479",
+      "openalex_url": "https://openalex.org/W7202247860",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 28.848532,
+      "keyword_score": 8.1,
+      "score": 4.6715
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -71,153 +142,81 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 47.7023,
+      "relevance_score": 31.772694,
       "keyword_score": 7.6,
-      "score": 4.7645
+      "score": 4.652
     },
     {
-      "id": "https://openalex.org/W7106230469",
-      "title": "Many Plant Species in Europe Have Limited Capacity to Track Climate Change",
-      "publication_date": "2025-11-01",
-      "journal": "Diversity and Distributions",
-      "authors_text": "Marjon Hellegers, Duco H. Krist, Aafke M. Schipper",
-      "abstract": "ABSTRACT Aim No or unlimited dispersal capacities of species are commonly assumed in species distribution models ( SDMs ) used to assess potential impacts of climate change on biodiversity. However, these assumptions may lead to overly pessimistic or optimistic predictions. We aim to assess how outputs of broad‐scale SDMs of plants based on species‐specif...",
-      "primary_url": "https://doi.org/10.1111/ddi.70115",
-      "doi_url": "https://doi.org/10.1111/ddi.70115",
-      "openalex_url": "https://openalex.org/W7106230469",
+      "id": "https://openalex.org/W7155160913",
+      "title": "Beyond where species go: integrating SDMs, functional traits, and the Tree of Life to anticipate climate‑driven change in ecosystem functioning",
+      "publication_date": "2026-04-22",
+      "journal": "",
+      "authors_text": "Bruno Eleres Soares, Romullo Lima, Jessica Reemeyer, Thaïs A. Bernos, Christophe Brabant et al.",
+      "abstract": "Forecasting biodiversity under climate-change scenarios typically involves applying species distribution models (SDMs) to project shifts in the areas where abiotic conditions are suitable for a given species under future climates, often interpreted as gains or losses in species ranges. Although the impacts of species loss are often quantified using measur...",
+      "primary_url": "https://doi.org/10.32942/x21d4k",
+      "doi_url": "https://doi.org/10.32942/x21d4k",
+      "openalex_url": "https://openalex.org/W7155160913",
+      "type": "preprint",
+      "matched_topic_keys": [
+        "global_change_biodiversity"
+      ],
+      "relevance_score": 57.700363,
+      "keyword_score": 7.6,
+      "score": 4.5649
+    },
+    {
+      "id": "https://openalex.org/W7159869865",
+      "title": "PondNet – towards a global network of experiments on the effects of climate change on aquatic ecosystems",
+      "publication_date": "2026-04-29",
+      "journal": "Ecography",
+      "authors_text": "Miguel Graça Matias, Dominique Gravel, Jonathan M. Chase, Carla Pinto‐Cruz, David García‐Callejas et al.",
+      "abstract": "Global change is reshaping the distribution of biodiversity and the functioning of ecosystems. Predicting the long‐term consequences of such changes remains a challenge due to a need for a clear understanding of the mechanisms underpinning ecosystem‐level responses, as well as the role of geographical and environmental contingencies. We propose that these...",
+      "primary_url": "https://doi.org/10.1002/ecog.07450",
+      "doi_url": "https://doi.org/10.1002/ecog.07450",
+      "openalex_url": "https://openalex.org/W7159869865",
       "type": "article",
       "matched_topic_keys": [
-        "ecological_modelling_biogeography"
+        "global_change_biodiversity"
       ],
-      "relevance_score": 34.51296,
-      "keyword_score": 7.4,
-      "score": 4.5098
+      "relevance_score": 68.442825,
+      "keyword_score": 6.5,
+      "score": 4.5054
     },
     {
-      "id": "https://openalex.org/W7212980477",
-      "title": "Beyond area‐based design: Optimizing urban other effective area‐based conservation measures with a scale‐sensitive, multispecies framework",
-      "publication_date": "2026-09-01",
-      "journal": "Journal of Applied Ecology",
-      "authors_text": "Minhui Li, Yue Weng, Hongmin Wang, Xi Zhao, Yunxiang Zheng et al.",
-      "abstract": "Abstract With 68% of the global population projected to reside in urban areas by 2050, conserving urban biodiversity through other effective area‐based conservation measures (OECMs) represents an urgent global priority under the Kunming–Montreal Global Biodiversity Framework. OECMs are geographically defined, non‐protected areas that sustain long‐term bio...",
-      "primary_url": "https://doi.org/10.1111/1365-2664.70586",
-      "doi_url": "https://doi.org/10.1111/1365-2664.70586",
-      "openalex_url": "https://openalex.org/W7212980477",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 22.036846,
-      "keyword_score": 6.8,
-      "score": 4.3698
-    },
-    {
-      "id": "https://openalex.org/W7147562748",
-      "title": "Future scenarios for British biodiversity under climate and land-use change",
-      "publication_date": "2026-03-31",
-      "journal": "Nature Communications",
-      "authors_text": "Rob Cooke, Victoria J. Burton, Calum Brown, Colin A. Harrower, Steven M. White et al.",
-      "abstract": "Projections of biodiversity futures are needed to translate global policies into national action. We use dissimilarity modelling to project climate change scenarios for 1002 plant, 56 butterfly, and 219 bird species across Great Britain up to 2080. Under all scenarios we find extensive community reorganisation, with the disappearance of current bioclimate...",
-      "primary_url": "https://doi.org/10.1038/s41467-026-70064-4",
-      "doi_url": "https://doi.org/10.1038/s41467-026-70064-4",
-      "openalex_url": "https://openalex.org/W7147562748",
+      "id": "https://openalex.org/W7213936009",
+      "title": "Macrobenthic metacommunity stability increases with species asynchrony not species richness",
+      "publication_date": "2026-09-21",
+      "journal": "Communications Biology",
+      "authors_text": "Orlando Lam‐Gordillo, Takehiro Sasaki, Emily J. Douglas, Katie M. Cook, Yuki Iwachido et al.",
+      "abstract": "Climate change and other anthropogenic pressures are impacting biodiversity and altering the structure, function, and stability of ecosystems worldwide. Understanding the drivers of coastal ecosystem stability amid environmental change remains a global challenge. Here, we investigated temporal (30 years) and spatial (region, estuary, and site) stability d...",
+      "primary_url": "https://doi.org/10.1038/s42003-026-11028-8",
+      "doi_url": "https://doi.org/10.1038/s42003-026-11028-8",
+      "openalex_url": "https://openalex.org/W7213936009",
       "type": "article",
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 82.32089,
-      "keyword_score": 6.8,
-      "score": 4.3117
+      "relevance_score": 47.721687,
+      "keyword_score": 7.1,
+      "score": 4.4194
     },
     {
-      "id": "https://openalex.org/W7133361774",
-      "title": "Freshwater Conservation Priority Areas Are Threatened by Global Mining Activities",
-      "publication_date": "2026-03-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Mariana Braz Pires, Nina Baltus, Alexandra Marques, René Kleijn, Mike W.N. Buxton et al.",
-      "abstract": "Mining poses significant and persistent threats to freshwater ecosystems, with impacts often enduring long after operations cease. Growing concerns suggest that the expansion of mining to meet global mineral demands for decarbonization may amplify these cumulative risks to freshwater biodiversity. However, the location and extent of potential conflict hot...",
-      "primary_url": "https://doi.org/10.1111/gcb.70774",
-      "doi_url": "https://doi.org/10.1111/gcb.70774",
-      "openalex_url": "https://openalex.org/W7133361774",
+      "id": "https://openalex.org/W7156875653",
+      "title": "Evolutionary conservation hotspots: key areas for threatened Neotropical glassfrogs under climate change scenarios",
+      "publication_date": "2026-04-28",
+      "journal": "PeerJ",
+      "authors_text": "Mateo A. Vega-Yánez, Julián A. Velasco, Carl R. Hutter, Daniela Franco-Mena, Luis Amador et al.",
+      "abstract": "Anthropogenic climate change is one of the main threats to global biodiversity, with amphibians being among the most vulnerable vertebrate groups. In this context, the IUCN currently lists 69 species of Neotropical glassfrogs as threatened. However, our knowledge of how their taxonomic and phylogenetic diversity will be distributed in future climate chang...",
+      "primary_url": "https://doi.org/10.7717/peerj.21165",
+      "doi_url": "https://doi.org/10.7717/peerj.21165",
+      "openalex_url": "https://openalex.org/W7156875653",
       "type": "article",
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 62.504486,
-      "keyword_score": 5.5,
-      "score": 4.1166
-    },
-    {
-      "id": "https://openalex.org/W4414971307",
-      "title": "Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals",
-      "publication_date": "2025-10-08",
-      "journal": "Methods in Ecology and Evolution",
-      "authors_text": "Sebastian Hoefer, Slade Allen‐Ankins, Donald T. McKnight, Eric J. Nordberg, Lin Schwarzkopf",
-      "abstract": "Abstract Mammals play vital roles in ecological communities, but many are in rapid decline worldwide. Comprehensive monitoring of mammal populations is crucial for effective conservation, but large‐scale monitoring presents significant challenges. Remote sensing techniques such as passive acoustic monitoring offer viable and effective solutions for survey...",
-      "primary_url": "https://doi.org/10.1111/2041-210x.70169",
-      "doi_url": "https://doi.org/10.1111/2041-210x.70169",
-      "openalex_url": "https://openalex.org/W4414971307",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 110.22315,
-      "keyword_score": 6.4,
-      "score": 4.0911
-    },
-    {
-      "id": "https://openalex.org/W7154980729",
-      "title": "Estimating the Impacts of Future Extreme Heat on Dryland Threatened Mammals: An Australian Case Study",
-      "publication_date": "2026-04-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Jack Bilby, William K. Cornwell, Katherine E. Moseby",
-      "abstract": "Extreme heat is an escalating threat to biodiversity, with dryland ecosystems particularly vulnerable. Using Australia's dryland mammals as a model system, we present a framework comparing baseline and future heat envelopes for 36 threatened species to quantify future heat exposure, identify potential refugia and evaluate the suitability of translocation...",
-      "primary_url": "https://doi.org/10.1111/gcb.70872",
-      "doi_url": "https://doi.org/10.1111/gcb.70872",
-      "openalex_url": "https://openalex.org/W7154980729",
-      "type": "article",
-      "matched_topic_keys": [
-        "dryland_birds_heatwaves"
-      ],
-      "relevance_score": 9.680417,
-      "keyword_score": 6.5,
-      "score": 4.0612
-    },
-    {
-      "id": "https://openalex.org/W4417036299",
-      "title": "Climate‐Driven Habitat Loss and Natural Fragmentation Increase Extinction Risk and Compromise Population Viability in Freshwater Fish",
-      "publication_date": "2025-12-01",
-      "journal": "Global Change Biology",
-      "authors_text": "Jessica Côte, Gaël Grenouillet, Fanny Thiéry, Céline Jezequel, Bernard Hugueny",
-      "abstract": "Climate change is one of the major drivers of the current extinction crisis. In this context, determining the probability of species extinction is crucial. In aquatic ecosystems, basin area is a key factor influencing extinction risk. Habitat fragmentation can significantly reduce river basin size and lead to both deterministic and stochastic extinctions....",
-      "primary_url": "https://doi.org/10.1111/gcb.70630",
-      "doi_url": "https://doi.org/10.1111/gcb.70630",
-      "openalex_url": "https://openalex.org/W4417036299",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 41.89349,
-      "keyword_score": 5.7,
-      "score": 4.0217
-    },
-    {
-      "id": "https://openalex.org/W7119527183",
-      "title": "The Performance and Potential of Deep Learning for Predicting Species Distributions",
-      "publication_date": "2026-01-01",
-      "journal": "Global Ecology and Biogeography",
-      "authors_text": "Benjamin Kellenberger, Kevin Winner, Walter Jetz",
-      "abstract": "ABSTRACT Aim Species distribution models (SDMs) address the whereabouts of species and are central to ecology. Deep learning (DL) is poised to further elevate the already significant role of SDMs in ecology and conservation, but the potential and limitations of this transformation are still largely unassessed. Location North America. Time Period 2009–2021...",
-      "primary_url": "https://doi.org/10.1111/geb.70184",
-      "doi_url": "https://doi.org/10.1111/geb.70184",
-      "openalex_url": "https://openalex.org/W7119527183",
-      "type": "article",
-      "matched_topic_keys": [
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 57.943336,
-      "keyword_score": 5.4,
-      "score": 4.0085
+      "relevance_score": 42.399742,
+      "keyword_score": 7.4,
+      "score": 4.401
     }
   ]
 }
