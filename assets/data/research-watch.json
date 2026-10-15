@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-14T09:34:12.114066+00:00",
+  "generated_at": "2026-10-15T09:11:59.708154+00:00",
   "source": "OpenAlex",
   "items": [
+    {
+      "id": "https://openalex.org/W7221577864",
+      "title": "Climate Change Impacts on Vertebrate Fauna: A Comprehensive Review of Extinction Risks, Range Shifts, and Ecological Disruptions",
+      "publication_date": "2026-10-10",
+      "journal": "European journal of ecology, biology and agriculture.",
+      "authors_text": "Amirullah Arifi, Ghulam Rabani Neyazi",
+      "abstract": "Climate change represents one of the most pervasive threats to global biodiversity, with vertebrate fauna experiencing disproportionate impacts across terrestrial, freshwater, and marine ecosystems. This systematic review synthesizes current evidence (2018–2026) on the effects of anthropogenic warming on amphibians, reptiles, birds, mammals, and fishes, e...",
+      "primary_url": "https://doi.org/10.59324/ejeba.2026.3(5).03",
+      "doi_url": "https://doi.org/10.59324/ejeba.2026.3(5).03",
+      "openalex_url": "https://openalex.org/W7221577864",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 56.22024,
+      "keyword_score": 12.5,
+      "score": 6.7393
+    },
     {
       "id": "https://openalex.org/W7154621734",
       "title": "Over-the-horizon extinction risk assessment reveals rapidly shifting geographic and taxonomic priorities for conservation",
@@ -16,16 +34,16 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 60.63003,
+      "relevance_score": 59.834476,
       "keyword_score": 10.2,
-      "score": 5.6591
+      "score": 5.6547
     },
     {
       "id": "https://openalex.org/W7123615012",
       "title": "Protected areas, habitat integrity and terrestrial mammal biodiversity in Lebanon",
       "publication_date": "2026-01-14",
       "journal": "Environmental Conservation",
-      "authors_text": "Giacomo Cremonesi, Stefano Rota Martir, Alessandra Gagliardi, Shadi El Indary, Maher Mckenna et al.",
+      "authors_text": "Giacomo Cremonesi, Stefano Rota Martir, Alessandra Gagliardi, Shadi El Indary, Maher M Mckenna et al.",
       "abstract": "Summary Political instability, socio-economic challenges and ongoing conflict hinder effective conservation and monitoring efforts within Lebanon’s nature reserves (NRs) and thus threaten the country’s biodiversity. The first nationwide NR mammal survey in 2023–2024 employed camera traps and line transect sampling to assess species presence and evaluate t...",
       "primary_url": "https://doi.org/10.1017/s0376892925100283",
       "doi_url": "https://doi.org/10.1017/s0376892925100283",
@@ -34,9 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 31.794518,
+      "relevance_score": 31.518652,
       "keyword_score": 9.4,
-      "score": 5.0758
+      "score": 5.0727
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -52,9 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 46.3942,
+      "relevance_score": 46.033012,
       "keyword_score": 8.6,
-      "score": 5.047
+      "score": 5.0441
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -70,9 +88,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 38.79296,
+      "relevance_score": 38.412533,
       "keyword_score": 8.7,
-      "score": 4.9933
+      "score": 4.9898
     },
     {
       "id": "https://openalex.org/W4416934565",
@@ -88,16 +106,16 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 45.718258,
+      "relevance_score": 45.262447,
       "keyword_score": 9.0,
-      "score": 4.9747
+      "score": 4.9712
     },
     {
       "id": "https://openalex.org/W7213328210",
       "title": "The Biogeography of Cacti Protection and Vulnerability in South America",
       "publication_date": "2026-09-01",
       "journal": "Journal of Biogeography",
-      "authors_text": "Fábio Suzart de Albuquerque, Arnóbio de Mendonça Barreto Cavalcante, Alberto Búrquez, Miguel Ángel Macías-Rodríguez",
+      "authors_text": "Fábio Suzart de Albuquerque, Arnóbio de Mendonça Barreto Cavalcante, Alberto Burquez M., Miguel Ángel Macías-Rodríguez",
       "abstract": "ABSTRACT Aim The Cactaceae family is the dominant plant group in America's drylands, with many species threatened by anthropogenic factors and climate change. Here, we assessed the geographic distribution and conservation status of cacti in South America in relation to climate change. Location South America. Taxon Cactaceae. Methods We projected habitat s...",
       "primary_url": "https://doi.org/10.1111/jbi.70366",
       "doi_url": "https://doi.org/10.1111/jbi.70366",
@@ -106,9 +124,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 37.4016,
+      "relevance_score": 37.301796,
       "keyword_score": 8.5,
-      "score": 4.9185
+      "score": 4.917
     },
     {
       "id": "https://openalex.org/W7213915267",
@@ -124,27 +142,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 34.50074,
+      "relevance_score": 34.6037,
       "keyword_score": 8.3,
-      "score": 4.8278
-    },
-    {
-      "id": "https://openalex.org/W7161538417",
-      "title": "Regional land use and land-use intensity effects on vertebrate biodiversity across Europe identified using species distribution models",
-      "publication_date": "2026-05-18",
-      "journal": "Landscape Ecology",
-      "authors_text": "Sophie Jane Tudge, Adrienne Etard, Zoe M. Harris, Adriana De Palma, Martin Jung",
-      "abstract": "Context: Land-use change and intensification are major drivers of biodiversity loss. However, estimates of the effects of land use and land-use intensity on biodiversity on broad spatial scales rarely account for species-specific responses across large areas, instead averaging effects on local assemblages. Current understanding of biodiversity effects on...",
-      "primary_url": "https://doi.org/10.1007/s10980-026-02379-y",
-      "doi_url": "https://doi.org/10.1007/s10980-026-02379-y",
-      "openalex_url": "https://openalex.org/W7161538417",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 22.321974,
-      "keyword_score": 8.6,
-      "score": 4.7395
+      "score": 4.8279
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -160,9 +160,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 28.047585,
+      "relevance_score": 27.973534,
       "keyword_score": 8.1,
-      "score": 4.657
+      "score": 4.6555
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -178,9 +178,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 30.893375,
+      "relevance_score": 30.877705,
       "keyword_score": 7.6,
-      "score": 4.6375
+      "score": 4.6366
     },
     {
       "id": "https://openalex.org/W7155160913",
@@ -196,9 +196,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 56.48749,
+      "relevance_score": 55.757286,
       "keyword_score": 7.6,
-      "score": 4.5522
+      "score": 4.5478
     },
     {
       "id": "https://openalex.org/W7159869865",
@@ -214,9 +214,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 66.94575,
+      "relevance_score": 66.358025,
       "keyword_score": 6.5,
-      "score": 4.4924
+      "score": 4.4892
     }
   ]
 }
