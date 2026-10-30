@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:56:22.602825+00:00",
+  "generated_at": "2026-10-30T10:54:20.319976+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 58.063267,
+      "relevance_score": 57.278984,
       "keyword_score": 12.5,
-      "score": 6.7374
+      "score": 6.7329
     },
     {
       "id": "https://openalex.org/W7154621734",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 61.943077,
+      "relevance_score": 61.162685,
       "keyword_score": 10.2,
-      "score": 5.6535
+      "score": 5.6492
     },
     {
       "id": "https://openalex.org/W7123615012",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 32.313717,
+      "relevance_score": 32.12967,
       "keyword_score": 9.4,
-      "score": 5.0687
+      "score": 5.0664
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 47.107777,
+      "relevance_score": 46.58036,
       "keyword_score": 8.6,
-      "score": 5.0397
+      "score": 5.0358
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -88,9 +88,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 39.334145,
+      "relevance_score": 39.023205,
       "keyword_score": 8.7,
-      "score": 4.9855
+      "score": 4.9826
     },
     {
       "id": "https://openalex.org/W4416934565",
@@ -106,9 +106,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 46.947502,
+      "relevance_score": 46.57116,
       "keyword_score": 9.0,
-      "score": 4.9705
+      "score": 4.9675
     },
     {
       "id": "https://openalex.org/W7213328210",
@@ -124,9 +124,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 38.160103,
+      "relevance_score": 37.950203,
       "keyword_score": 8.5,
-      "score": 4.9125
+      "score": 4.9102
     },
     {
       "id": "https://openalex.org/W7213915267",
@@ -142,9 +142,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 34.96959,
+      "relevance_score": 34.79556,
       "keyword_score": 8.3,
-      "score": 4.82
+      "score": 4.8179
     },
     {
       "id": "https://openalex.org/W7210280516",
@@ -161,9 +161,9 @@
         "dryland_birds_heatwaves",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 54.197872,
+      "relevance_score": 53.807014,
       "keyword_score": 7.6,
-      "score": 4.7397
+      "score": 4.737
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -179,9 +179,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 29.046932,
+      "relevance_score": 28.935871,
       "keyword_score": 8.1,
-      "score": 4.6549
+      "score": 4.6531
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -197,27 +197,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 31.757563,
+      "relevance_score": 31.618158,
       "keyword_score": 7.6,
-      "score": 4.6335
+      "score": 4.6315
     },
     {
-      "id": "https://openalex.org/W7159869865",
-      "title": "PondNet – towards a global network of experiments on the effects of climate change on aquatic ecosystems",
-      "publication_date": "2026-04-29",
-      "journal": "Ecography",
-      "authors_text": "Miguel Graça Matias, Dominique Gravel, Jonathan M. Chase, Carla Pinto‐Cruz, David García‐Callejas et al.",
-      "abstract": "Global change is reshaping the distribution of biodiversity and the functioning of ecosystems. Predicting the long‐term consequences of such changes remains a challenge due to a need for a clear understanding of the mechanisms underpinning ecosystem‐level responses, as well as the role of geographical and environmental contingencies. We propose that these...",
-      "primary_url": "https://doi.org/10.1002/ecog.07450",
-      "doi_url": "https://doi.org/10.1002/ecog.07450",
-      "openalex_url": "https://openalex.org/W7159869865",
-      "type": "article",
+      "id": "https://openalex.org/W7155160913",
+      "title": "Beyond where species go: integrating SDMs, functional traits, and the Tree of Life to anticipate climate‑driven change in ecosystem functioning",
+      "publication_date": "2026-04-22",
+      "journal": "",
+      "authors_text": "Bruno Eleres Soares, Romullo Lima, Jessica Reemeyer, Thaïs A. Bernos, Christophe Brabant et al.",
+      "abstract": "Forecasting biodiversity under climate-change scenarios typically involves applying species distribution models (SDMs) to project shifts in the areas where abiotic conditions are suitable for a given species under future climates, often interpreted as gains or losses in species ranges. Although the impacts of species loss are often quantified using measur...",
+      "primary_url": "https://doi.org/10.32942/x21d4k",
+      "doi_url": "https://doi.org/10.32942/x21d4k",
+      "openalex_url": "https://openalex.org/W7155160913",
+      "type": "preprint",
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 68.37226,
-      "keyword_score": 6.5,
-      "score": 4.4867
+      "relevance_score": 57.21916,
+      "keyword_score": 7.6,
+      "score": 4.5435
     }
   ]
 }
