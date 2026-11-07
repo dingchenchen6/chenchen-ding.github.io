@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:12:11.464831+00:00",
+  "generated_at": "2026-11-07T11:08:43.464190+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 55.193283,
+      "relevance_score": 57.594913,
       "keyword_score": 12.5,
-      "score": 6.7174
+      "score": 6.7283
     },
     {
       "id": "https://openalex.org/W7154621734",
@@ -34,16 +34,16 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 58.797863,
+      "relevance_score": 61.04493,
       "keyword_score": 10.2,
-      "score": 5.633
+      "score": 5.6425
     },
     {
       "id": "https://openalex.org/W7123615012",
       "title": "Protected areas, habitat integrity and terrestrial mammal biodiversity in Lebanon",
       "publication_date": "2026-01-14",
       "journal": "Environmental Conservation",
-      "authors_text": "Giacomo Cremonesi, Stefano Rota Martir, Alessandra Gagliardi, Shadi El Indary, Maher M Mckenna et al.",
+      "authors_text": "Giacomo Cremonesi, Stefano Rota Martir, Alessandra Gagliardi, Shadi El Indary, Maher Mckenna et al.",
       "abstract": "Summary Political instability, socio-economic challenges and ongoing conflict hinder effective conservation and monitoring efforts within Lebanon’s nature reserves (NRs) and thus threaten the country’s biodiversity. The first nationwide NR mammal survey in 2023–2024 employed camera traps and line transect sampling to assess species presence and evaluate t...",
       "primary_url": "https://doi.org/10.1017/s0376892925100283",
       "doi_url": "https://doi.org/10.1017/s0376892925100283",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 31.442574,
+      "relevance_score": 32.24785,
       "keyword_score": 9.4,
-      "score": 5.0552
+      "score": 5.0613
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 44.961697,
+      "relevance_score": 46.683846,
       "keyword_score": 8.6,
-      "score": 5.0208
+      "score": 5.0303
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -88,9 +88,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 37.68284,
+      "relevance_score": 38.959915,
       "keyword_score": 8.7,
-      "score": 4.9677
+      "score": 4.976
     },
     {
       "id": "https://openalex.org/W4416934565",
@@ -106,16 +106,16 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 45.272736,
+      "relevance_score": 46.881264,
       "keyword_score": 9.0,
-      "score": 4.9544
+      "score": 4.9632
     },
     {
       "id": "https://openalex.org/W7213328210",
       "title": "The Biogeography of Cacti Protection and Vulnerability in South America",
       "publication_date": "2026-09-01",
       "journal": "Journal of Biogeography",
-      "authors_text": "Fábio Suzart de Albuquerque, Arnóbio de Mendonça Barreto Cavalcante, Alberto Burquez M., Miguel Ángel Macías-Rodríguez",
+      "authors_text": "Fábio Suzart de Albuquerque, Arnóbio de Mendonça Barreto Cavalcante, Alberto Búrquez, Miguel Ángel Macías-Rodríguez",
       "abstract": "ABSTRACT Aim The Cactaceae family is the dominant plant group in America's drylands, with many species threatened by anthropogenic factors and climate change. Here, we assessed the geographic distribution and conservation status of cacti in South America in relation to climate change. Location South America. Taxon Cactaceae. Methods We projected habitat s...",
       "primary_url": "https://doi.org/10.1111/jbi.70366",
       "doi_url": "https://doi.org/10.1111/jbi.70366",
@@ -124,9 +124,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 37.016926,
+      "relevance_score": 38.06587,
       "keyword_score": 8.5,
-      "score": 4.898
+      "score": 4.9049
     },
     {
       "id": "https://openalex.org/W7213915267",
@@ -142,9 +142,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 33.278824,
+      "relevance_score": 34.934887,
       "keyword_score": 8.3,
-      "score": 4.8004
+      "score": 4.8128
     },
     {
       "id": "https://openalex.org/W7210280516",
@@ -161,9 +161,9 @@
         "dryland_birds_heatwaves",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 52.163517,
+      "relevance_score": 53.6517,
       "keyword_score": 7.6,
-      "score": 4.7231
+      "score": 4.73
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -179,9 +179,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 28.729609,
+      "relevance_score": 28.833063,
       "keyword_score": 8.1,
-      "score": 4.6458
+      "score": 4.646
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -197,9 +197,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 31.251915,
+      "relevance_score": 31.698942,
       "keyword_score": 7.6,
-      "score": 4.623
+      "score": 4.6261
     },
     {
       "id": "https://openalex.org/W7159869865",
@@ -215,9 +215,9 @@
       "matched_topic_keys": [
         "global_change_biodiversity"
       ],
-      "relevance_score": 64.9521,
+      "relevance_score": 67.70851,
       "keyword_score": 6.5,
-      "score": 4.4664
+      "score": 4.4771
     }
   ]
 }
