@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:06:22.078669+00:00",
+  "generated_at": "2026-11-22T12:40:16.280357+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 54.727337,
+      "relevance_score": 54.884476,
       "keyword_score": 12.5,
-      "score": 6.7043
+      "score": 6.7035
     },
     {
       "id": "https://openalex.org/W7154621734",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 57.78023,
+      "relevance_score": 58.37126,
       "keyword_score": 10.2,
-      "score": 5.6174
+      "score": 5.6187
     },
     {
       "id": "https://openalex.org/W7123615012",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 31.083517,
+      "relevance_score": 31.405733,
       "keyword_score": 9.4,
-      "score": 5.0413
+      "score": 5.0426
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -70,9 +70,27 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 44.31187,
+      "relevance_score": 44.752296,
       "keyword_score": 8.6,
-      "score": 5.006
+      "score": 5.0072
+    },
+    {
+      "id": "https://openalex.org/W4416934565",
+      "title": "Climate change will greatly alter multifaceted biodiversity patterns in goatfish species",
+      "publication_date": "2025-12-03",
+      "journal": "npj Biodiversity",
+      "authors_text": "Hongwei Huang, Geng Qin, Zhixin Zhang, Qiang Lin",
+      "abstract": "Multifaceted biodiversity is crucial for biological conservation and ecosystem sustainability but has been largely neglected in marine biodiversity research. Here we focused on 53 goatfish species of the family Mullidae, developed species distribution models using 34,577 georeferenced occurrence records, and examined redistribution of multifaceted biodive...",
+      "primary_url": "https://doi.org/10.1038/s44185-025-00113-6",
+      "doi_url": "https://doi.org/10.1038/s44185-025-00113-6",
+      "openalex_url": "https://openalex.org/W4416934565",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 44.645496,
+      "keyword_score": 9.0,
+      "score": 4.9383
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -88,9 +106,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 34.731003,
+      "relevance_score": 35.145153,
       "keyword_score": 8.7,
-      "score": 4.9347
+      "score": 4.9364
     },
     {
       "id": "https://openalex.org/W7213328210",
@@ -98,7 +116,7 @@
       "publication_date": "2026-09-01",
       "journal": "Journal of Biogeography",
       "authors_text": "Fábio Suzart de Albuquerque, Arnóbio de Mendonça Barreto Cavalcante, Alberto Búrquez, Miguel Ángel Macías-Rodríguez",
-      "abstract": "ABSTRACT Aim The Cactaceae family is the dominant plant group in America's drylands, with many species threatened by anthropogenic factors and climate change. Here, we assessed the geographic distribution and conservation status of cacti in South America in relation to climate change. Location South America. Taxon Cactaceae. Methods We projected habitat s...",
+      "abstract": "Aim The Cactaceae family is the dominant plant group in America's drylands, with many species threatened by anthropogenic factors and climate change. Here, we assessed the geographic distribution and conservation status of cacti in South America in relation to climate change. Location South America. Taxon Cactaceae. Methods We projected habitat suitabilit...",
       "primary_url": "https://doi.org/10.1111/jbi.70366",
       "doi_url": "https://doi.org/10.1111/jbi.70366",
       "openalex_url": "https://openalex.org/W7213328210",
@@ -106,9 +124,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 36.66759,
+      "relevance_score": 33.723515,
       "keyword_score": 8.5,
-      "score": 4.8847
+      "score": 4.8604
     },
     {
       "id": "https://openalex.org/W7210280516",
@@ -116,7 +134,7 @@
       "publication_date": "2026-10-09",
       "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
       "authors_text": "Chenchen Ding, Tim Newbold, Adrienne Etard, Richard Cornford, Martin Jung et al.",
-      "abstract": "Abstract Land-use and climate change are dominant drivers of terrestrial biodiversity change, yet are usually analysed separately although they co-occur and may interact. We integrated global bird assemblage records from PREDICTS with temperature anomalies and species’ ecological characteristics to test how land use modifies biodiversity responses to clim...",
+      "abstract": "Land-use and climate change are dominant drivers of terrestrial biodiversity change, yet are usually analysed separately although they co-occur and may interact. We integrated global bird assemblage records from PREDICTS with temperature anomalies and species’ ecological characteristics to test how land use modifies biodiversity responses to climate warmi...",
       "primary_url": "https://doi.org/10.64898/2026.10.08.757631",
       "doi_url": "https://doi.org/10.64898/2026.10.08.757631",
       "openalex_url": "https://openalex.org/W7210280516",
@@ -125,9 +143,9 @@
         "dryland_birds_heatwaves",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 52.456226,
+      "relevance_score": 52.572964,
       "keyword_score": 7.6,
-      "score": 4.7139
+      "score": 4.7129
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -143,9 +161,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 28.35456,
+      "relevance_score": 28.222645,
       "keyword_score": 8.1,
-      "score": 4.6315
+      "score": 4.6287
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -153,7 +171,7 @@
       "publication_date": "2025-12-13",
       "journal": "Conservation Biology",
       "authors_text": "Liam A. Trethowan, Laura V. S. Jennings, Haerul Arifin, Renata Borosova, Gemma L. C. Bramley et al.",
-      "abstract": "Abstract New Guinea, the most botanically diverse island on the planet, is the location for one of the boldest conservation initiatives. The Manokwari Declaration aims to achieve 70% conservation designation for the Bird's Head Peninsula. This is 40% higher than the 2022 Global Biodiversity Framework target. However, there is a lack of species occurrence...",
+      "abstract": "New Guinea, the most botanically diverse island on the planet, is the location for one of the boldest conservation initiatives. The Manokwari Declaration aims to achieve 70% conservation designation for the Bird's Head Peninsula. This is 40% higher than the 2022 Global Biodiversity Framework target. However, there is a lack of species occurrence data to s...",
       "primary_url": "https://doi.org/10.1111/cobi.70199",
       "doi_url": "https://doi.org/10.1111/cobi.70199",
       "openalex_url": "https://openalex.org/W4417321585",
@@ -161,9 +179,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 30.600725,
+      "relevance_score": 30.720642,
       "keyword_score": 7.6,
-      "score": 4.6065
+      "score": 4.6061
     },
     {
       "id": "https://openalex.org/W4416896234",
@@ -179,9 +197,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 26.901896,
+      "relevance_score": 26.973955,
       "keyword_score": 8.3,
-      "score": 4.5072
+      "score": 4.5064
     },
     {
       "id": "https://openalex.org/W7203883691",
@@ -198,27 +216,9 @@
         "ecological_modelling_biogeography",
         "extinction_risk_conservation"
       ],
-      "relevance_score": 37.729446,
+      "relevance_score": 37.67626,
       "keyword_score": 7.3,
-      "score": 4.46
-    },
-    {
-      "id": "https://openalex.org/W7159869865",
-      "title": "PondNet – towards a global network of experiments on the effects of climate change on aquatic ecosystems",
-      "publication_date": "2026-04-29",
-      "journal": "Ecography",
-      "authors_text": "Miguel Graça Matias, Dominique Gravel, Jonathan M. Chase, Carla Pinto‐Cruz, David García‐Callejas et al.",
-      "abstract": "Global change is reshaping the distribution of biodiversity and the functioning of ecosystems. Predicting the long‐term consequences of such changes remains a challenge due to a need for a clear understanding of the mechanisms underpinning ecosystem‐level responses, as well as the role of geographical and environmental contingencies. We propose that these...",
-      "primary_url": "https://doi.org/10.1002/ecog.07450",
-      "doi_url": "https://doi.org/10.1002/ecog.07450",
-      "openalex_url": "https://openalex.org/W7159869865",
-      "type": "article",
-      "matched_topic_keys": [
-        "global_change_biodiversity"
-      ],
-      "relevance_score": 64.492065,
-      "keyword_score": 6.5,
-      "score": 4.4537
+      "score": 4.4581
     }
   ]
 }
