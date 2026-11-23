@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:40:16.280357+00:00",
+  "generated_at": "2026-11-23T14:51:59.337122+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 54.884476,
+      "relevance_score": 54.38005,
       "keyword_score": 12.5,
-      "score": 6.7035
+      "score": 6.7002
     },
     {
       "id": "https://openalex.org/W7154621734",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 58.37126,
+      "relevance_score": 57.917862,
       "keyword_score": 10.2,
-      "score": 5.6187
+      "score": 5.6158
     },
     {
       "id": "https://openalex.org/W7123615012",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 31.405733,
+      "relevance_score": 31.092453,
       "keyword_score": 9.4,
-      "score": 5.0426
+      "score": 5.0391
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -70,9 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 44.752296,
+      "relevance_score": 44.34552,
       "keyword_score": 8.6,
-      "score": 5.0072
+      "score": 5.004
     },
     {
       "id": "https://openalex.org/W4416934565",
@@ -88,9 +88,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 44.645496,
+      "relevance_score": 44.690166,
       "keyword_score": 9.0,
-      "score": 4.9383
+      "score": 4.9378
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -106,9 +106,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 35.145153,
+      "relevance_score": 34.769035,
       "keyword_score": 8.7,
-      "score": 4.9364
+      "score": 4.9327
     },
     {
       "id": "https://openalex.org/W7213328210",
@@ -124,9 +124,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 33.723515,
+      "relevance_score": 34.07235,
       "keyword_score": 8.5,
-      "score": 4.8604
+      "score": 4.8624
+    },
+    {
+      "id": "https://openalex.org/W7213915267",
+      "title": "Post-2020 conservation priorities are threatened by global mining",
+      "publication_date": "2026-09-21",
+      "journal": "Nature Communications",
+      "authors_text": "Kaixuan Pan, Niels Raes, Wassim Le Lann, Leon Marshall, Ana Feijoo Quezada et al.",
+      "abstract": "The United Nations has committed to halting and reversing biodiversity loss by 2030. Despite this commitment, mining remains a major driver of biodiversity decline, particularly in conservation priority zones (CPZs) and areas with high species extinction risk. Regardless of growing awareness, the full extent of current and future mining threats to biodive...",
+      "primary_url": "https://doi.org/10.1038/s41467-026-77626-6",
+      "doi_url": "https://doi.org/10.1038/s41467-026-77626-6",
+      "openalex_url": "https://openalex.org/W7213915267",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 33.43272,
+      "keyword_score": 8.3,
+      "score": 4.7886
     },
     {
       "id": "https://openalex.org/W7210280516",
@@ -143,9 +161,9 @@
         "dryland_birds_heatwaves",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 52.572964,
+      "relevance_score": 52.171246,
       "keyword_score": 7.6,
-      "score": 4.7129
+      "score": 4.7101
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -161,9 +179,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 28.222645,
+      "relevance_score": 28.350836,
       "keyword_score": 8.1,
-      "score": 4.6287
+      "score": 4.6292
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -179,9 +197,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 30.720642,
+      "relevance_score": 30.883966,
       "keyword_score": 7.6,
-      "score": 4.6061
+      "score": 4.6067
     },
     {
       "id": "https://openalex.org/W4416896234",
@@ -197,28 +215,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 26.973955,
+      "relevance_score": 26.893291,
       "keyword_score": 8.3,
-      "score": 4.5064
-    },
-    {
-      "id": "https://openalex.org/W7203883691",
-      "title": "Modeling the effects of climate risk on primates globally: New perspectives on conservation priorities",
-      "publication_date": "2026-08-21",
-      "journal": "Science Advances",
-      "authors_text": "Yang Teng, Yueqi Yin, Ying Shen, Yue Sun, Jiawen Liu et al.",
-      "abstract": "Rapid climate change poses a severe threat to biodiversity, and phylogenetic diversity-a key metric capturing evolutionary uniqueness and adaptive potential-is critical for conservation. Integrating a well-resolved phylogenetic tree of 424 primate species, we combined spatial analysis and climate risk modeling to explore global spatiotemporal patterns of...",
-      "primary_url": "https://doi.org/10.1126/sciadv.aeg0031",
-      "doi_url": "https://doi.org/10.1126/sciadv.aeg0031",
-      "openalex_url": "https://openalex.org/W7203883691",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 37.67626,
-      "keyword_score": 7.3,
-      "score": 4.4581
+      "score": 4.5049
     }
   ]
 }
