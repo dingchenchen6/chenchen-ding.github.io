@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T14:51:59.337122+00:00",
+  "generated_at": "2026-11-24T14:57:33.072589+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 54.38005,
+      "relevance_score": 55.399513,
       "keyword_score": 12.5,
-      "score": 6.7002
+      "score": 6.7046
     },
     {
       "id": "https://openalex.org/W7154621734",
@@ -34,9 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 57.917862,
+      "relevance_score": 57.92518,
       "keyword_score": 10.2,
-      "score": 5.6158
+      "score": 5.6151
     },
     {
       "id": "https://openalex.org/W7123615012",
@@ -52,9 +52,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 31.092453,
+      "relevance_score": 31.069715,
       "keyword_score": 9.4,
-      "score": 5.0391
+      "score": 5.0381
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -70,27 +70,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 44.34552,
+      "relevance_score": 44.18084,
       "keyword_score": 8.6,
-      "score": 5.004
-    },
-    {
-      "id": "https://openalex.org/W4416934565",
-      "title": "Climate change will greatly alter multifaceted biodiversity patterns in goatfish species",
-      "publication_date": "2025-12-03",
-      "journal": "npj Biodiversity",
-      "authors_text": "Hongwei Huang, Geng Qin, Zhixin Zhang, Qiang Lin",
-      "abstract": "Multifaceted biodiversity is crucial for biological conservation and ecosystem sustainability but has been largely neglected in marine biodiversity research. Here we focused on 53 goatfish species of the family Mullidae, developed species distribution models using 34,577 georeferenced occurrence records, and examined redistribution of multifaceted biodive...",
-      "primary_url": "https://doi.org/10.1038/s44185-025-00113-6",
-      "doi_url": "https://doi.org/10.1038/s44185-025-00113-6",
-      "openalex_url": "https://openalex.org/W4416934565",
-      "type": "article",
-      "matched_topic_keys": [
-        "land_use_climate_interactions"
-      ],
-      "relevance_score": 44.690166,
-      "keyword_score": 9.0,
-      "score": 4.9378
+      "score": 5.0022
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -106,9 +88,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 34.769035,
+      "relevance_score": 34.74417,
       "keyword_score": 8.7,
-      "score": 4.9327
+      "score": 4.9318
     },
     {
       "id": "https://openalex.org/W7213328210",
@@ -124,9 +106,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 34.07235,
+      "relevance_score": 33.895767,
       "keyword_score": 8.5,
-      "score": 4.8624
+      "score": 4.8602
     },
     {
       "id": "https://openalex.org/W7213915267",
@@ -142,9 +124,27 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 33.43272,
+      "relevance_score": 33.511368,
       "keyword_score": 8.3,
-      "score": 4.7886
+      "score": 4.7885
+    },
+    {
+      "id": "https://openalex.org/W7237195578",
+      "title": "Correlates of extinction risk dynamics of mammals",
+      "publication_date": "2026-11-20",
+      "journal": "Conservation Biology",
+      "authors_text": "Claudia Fornarini, Craig Hilton‐Taylor, Michael Hoffmann, Rosalind J. Kennerley, David L. Waldien et al.",
+      "abstract": "Mammals continue to face increasing extinction risk, largely driven by escalating human pressures. However, the drivers of change in extinction risk remain poorly understood. We used an ordinal modeling framework (cumulative link mixed models) to test the correlation between biological traits, ecological characteristics, anthropogenic threats, and trends...",
+      "primary_url": "https://doi.org/10.1111/cobi.70419",
+      "doi_url": "https://doi.org/10.1111/cobi.70419",
+      "openalex_url": "https://openalex.org/W7237195578",
+      "type": "article",
+      "matched_topic_keys": [
+        "extinction_risk_conservation"
+      ],
+      "relevance_score": 33.644985,
+      "keyword_score": 7.3,
+      "score": 4.7656
     },
     {
       "id": "https://openalex.org/W7210280516",
@@ -161,9 +161,9 @@
         "dryland_birds_heatwaves",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 52.171246,
+      "relevance_score": 52.538597,
       "keyword_score": 7.6,
-      "score": 4.7101
+      "score": 4.7112
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -179,9 +179,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 28.350836,
+      "relevance_score": 28.18647,
       "keyword_score": 8.1,
-      "score": 4.6292
+      "score": 4.6269
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -197,9 +197,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 30.883966,
+      "relevance_score": 30.899921,
       "keyword_score": 7.6,
-      "score": 4.6067
+      "score": 4.6061
     },
     {
       "id": "https://openalex.org/W4416896234",
@@ -215,9 +215,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 26.893291,
+      "relevance_score": 26.773018,
       "keyword_score": 8.3,
-      "score": 4.5049
+      "score": 4.5029
     }
   ]
 }
