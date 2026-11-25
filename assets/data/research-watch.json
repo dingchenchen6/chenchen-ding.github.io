@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:57:33.072589+00:00",
+  "generated_at": "2026-11-25T14:32:21.849945+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 55.399513,
+      "relevance_score": 55.647682,
       "keyword_score": 12.5,
-      "score": 6.7046
+      "score": 6.705
     },
     {
       "id": "https://openalex.org/W7154621734",
@@ -34,9 +34,28 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 57.92518,
+      "relevance_score": 58.073303,
       "keyword_score": 10.2,
-      "score": 5.6151
+      "score": 5.615
+    },
+    {
+      "id": "https://openalex.org/W4416812907",
+      "title": "Taxonomic and Spatiotemporal Patterns and Ecological Correlates of New Mammal Distribution Records in China",
+      "publication_date": "2025-11-28",
+      "journal": "Global Ecology and Biogeography",
+      "authors_text": "Chenchen Ding, Jiale Ding, Huijie Qiao, Zhigang Jiang, Zhiheng Wang",
+      "abstract": "Aim Species' distributions are central to research in biogeography, macroecology and conservation biology. However, incomplete or inaccurate knowledge about species' spatiotemporal distribution ranges—known as the Wallacean shortfall—hampers our understanding of biodiversity patterns and processes. We investigated the taxonomic, spatiotemporal and biogeog...",
+      "primary_url": "https://doi.org/10.1101/2025.02.09.637225",
+      "doi_url": "https://doi.org/10.1111/geb.70165",
+      "openalex_url": "https://openalex.org/W4416812907",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography",
+        "species_distribution_monitoring"
+      ],
+      "relevance_score": 32.467754,
+      "keyword_score": 8.4,
+      "score": 5.1233
     },
     {
       "id": "https://openalex.org/W7123615012",
@@ -52,9 +71,9 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 31.069715,
+      "relevance_score": 31.134832,
       "keyword_score": 9.4,
-      "score": 5.0381
+      "score": 5.0379
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -70,9 +89,27 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 44.18084,
+      "relevance_score": 44.242355,
       "keyword_score": 8.6,
-      "score": 5.0022
+      "score": 5.0018
+    },
+    {
+      "id": "https://openalex.org/W4416934565",
+      "title": "Climate change will greatly alter multifaceted biodiversity patterns in goatfish species",
+      "publication_date": "2025-12-03",
+      "journal": "npj Biodiversity",
+      "authors_text": "Hongwei Huang, Geng Qin, Zhixin Zhang, Qiang Lin",
+      "abstract": "Multifaceted biodiversity is crucial for biological conservation and ecosystem sustainability but has been largely neglected in marine biodiversity research. Here we focused on 53 goatfish species of the family Mullidae, developed species distribution models using 34,577 georeferenced occurrence records, and examined redistribution of multifaceted biodive...",
+      "primary_url": "https://doi.org/10.1038/s44185-025-00113-6",
+      "doi_url": "https://doi.org/10.1038/s44185-025-00113-6",
+      "openalex_url": "https://openalex.org/W4416934565",
+      "type": "article",
+      "matched_topic_keys": [
+        "land_use_climate_interactions"
+      ],
+      "relevance_score": 44.499245,
+      "keyword_score": 9.0,
+      "score": 4.9351
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -88,9 +125,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 34.74417,
+      "relevance_score": 34.93144,
       "keyword_score": 8.7,
-      "score": 4.9318
+      "score": 4.9325
     },
     {
       "id": "https://openalex.org/W7213328210",
@@ -106,27 +143,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 33.895767,
+      "relevance_score": 33.636456,
       "keyword_score": 8.5,
-      "score": 4.8602
-    },
-    {
-      "id": "https://openalex.org/W7213915267",
-      "title": "Post-2020 conservation priorities are threatened by global mining",
-      "publication_date": "2026-09-21",
-      "journal": "Nature Communications",
-      "authors_text": "Kaixuan Pan, Niels Raes, Wassim Le Lann, Leon Marshall, Ana Feijoo Quezada et al.",
-      "abstract": "The United Nations has committed to halting and reversing biodiversity loss by 2030. Despite this commitment, mining remains a major driver of biodiversity decline, particularly in conservation priority zones (CPZs) and areas with high species extinction risk. Regardless of growing awareness, the full extent of current and future mining threats to biodive...",
-      "primary_url": "https://doi.org/10.1038/s41467-026-77626-6",
-      "doi_url": "https://doi.org/10.1038/s41467-026-77626-6",
-      "openalex_url": "https://openalex.org/W7213915267",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 33.511368,
-      "keyword_score": 8.3,
-      "score": 4.7885
+      "score": 4.8574
     },
     {
       "id": "https://openalex.org/W7237195578",
@@ -142,9 +161,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 33.644985,
+      "relevance_score": 33.573204,
       "keyword_score": 7.3,
-      "score": 4.7656
+      "score": 4.7642
     },
     {
       "id": "https://openalex.org/W7210280516",
@@ -161,9 +180,9 @@
         "dryland_birds_heatwaves",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 52.538597,
+      "relevance_score": 52.10411,
       "keyword_score": 7.6,
-      "score": 4.7112
+      "score": 4.7082
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -179,9 +198,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 28.18647,
+      "relevance_score": 28.557148,
       "keyword_score": 8.1,
-      "score": 4.6269
+      "score": 4.6296
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -197,27 +216,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 30.899921,
+      "relevance_score": 30.811182,
       "keyword_score": 7.6,
-      "score": 4.6061
-    },
-    {
-      "id": "https://openalex.org/W4416896234",
-      "title": "Data fusion and integrated species distribution models for three endangered ferns (Culcita macrocarpa, Diplazium caudatum, and Pteris incompleta) in a Mediterranean biodiversity hotspot",
-      "publication_date": "2025-12-02",
-      "journal": "Frontiers in Plant Science",
-      "authors_text": "Ángel Ruiz‐Valero, Jaime Francisco Pereña-Ortiz, Ángel Enrique Salvo Tierra",
-      "abstract": "Introduction Accurately modeling the distribution and abundance of rare and threatened species is considered critical for informing conservation strategies under increasing environmental pressures. Three threatened paleomediterranean relict ferns, Culcita macrocarpa, Diplazium caudatum, and Pteris incompleta, are restricted to climatically stable microhab...",
-      "primary_url": "https://doi.org/10.3389/fpls.2025.1650159",
-      "doi_url": "https://doi.org/10.3389/fpls.2025.1650159",
-      "openalex_url": "https://openalex.org/W4416896234",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography"
-      ],
-      "relevance_score": 26.773018,
-      "keyword_score": 8.3,
-      "score": 4.5029
+      "score": 4.6046
     }
   ]
 }
