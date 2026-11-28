@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:59:15.165010+00:00",
+  "generated_at": "2026-11-28T13:12:13.491271+00:00",
   "source": "OpenAlex",
   "items": [
     {
@@ -16,9 +16,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 54.10801,
+      "relevance_score": 50.799034,
       "keyword_score": 12.5,
-      "score": 6.6965
+      "score": 6.6777
     },
     {
       "id": "https://openalex.org/W7154621734",
@@ -34,28 +34,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 57.42856,
+      "relevance_score": 53.24408,
       "keyword_score": 10.2,
-      "score": 5.6111
-    },
-    {
-      "id": "https://openalex.org/W4416812907",
-      "title": "Taxonomic and Spatiotemporal Patterns and Ecological Correlates of New Mammal Distribution Records in China",
-      "publication_date": "2025-11-28",
-      "journal": "Global Ecology and Biogeography",
-      "authors_text": "Chenchen Ding, Jiale Ding, Huijie Qiao, Zhigang Jiang, Zhiheng Wang",
-      "abstract": "Aim Species' distributions are central to research in biogeography, macroecology and conservation biology. However, incomplete or inaccurate knowledge about species' spatiotemporal distribution ranges—known as the Wallacean shortfall—hampers our understanding of biodiversity patterns and processes. We investigated the taxonomic, spatiotemporal and biogeog...",
-      "primary_url": "https://doi.org/10.1101/2025.02.09.637225",
-      "doi_url": "https://doi.org/10.1111/geb.70165",
-      "openalex_url": "https://openalex.org/W4416812907",
-      "type": "article",
-      "matched_topic_keys": [
-        "ecological_modelling_biogeography",
-        "species_distribution_monitoring"
-      ],
-      "relevance_score": 31.960537,
-      "keyword_score": 8.4,
-      "score": 5.1182
+      "score": 5.5888
     },
     {
       "id": "https://openalex.org/W7123615012",
@@ -71,9 +52,27 @@
       "matched_topic_keys": [
         "species_distribution_monitoring"
       ],
-      "relevance_score": 31.080004,
+      "relevance_score": 29.723822,
       "keyword_score": 9.4,
-      "score": 5.0367
+      "score": 5.0231
+    },
+    {
+      "id": "https://openalex.org/W4416812907",
+      "title": "Taxonomic and Spatiotemporal Patterns and Ecological Correlates of New Mammal Distribution Records in China",
+      "publication_date": "2025-11-28",
+      "journal": "Global Ecology and Biogeography",
+      "authors_text": "Chenchen Ding, Jiale Ding, Huijie Qiao, Zhigang Jiang, Zhiheng Wang",
+      "abstract": "Aim Species' distributions are central to research in biogeography, macroecology and conservation biology. However, incomplete or inaccurate knowledge about species' spatiotemporal distribution ranges—known as the Wallacean shortfall—hampers our understanding of biodiversity patterns and processes. We investigated the taxonomic, spatiotemporal and biogeog...",
+      "primary_url": "https://doi.org/10.1101/2025.02.09.637225",
+      "doi_url": "https://doi.org/10.1111/geb.70165",
+      "openalex_url": "https://openalex.org/W4416812907",
+      "type": "article",
+      "matched_topic_keys": [
+        "ecological_modelling_biogeography"
+      ],
+      "relevance_score": 30.181673,
+      "keyword_score": 8.4,
+      "score": 5.0212
     },
     {
       "id": "https://openalex.org/W7220861042",
@@ -89,9 +88,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 43.877678,
+      "relevance_score": 40.885242,
       "keyword_score": 8.6,
-      "score": 4.9987
+      "score": 4.9779
     },
     {
       "id": "https://openalex.org/W4416934565",
@@ -107,9 +106,9 @@
       "matched_topic_keys": [
         "land_use_climate_interactions"
       ],
-      "relevance_score": 44.739433,
+      "relevance_score": 41.389996,
       "keyword_score": 9.0,
-      "score": 4.9358
+      "score": 4.913
     },
     {
       "id": "https://openalex.org/W4412949132",
@@ -125,9 +124,9 @@
       "matched_topic_keys": [
         "extinction_risk_conservation"
       ],
-      "relevance_score": 34.33241,
+      "relevance_score": 32.316658,
       "keyword_score": 8.7,
-      "score": 4.927
+      "score": 4.909
     },
     {
       "id": "https://openalex.org/W7213328210",
@@ -143,27 +142,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 33.59021,
+      "relevance_score": 32.367126,
       "keyword_score": 8.5,
-      "score": 4.8562
-    },
-    {
-      "id": "https://openalex.org/W7237195578",
-      "title": "Correlates of extinction risk dynamics of mammals",
-      "publication_date": "2026-11-20",
-      "journal": "Conservation Biology",
-      "authors_text": "Claudia Fornarini, Craig Hilton‐Taylor, Michael Hoffmann, Rosalind J. Kennerley, David L. Waldien et al.",
-      "abstract": "Mammals continue to face increasing extinction risk, largely driven by escalating human pressures. However, the drivers of change in extinction risk remain poorly understood. We used an ordinal modeling framework (cumulative link mixed models) to test the correlation between biological traits, ecological characteristics, anthropogenic threats, and trends...",
-      "primary_url": "https://doi.org/10.1111/cobi.70419",
-      "doi_url": "https://doi.org/10.1111/cobi.70419",
-      "openalex_url": "https://openalex.org/W7237195578",
-      "type": "article",
-      "matched_topic_keys": [
-        "extinction_risk_conservation"
-      ],
-      "relevance_score": 33.197838,
-      "keyword_score": 7.3,
-      "score": 4.7604
+      "score": 4.8446
     },
     {
       "id": "https://openalex.org/W7210280516",
@@ -180,9 +161,9 @@
         "dryland_birds_heatwaves",
         "land_use_climate_interactions"
       ],
-      "relevance_score": 51.474545,
+      "relevance_score": 48.39586,
       "keyword_score": 7.6,
-      "score": 4.7041
+      "score": 4.6856
     },
     {
       "id": "https://openalex.org/W7202247860",
@@ -198,9 +179,9 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 28.67189,
+      "relevance_score": 27.299671,
       "keyword_score": 8.1,
-      "score": 4.6299
+      "score": 4.6151
     },
     {
       "id": "https://openalex.org/W4417321585",
@@ -216,9 +197,27 @@
       "matched_topic_keys": [
         "ecological_modelling_biogeography"
       ],
-      "relevance_score": 30.732954,
+      "relevance_score": 28.942394,
       "keyword_score": 7.6,
-      "score": 4.6031
+      "score": 4.5853
+    },
+    {
+      "id": "https://openalex.org/W7155160913",
+      "title": "Beyond where species go: integrating SDMs, functional traits, and the Tree of Life to anticipate climate‑driven change in ecosystem functioning",
+      "publication_date": "2026-04-22",
+      "journal": "EcoEvoRxiv",
+      "authors_text": "Bruno Eleres Soares, Romullo Lima, Jessica Reemeyer, Thaïs A. Bernos, Christophe Brabant et al.",
+      "abstract": "Forecasting biodiversity under climate-change scenarios typically involves applying species distribution models (SDMs) to project shifts in the areas where abiotic conditions are suitable for a given species under future climates, often interpreted as gains or losses in species ranges. Although the impacts of species loss are often quantified using measur...",
+      "primary_url": "https://doi.org/10.32942/x21d4k",
+      "doi_url": "https://doi.org/10.32942/x21d4k",
+      "openalex_url": "https://openalex.org/W7155160913",
+      "type": "preprint",
+      "matched_topic_keys": [
+        "global_change_biodiversity"
+      ],
+      "relevance_score": 50.56206,
+      "keyword_score": 7.6,
+      "score": 4.4872
     }
   ]
 }
